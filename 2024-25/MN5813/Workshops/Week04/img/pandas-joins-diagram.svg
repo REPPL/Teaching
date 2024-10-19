@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+  <!-- White Background -->
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <!-- Inner Join -->
+  <circle cx="100" cy="100" r="50" fill="#ff9999" opacity="0.6"/>
+  <circle cx="150" cy="100" r="50" fill="#9999ff" opacity="0.6"/>
+  <text x="100" y="180" font-family="Arial" font-size="14" text-anchor="middle">Inner Join</text>
+  
+  <!-- Outer Join -->
+  <circle cx="300" cy="75" r="50" fill="#ff9999" opacity="0.6"/>
+  <circle cx="300" cy="125" r="50" fill="#9999ff" opacity="0.6"/>
+  <text x="300" y="180" font-family="Arial" font-size="14" text-anchor="middle">Outer Join</text>
+  
+  <!-- Left Join -->
+  <circle cx="500" cy="100" r="50" fill="#ff9999" opacity="0.6"/>
+  <circle cx="550" cy="100" r="50" fill="#9999ff" opacity="0.6"/>
+  <text x="500" y="180" font-family="Arial" font-size="14" text-anchor="middle">Left Join</text>
+</svg>
