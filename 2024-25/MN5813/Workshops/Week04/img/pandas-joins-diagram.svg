@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
   <rect width="100%" height="100%" fill="white"/>
   
   <!-- Input Tables -->
-  <g transform="translate(50, 50)">
+  <g transform="translate(200, 30)">
     <text x="0" y="-10" font-family="Arial" font-size="16" font-weight="bold">Table A</text>
     <rect width="150" height="100" fill="none" stroke="black"/>
     <line x1="0" y1="25" x2="150" y2="25" stroke="black"/>
@@ -17,7 +17,7 @@
     <text x="100" y="93" text-anchor="middle" font-family="Arial" font-size="12">Carol</text>
   </g>
   
-  <g transform="translate(600, 50)">
+  <g transform="translate(450, 30)">
     <text x="0" y="-10" font-family="Arial" font-size="16" font-weight="bold">Table B</text>
     <rect width="150" height="100" fill="none" stroke="black"/>
     <line x1="0" y1="25" x2="150" y2="25" stroke="black"/>
@@ -33,7 +33,7 @@
   </g>
   
   <!-- Inner Join -->
- <g transform="translate(50, 200)">
+ <g transform="translate(50, 230)">
   <text x="125" y="-20" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Inner Join</text>
   <circle cx="100" cy="75" r="60" fill="#ff9999" opacity="0.6"/>
   <circle cx="150" cy="75" r="60" fill="#9999ff" opacity="0.6"/>
@@ -58,7 +58,7 @@
   </g>
   
   <!-- Left Join -->
-  <g transform="translate(300, 200)">
+  <g transform="translate(300, 230)">
     <text x="125" y="-20" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Left Join</text>
     <circle cx="100" cy="75" r="60" fill="#ff9999" opacity="0.6"/>
     <circle cx="150" cy="75" r="60" fill="#9999ff" opacity="0.6"/>
@@ -86,7 +86,7 @@
   </g>
   
   <!-- Outer Join -->
-  <g transform="translate(550, 200)">
+  <g transform="translate(550, 230)">
     <text x="125" y="-20" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Outer Join</text>
     <circle cx="100" cy="75" r="60" fill="#ff9999" opacity="0.6"/>
     <circle cx="150" cy="75" r="60" fill="#9999ff" opacity="0.6"/>
