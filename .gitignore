@@ -209,9 +209,10 @@ __marimo__/
 .venv/
 **/Extras.ipynb
 
-# Temporarily exclude weeks 05-11 from MN5813
-2025-26/MN5813/Week05/
-2025-26/MN5813/Week06/
+# Teaching materials - video tutorial scripts (local only)
+**/tutorials/
+
+# Temporarily exclude weeks 07-11 from MN5813
 2025-26/MN5813/Week07/
 2025-26/MN5813/Week08/
 2025-26/MN5813/Week09/

@@ -44,6 +44,21 @@
    - Use appropriate visualisation types
    - Follow best practices for data presentation
 
+## Time commitment
+
+**Note**: Week 03 is an assessment overview week, not a teaching week. This session introduces the two assessments (group report and individual report) that you'll complete throughout the module.
+
+- **Introduction**: 45-60 minutes (detailed review of assessment requirements and marking criteria)
+- **Template review**: 15-30 minutes (understanding the notebook structure for your individual report)
+- **Q&A session**: 15-30 minutes (clarifying requirements and expectations)
+
+**Session structure**:
+- Lecture/Workshop combined: 90 minutes (assessment briefing and Q&A)
+
+**Total in-session**: Approximately 1.5 hours
+
+**Note**: The actual assessment work (group project in Week 06, individual project throughout) requires substantial time outside of scheduled sessions. Plan your time accordingly and start early.
+
 ## Important notes
 
 - Review the marking criteria carefully in the Introduction notebook

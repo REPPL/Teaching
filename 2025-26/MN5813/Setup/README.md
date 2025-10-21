@@ -27,6 +27,19 @@ By the end of this setup week, you will:
   - `retail_sales.csv`: 5,000 retail transactions dataset
 - **[data/README.md](./data/README.md)**: Dataset documentation
 
+## Time commitment
+
+**Note**: Setup is completed before Week 01 begins. Unlike teaching weeks, there are no scheduled lecture or workshop sessions. Complete these materials at your own pace.
+
+- **Introduction**: 20-30 minutes (module orientation and resource overview)
+- **Installation**: 30-60 minutes (depends on download speeds and system)
+- **Demonstration** (Python basics): 30-60 minutes (essential for beginners, 10-15 min review for experienced programmers)
+
+**Total for beginners**: Approximately 1.5-2.5 hours
+**Total for experienced programmers**: Approximately 1-1.5 hours
+
+This setup work is essential preparation for Week 01. Budget adequate time, especially if you're new to programming.
+
 ## Recommended pathway
 
 ### Day 1: Orientation (30 minutes)
@@ -41,11 +54,11 @@ By the end of this setup week, you will:
 3. Verify your installation
 4. Generate the example datasets
 
-### Day 3-4: Python Basics (2-3 hours)
+### Day 3: Python Basics (30-60 minutes)
 1. Open [`Demonstration.ipynb`](./Demonstration.ipynb)
 2. Work through each section carefully
 3. Run all code examples
-4. Complete the practice exercises
+4. Experiment by changing values
 5. Don't rush - understanding these basics is crucial
 
 ## Important notes for beginners
@@ -91,9 +104,10 @@ The datasets in `data/synthetic_data/` contain realistic data quality issues:
 Before Week 01, ensure you can:
 - [ ] Open Jupyter notebooks
 - [ ] Run Python code cells
-- [ ] Create variables and perform calculations
-- [ ] Write simple if statements and loops
-- [ ] Define and use basic functions
+- [ ] Create variables and perform basic calculations (+, -, *, /)
+- [ ] Use f-strings to display information
+- [ ] Write simple if/else statements
+- [ ] Create lists and use for loops to process them
 - [ ] Access the example datasets
 
 If you can do all of these, you're ready to begin Week 01!

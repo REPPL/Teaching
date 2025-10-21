@@ -10,8 +10,8 @@
 | Week 02 | In person | Advanced Python | List comprehensions, lambda functions, functional programming, error handling, OOP concepts | [📖](./Week02/README.md) |
 | Week 03 | In person | Assessment | Overview of two-part assessment: group project (artefact) and individual analytics report | [📖](./Week03/README.md) |
 | Week 04 | In person | Introduction to Pandas | DataFrames, Series, file I/O, basic operations, merging, and aggregation | [📖](./Week04/README.md) |
-| Week 05 | In person | Advanced Pandas | Data reshaping (melt, pivot, stack/unstack), window functions, and complex aggregations | |
-| Week 06 | In person | Data wrangling practice | Practical session to work towards your group project | |
+| Week 05 | In person | Advanced Pandas | Data reshaping (melt, pivot, stack/unstack), window functions, and complex aggregations | [📖](./Week05/README.md) |
+| Week 06 | In person | Pandas application (group project workshop) | Apply Pandas skills to Olympics group project using demonstration dataset | [📖](./Week06/README.md) |
 | Week 07 | In person | Introduction to data visualisation | Basic plotting with Pandas, Seaborn, Matplotlib | |
 | Week 08 | In person | Advanced Data visualisation | Time series visualisation, interactive plots with hvPlot, small multiples | |
 | Week 09 | In person | Data visualisation practice | Practical session to work towards your individual report | |

@@ -1,0 +1,246 @@
+employee_id,name,gender,age,height_cm,weight_kg,team,region,quarter,year,half,office,product_category,product,award
+6,Grace Davis,F,57.0,158.0,55.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Clothing,Sneakers,
+3,Liam Martinez,M,48.0,182.0,64.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Home & Garden,Bedding Set,
+31,Olivia Garcia,F,23.0,194.0,92.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Books,Finance Basics,
+44,Sam Jones,M,31.0,183.0,,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Electronics,"Monitor 27""",Silver
+42,Jack Martinez,M,26.0,170.0,,EU Sales Team,PAR,2023-Q4,2023,H2,Paris,Sports Equipment,Yoga Mat,
+37,Sam Martinez,F,,177.0,61.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Home & Garden,Coffee Maker,
+41,David Smith,F,31.0,190.0,,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Clothing,Jacket,
+26,Noah Johnson,M,57.0,187.0,97.0,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Books,Business Strategy,Silver
+3,Liam Martinez,M,48.0,182.0,64.0,US Sales Team,NYC,2023-Q3,2023,H2,New York,Sports Equipment,Football,
+21,Carol Brown,F,47.0,173.0,56.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Sports Equipment,Football,
+9,Maya Rodriguez,F,46.0,178.0,57.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Clothing,Jeans,
+44,Sam Jones,M,31.0,183.0,,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Clothing,Jacket,Bronze
+24,Ivy Rodriguez,F,24.0,187.0,60.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Clothing,T-Shirt,
+36,Tara Williams,M,34.0,184.0,,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Home & Garden,Coffee Maker,
+17,Tara Smith,F,33.0,156.0,86.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Clothing,Jacket,Bronze
+30,Alice Williams,F,52.0,157.0,73.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Clothing,Jacket,
+40,Emma Smith,F,26.0,180.0,70.0,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Clothing,Jacket,
+4,Olivia Williams,F,24.0,161.0,88.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Sports Equipment,Dumbbells,Bronze
+14,Grace Brown,M,43.0,160.0,93.0,US Sales Team,NYC,2023-Q4,2023,H2,New York,Sports Equipment,Dumbbells,
+29,Liam Jones,M,58.0,185.0,82.0,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Electronics,Keyboard Deluxe,
+7,Jack Brown,F,47.0,164.0,63.0,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Electronics,Keyboard Deluxe,
+5,David Rodriguez,D,30.0,,77.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Electronics,Laptop Pro,
+23,Jack Williams,F,23.0,166.0,81.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Sports Equipment,Football,
+7,Jack Brown,F,47.0,164.0,63.0,EU Sales Team,PAR,2023-Q4,2023,H2,Paris,Electronics,Wireless Mouse,Bronze
+43,Bob Smith,M,41.0,189.0,82.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Sports Equipment,Tennis Racket,
+25,Henry Brown,M,56.0,179.0,78.0,US Sales Team,NYC,2023-Q1,2023,H1,New York,Clothing,Jeans,
+3,Liam Martinez,M,48.0,182.0,64.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Clothing,Jacket,
+15,Kelly Martinez,F,54.0,181.0,62.0,UK Sales Team,LON,2023-Q1,2023,H1,London,Books,Python Programming,
+33,David Brown,M,37.0,,64.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Clothing,Sneakers,
+32,Paul Miller,F,56.0,178.0,56.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Clothing,T-Shirt,
+23,Jack Williams,F,23.0,166.0,81.0,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Sports Equipment,Football,
+46,Bob Williams,F,32.0,190.0,85.0,US Sales Team,NYC,2023-Q1,2023,H1,New York,Clothing,Jeans,
+6,Grace Davis,F,57.0,158.0,55.0,US Sales Team,NYC,2023-Q4,2023,H2,New York,Home & Garden,Garden Tools Set,
+13,Ivy Martinez,F,53.0,186.0,86.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Home & Garden,Vacuum Cleaner,
+5,David Rodriguez,D,30.0,,77.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Home & Garden,Vacuum Cleaner,Gold
+25,Henry Brown,M,56.0,179.0,78.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Home & Garden,Vacuum Cleaner,
+20,Frank Davis,F,43.0,170.0,55.0,UK Sales Team,LON,2023-Q1,2023,H1,London,Home & Garden,Vacuum Cleaner,
+42,Jack Martinez,M,26.0,170.0,,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Clothing,Jeans,
+29,Liam Jones,M,58.0,185.0,82.0,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Clothing,Sneakers,Bronze
+37,Sam Martinez,F,,177.0,61.0,UK Sales Team,LON,2023-Q1,2023,H1,London,Books,Python Programming,Gold
+16,Carol Miller,F,58.0,178.0,81.0,UK Sales Team,LON,2023-Q1,2023,H1,London,Sports Equipment,Dumbbells,
+27,Carol Smith,F,43.0,184.0,94.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Home & Garden,Vacuum Cleaner,
+23,Jack Williams,F,23.0,166.0,81.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Clothing,Jeans,
+5,David Rodriguez,D,30.0,,77.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Sports Equipment,Yoga Mat,
+42,Jack Martinez,M,26.0,170.0,,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Electronics,"Monitor 27""",Silver
+14,Grace Brown,M,43.0,160.0,93.0,US Sales Team,NYC,2023-Q3,2023,H2,New York,Electronics,Keyboard Deluxe,
+43,Bob Smith,M,41.0,189.0,82.0,UK Sales Team,LON,2023-Q1,2023,H1,London,Clothing,Jacket,
+8,Paul Davis,M,42.0,172.0,73.0,US Sales Team,NYC,2023-Q1,2023,H1,New York,Books,Python Programming,Silver
+41,David Smith,F,31.0,190.0,,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Sports Equipment,Dumbbells,
+48,Emma Smith,M,56.0,171.0,69.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Clothing,Sneakers,
+43,Bob Smith,M,41.0,189.0,82.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Sports Equipment,Yoga Mat,
+20,Frank Davis,F,43.0,170.0,55.0,UK Sales Team,LON,2023-Q2,2023,H1,London,Books,Python Programming,Bronze
+35,Olivia Garcia,M,29.0,159.0,55.0,UK Sales Team,LON,2023-Q4,2023,H2,London,Home & Garden,Bedding Set,Silver
+18,Quinn Smith,D,44.0,187.0,51.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Electronics,"Monitor 27""",
+12,Carol Smith,F,24.0,180.0,63.0,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Home & Garden,Vacuum Cleaner,Bronze
+18,Quinn Smith,D,44.0,187.0,51.0,UK Sales Team,LON,2023-Q2,2023,H1,London,Home & Garden,Vacuum Cleaner,
+34,Bob Miller,M,43.0,176.0,91.0,US Sales Team,NYC,2023-Q1,2023,H1,New York,Sports Equipment,Tennis Racket,
+37,Sam Martinez,F,,177.0,61.0,UK Sales Team,LON,2023-Q4,2023,H2,London,Sports Equipment,Yoga Mat,
+31,Olivia Garcia,F,23.0,194.0,92.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Sports Equipment,Football,
+49,Maya Williams,F,,166.0,77.0,US Sales Team,NYC,2023-Q1,2023,H1,New York,Electronics,Laptop Pro,
+32,Paul Miller,F,56.0,178.0,56.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Home & Garden,Coffee Maker,
+24,Ivy Rodriguez,F,24.0,187.0,60.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Books,Marketing 101,Gold
+38,Alice Martinez,M,53.0,179.0,50.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Electronics,Laptop Pro,
+48,Emma Smith,M,56.0,171.0,69.0,UK Sales Team,LON,2023-Q1,2023,H1,London,Sports Equipment,Dumbbells,
+14,Grace Brown,M,43.0,160.0,93.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Electronics,Laptop Pro,
+22,Alice Davis,F,22.0,179.0,80.0,US Sales Team,NYC,2023-Q4,2023,H2,New York,Home & Garden,Bedding Set,Gold
+14,Grace Brown,M,43.0,160.0,93.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Books,Business Strategy,Silver
+23,Jack Williams,F,23.0,166.0,81.0,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Home & Garden,Bedding Set,
+36,Tara Williams,M,34.0,184.0,,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Electronics,Wireless Mouse,
+46,Bob Williams,F,32.0,190.0,85.0,US Sales Team,NYC,2023-Q4,2023,H2,New York,Electronics,Laptop Pro,
+31,Olivia Garcia,F,23.0,194.0,92.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Home & Garden,Garden Tools Set,
+40,Emma Smith,F,26.0,180.0,70.0,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Clothing,T-Shirt,Silver
+17,Tara Smith,F,33.0,156.0,86.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Books,Marketing 101,Silver
+7,Jack Brown,F,47.0,164.0,63.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Clothing,Jacket,
+49,Maya Williams,F,,166.0,77.0,US Sales Team,NYC,2023-Q4,2023,H2,New York,Clothing,Jacket,
+48,Emma Smith,M,56.0,171.0,69.0,UK Sales Team,LON,2023-Q2,2023,H1,London,Electronics,Keyboard Deluxe,Silver
+38,Alice Martinez,M,53.0,179.0,50.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Electronics,"Monitor 27""",
+2,David Davis,M,,184.0,70.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Home & Garden,Garden Tools Set,
+12,Carol Smith,F,24.0,180.0,63.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Books,Python Programming,
+26,Noah Johnson,M,57.0,187.0,97.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Clothing,Jacket,
+30,Alice Williams,F,52.0,157.0,73.0,US Sales Team,NYC,2023-Q4,2023,H2,New York,Sports Equipment,Football,
+24,Ivy Rodriguez,F,24.0,187.0,60.0,UK Sales Team,LON,2023-Q4,2023,H2,London,Clothing,T-Shirt,
+13,Ivy Martinez,F,53.0,186.0,86.0,EU Sales Team,PAR,2023-Q4,2023,H2,Paris,Home & Garden,Vacuum Cleaner,
+28,Henry Johnson,F,54.0,173.0,98.0,UK Sales Team,LON,2023-Q1,2023,H1,London,Electronics,Keyboard Deluxe,
+43,Bob Smith,M,41.0,189.0,82.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Electronics,Laptop Pro,Gold
+36,Tara Williams,M,34.0,184.0,,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Clothing,T-Shirt,
+7,Jack Brown,F,47.0,164.0,63.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Electronics,Keyboard Deluxe,
+3,Liam Martinez,M,48.0,182.0,64.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Books,Finance Basics,Bronze
+8,Paul Davis,M,42.0,172.0,73.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Home & Garden,Coffee Maker,
+7,Jack Brown,F,47.0,164.0,63.0,EU Sales Team,PAR,2023-Q4,2023,H2,Paris,Sports Equipment,Tennis Racket,Silver
+9,Maya Rodriguez,F,46.0,178.0,57.0,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Home & Garden,Coffee Maker,
+50,Tara Williams,M,26.0,179.0,70.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Sports Equipment,Football,
+26,Noah Johnson,M,57.0,187.0,97.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Home & Garden,Coffee Maker,
+20,Frank Davis,F,43.0,170.0,55.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Home & Garden,Coffee Maker,
+34,Bob Miller,M,43.0,176.0,91.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Sports Equipment,Football,Bronze
+11,Ivy Davis,F,44.0,191.0,89.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Home & Garden,Vacuum Cleaner,
+20,Frank Davis,F,43.0,170.0,55.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Sports Equipment,Football,Bronze
+29,Liam Jones,M,58.0,185.0,82.0,EU Sales Team,PAR,2023-Q4,2023,H2,Paris,Clothing,Jacket,
+41,David Smith,F,31.0,190.0,,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Home & Garden,Vacuum Cleaner,Gold
+16,Carol Miller,F,58.0,178.0,81.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Books,Python Programming,
+9,Maya Rodriguez,F,46.0,178.0,57.0,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Books,Business Strategy,
+23,Jack Williams,F,23.0,166.0,81.0,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Books,Business Strategy,
+47,Emma Rodriguez,M,56.0,172.0,81.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Home & Garden,Bedding Set,
+16,Carol Miller,F,58.0,178.0,81.0,UK Sales Team,LON,2023-Q4,2023,H2,London,Sports Equipment,Football,Gold
+29,Liam Jones,M,58.0,185.0,82.0,EU Sales Team,PAR,2023-Q4,2023,H2,Paris,Home & Garden,Bedding Set,
+6,Grace Davis,F,57.0,158.0,55.0,US Sales Team,NYC,2023-Q1,2023,H1,New York,Sports Equipment,Football,
+49,Maya Williams,F,,166.0,77.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Sports Equipment,Yoga Mat,Bronze
+49,Maya Williams,F,,166.0,77.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Books,Finance Basics,
+39,Grace Jones,M,33.0,191.0,78.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Clothing,Jacket,
+41,David Smith,F,31.0,190.0,,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Home & Garden,Vacuum Cleaner,
+1,Grace Brown,M,42.0,173.0,,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Sports Equipment,Dumbbells,Gold
+1,Grace Brown,M,42.0,173.0,,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Home & Garden,Garden Tools Set,Gold
+16,Carol Miller,F,58.0,178.0,81.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Electronics,Keyboard Deluxe,
+10,Kelly Williams,M,54.0,193.0,77.0,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Books,Business Strategy,
+21,Carol Brown,F,47.0,173.0,56.0,UK Sales Team,LON,2023-Q1,2023,H1,London,Electronics,Keyboard Deluxe,
+28,Henry Johnson,F,54.0,173.0,98.0,UK Sales Team,LON,2023-Q2,2023,H1,London,Home & Garden,Vacuum Cleaner,
+30,Alice Williams,F,52.0,157.0,73.0,US Sales Team,NYC,2023-Q3,2023,H2,New York,Sports Equipment,Tennis Racket,
+36,Tara Williams,M,34.0,184.0,,EU Sales Team,PAR,2023-Q4,2023,H2,Paris,Clothing,T-Shirt,
+19,Liam Martinez,D,25.0,,66.0,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Electronics,Laptop Pro,
+18,Quinn Smith,D,44.0,187.0,51.0,UK Sales Team,LON,2023-Q1,2023,H1,London,Clothing,Jeans,
+37,Sam Martinez,F,,177.0,61.0,UK Sales Team,LON,2023-Q1,2023,H1,London,Sports Equipment,Yoga Mat,Gold
+34,Bob Miller,M,43.0,176.0,91.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Sports Equipment,Tennis Racket,Silver
+20,Frank Davis,F,43.0,170.0,55.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Books,Business Strategy,Silver
+8,Paul Davis,M,42.0,172.0,73.0,US Sales Team,NYC,2023-Q1,2023,H1,New York,Clothing,Jeans,
+29,Liam Jones,M,58.0,185.0,82.0,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Books,Marketing 101,
+13,Ivy Martinez,F,53.0,186.0,86.0,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Books,Business Strategy,
+5,David Rodriguez,D,30.0,,77.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Books,Finance Basics,
+25,Henry Brown,M,56.0,179.0,78.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Home & Garden,Coffee Maker,
+33,David Brown,M,37.0,,64.0,US Sales Team,NYC,2023-Q1,2023,H1,New York,Clothing,Jacket,
+28,Henry Johnson,F,54.0,173.0,98.0,UK Sales Team,LON,2023-Q3,2023,H2,London,Clothing,Jeans,
+3,Liam Martinez,M,48.0,182.0,64.0,US Sales Team,NYC,2023-Q1,2023,H1,New York,Sports Equipment,Dumbbells,
+50,Tara Williams,M,26.0,179.0,70.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Clothing,Sneakers,
+7,Jack Brown,F,47.0,164.0,63.0,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Home & Garden,Coffee Maker,Gold
+30,Alice Williams,F,52.0,157.0,73.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Home & Garden,Vacuum Cleaner,
+2,David Davis,M,,184.0,70.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Sports Equipment,Football,
+26,Noah Johnson,M,57.0,187.0,97.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Sports Equipment,Tennis Racket,
+7,Jack Brown,F,47.0,164.0,63.0,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Home & Garden,Vacuum Cleaner,
+29,Liam Jones,M,58.0,185.0,82.0,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Home & Garden,Bedding Set,
+36,Tara Williams,M,34.0,184.0,,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Sports Equipment,Football,
+29,Liam Jones,M,58.0,185.0,82.0,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Home & Garden,Bedding Set,
+13,Ivy Martinez,F,53.0,186.0,86.0,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Books,Marketing 101,
+28,Henry Johnson,F,54.0,173.0,98.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Home & Garden,Garden Tools Set,
+27,Carol Smith,F,43.0,184.0,94.0,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Books,Python Programming,
+47,Emma Rodriguez,M,56.0,172.0,81.0,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Sports Equipment,Football,
+39,Grace Jones,M,33.0,191.0,78.0,US Sales Team,NYC,2023-Q3,2023,H2,New York,Electronics,Keyboard Deluxe,Silver
+14,Grace Brown,M,43.0,160.0,93.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Electronics,"Monitor 27""",
+50,Tara Williams,M,26.0,179.0,70.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Electronics,Wireless Mouse,
+13,Ivy Martinez,F,53.0,186.0,86.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Clothing,T-Shirt,
+9,Maya Rodriguez,F,46.0,178.0,57.0,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Books,Python Programming,
+47,Emma Rodriguez,M,56.0,172.0,81.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Sports Equipment,Football,
+8,Paul Davis,M,42.0,172.0,73.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Clothing,Jeans,
+26,Noah Johnson,M,57.0,187.0,97.0,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Books,Business Strategy,
+6,Grace Davis,F,57.0,158.0,55.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Books,Python Programming,
+38,Alice Martinez,M,53.0,179.0,50.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Clothing,Sneakers,Silver
+26,Noah Johnson,M,57.0,187.0,97.0,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Books,Business Strategy,Silver
+17,Tara Smith,F,33.0,156.0,86.0,UK Sales Team,LON,2023-Q2,2023,H1,London,Electronics,Wireless Mouse,
+8,Paul Davis,M,42.0,172.0,73.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Clothing,Sneakers,
+43,Bob Smith,M,41.0,189.0,82.0,UK Sales Team,LON,2023-Q3,2023,H2,London,Books,Finance Basics,
+10,Kelly Williams,M,54.0,193.0,77.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Books,Python Programming,
+20,Frank Davis,F,43.0,170.0,55.0,UK Sales Team,LON,2023-Q3,2023,H2,London,Electronics,"Monitor 27""",
+39,Grace Jones,M,33.0,191.0,78.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Home & Garden,Vacuum Cleaner,Bronze
+33,David Brown,M,37.0,,64.0,US Sales Team,NYC,2023-Q1,2023,H1,New York,Clothing,Sneakers,
+9,Maya Rodriguez,F,46.0,178.0,57.0,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Sports Equipment,Yoga Mat,
+30,Alice Williams,F,52.0,157.0,73.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Sports Equipment,Dumbbells,
+35,Olivia Garcia,M,29.0,159.0,55.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Home & Garden,Garden Tools Set,
+2,David Davis,M,,184.0,70.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Clothing,Sneakers,Silver
+22,Alice Davis,F,22.0,179.0,80.0,US Sales Team,NYC,2023-Q1,2023,H1,New York,Sports Equipment,Yoga Mat,Bronze
+11,Ivy Davis,F,44.0,191.0,89.0,US Sales Team,NYC,2023-Q3,2023,H2,New York,Books,Finance Basics,
+28,Henry Johnson,F,54.0,173.0,98.0,UK Sales Team,LON,2023-Q2,2023,H1,London,Home & Garden,Vacuum Cleaner,Bronze
+47,Emma Rodriguez,M,56.0,172.0,81.0,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Home & Garden,Bedding Set,
+42,Jack Martinez,M,26.0,170.0,,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Electronics,Laptop Pro,Gold
+48,Emma Smith,M,56.0,171.0,69.0,UK Sales Team,LON,2023-Q2,2023,H1,London,Books,Marketing 101,Silver
+10,Kelly Williams,M,54.0,193.0,77.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Electronics,Wireless Mouse,Bronze
+34,Bob Miller,M,43.0,176.0,91.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Home & Garden,Bedding Set,
+17,Tara Smith,F,33.0,156.0,86.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Electronics,Wireless Mouse,
+8,Paul Davis,M,42.0,172.0,73.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Books,Business Strategy,
+49,Maya Williams,F,,166.0,77.0,US Sales Team,NYC,2023-Q4,2023,H2,New York,Clothing,Sneakers,
+3,Liam Martinez,M,48.0,182.0,64.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Books,Business Strategy,Gold
+36,Tara Williams,M,34.0,184.0,,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Home & Garden,Vacuum Cleaner,Bronze
+23,Jack Williams,F,23.0,166.0,81.0,EU Sales Team,PAR,2023-Q4,2023,H2,Paris,Books,Business Strategy,
+19,Liam Martinez,D,25.0,,66.0,EU Sales Team,PAR,2023-Q4,2023,H2,Paris,Home & Garden,Garden Tools Set,
+18,Quinn Smith,D,44.0,187.0,51.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Clothing,Jeans,
+46,Bob Williams,F,32.0,190.0,85.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Books,Marketing 101,
+47,Emma Rodriguez,M,56.0,172.0,81.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Home & Garden,Coffee Maker,
+18,Quinn Smith,D,44.0,187.0,51.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Sports Equipment,Football,Bronze
+3,Liam Martinez,M,48.0,182.0,64.0,US Sales Team,NYC,2023-Q1,2023,H1,New York,Books,Finance Basics,
+4,Olivia Williams,F,24.0,161.0,88.0,US Sales Team,NYC,2023-Q1,2023,H1,New York,Home & Garden,Coffee Maker,
+13,Ivy Martinez,F,53.0,186.0,86.0,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Clothing,T-Shirt,
+49,Maya Williams,F,,166.0,77.0,US Sales Team,NYC,2023-Q4,2023,H2,New York,Home & Garden,Garden Tools Set,
+27,Carol Smith,F,43.0,184.0,94.0,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Books,Business Strategy,
+5,David Rodriguez,D,30.0,,77.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Sports Equipment,Tennis Racket,Silver
+35,Olivia Garcia,M,29.0,159.0,55.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Home & Garden,Coffee Maker,
+15,Kelly Martinez,F,54.0,181.0,62.0,UK Sales Team,LON,2023-Q4,2023,H2,London,Electronics,"Monitor 27""",
+45,Noah Johnson,F,44.0,,75.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Home & Garden,Vacuum Cleaner,
+28,Henry Johnson,F,54.0,173.0,98.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Sports Equipment,Yoga Mat,
+42,Jack Martinez,M,26.0,170.0,,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Clothing,Sneakers,
+47,Emma Rodriguez,M,56.0,172.0,81.0,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Home & Garden,Bedding Set,
+13,Ivy Martinez,F,53.0,186.0,86.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Clothing,Sneakers,
+11,Ivy Davis,F,44.0,191.0,89.0,US Sales Team,NYC,2023-Q3,2023,H2,New York,Home & Garden,Vacuum Cleaner,
+23,Jack Williams,F,23.0,166.0,81.0,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Electronics,Wireless Mouse,Bronze
+10,Kelly Williams,M,54.0,193.0,77.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Sports Equipment,Dumbbells,
+44,Sam Jones,M,31.0,183.0,,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Sports Equipment,Football,
+36,Tara Williams,M,34.0,184.0,,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Electronics,Laptop Pro,
+43,Bob Smith,M,41.0,189.0,82.0,UK Sales Team,LON,2023-Q4,2023,H2,London,Home & Garden,Garden Tools Set,
+40,Emma Smith,F,26.0,180.0,70.0,EU Sales Team,PAR,2023-Q4,2023,H2,Paris,Books,Business Strategy,
+48,Emma Smith,M,56.0,171.0,69.0,UK Sales Team,LON,2023-Q1,2023,H1,London,Sports Equipment,Dumbbells,
+45,Noah Johnson,F,44.0,,75.0,US Sales Team,NYC,2023-Q3,2023,H2,New York,Electronics,Wireless Mouse,Silver
+35,Olivia Garcia,M,29.0,159.0,55.0,UK Sales Team,LON,2023-Q3,2023,H2,London,Home & Garden,Garden Tools Set,
+12,Carol Smith,F,24.0,180.0,63.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Clothing,T-Shirt,
+10,Kelly Williams,M,54.0,193.0,77.0,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Sports Equipment,Yoga Mat,
+18,Quinn Smith,D,44.0,187.0,51.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Sports Equipment,Tennis Racket,
+5,David Rodriguez,D,30.0,,77.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Electronics,Keyboard Deluxe,
+12,Carol Smith,F,24.0,180.0,63.0,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Electronics,Laptop Pro,
+42,Jack Martinez,M,26.0,170.0,,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Home & Garden,Garden Tools Set,Bronze
+33,David Brown,M,37.0,,64.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Electronics,Wireless Mouse,
+49,Maya Williams,F,,166.0,77.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Books,Python Programming,Gold
+39,Grace Jones,M,33.0,191.0,78.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Books,Marketing 101,
+40,Emma Smith,F,26.0,180.0,70.0,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Electronics,"Monitor 27""",Bronze
+27,Carol Smith,F,43.0,184.0,94.0,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Sports Equipment,Tennis Racket,
+8,Paul Davis,M,42.0,172.0,73.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Electronics,Wireless Mouse,
+32,Paul Miller,F,56.0,178.0,56.0,UK Sales Team,LON,2023-Q2,2023,H1,London,Home & Garden,Garden Tools Set,Gold
+48,Emma Smith,M,56.0,171.0,69.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Clothing,Sneakers,
+1,Grace Brown,M,42.0,173.0,,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Clothing,T-Shirt,
+11,Ivy Davis,F,44.0,191.0,89.0,US Sales Team,NYC,2023-Q3,2023,H2,New York,Electronics,Keyboard Deluxe,
+30,Alice Williams,F,52.0,157.0,73.0,US Sales Team,NYC,2023-Q3,2023,H2,New York,Sports Equipment,Football,
+27,Carol Smith,F,43.0,184.0,94.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Books,Python Programming,
+30,Alice Williams,F,52.0,157.0,73.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Sports Equipment,Yoga Mat,
+22,Alice Davis,F,22.0,179.0,80.0,US Sales Team,NYC,2024-Q1,2024,H1,New York,Books,Marketing 101,Silver
+20,Frank Davis,F,43.0,170.0,55.0,UK Sales Team,LON,2023-Q2,2023,H1,London,Home & Garden,Coffee Maker,
+24,Ivy Rodriguez,F,24.0,187.0,60.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Books,Business Strategy,Silver
+18,Quinn Smith,D,44.0,187.0,51.0,UK Sales Team,LON,2023-Q3,2023,H2,London,Electronics,Wireless Mouse,
+42,Jack Martinez,M,26.0,170.0,,EU Sales Team,PAR,2023-Q3,2023,H2,Paris,Electronics,Laptop Pro,
+16,Carol Miller,F,58.0,178.0,81.0,UK Sales Team,LON,2024-Q1,2024,H1,London,Home & Garden,Coffee Maker,
+45,Noah Johnson,F,44.0,,75.0,US Sales Team,NYC,2023-Q4,2023,H2,New York,Sports Equipment,Dumbbells,
+43,Bob Smith,M,41.0,189.0,82.0,UK Sales Team,LON,2023-Q1,2023,H1,London,Electronics,Keyboard Deluxe,
+25,Henry Brown,M,56.0,179.0,78.0,US Sales Team,NYC,2023-Q1,2023,H1,New York,Electronics,Keyboard Deluxe,
+42,Jack Martinez,M,26.0,170.0,,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Home & Garden,Garden Tools Set,Bronze
+5,David Rodriguez,D,30.0,,77.0,EU Sales Team,PAR,2023-Q1,2023,H1,Paris,Sports Equipment,Dumbbells,
+40,Emma Smith,F,26.0,180.0,70.0,EU Sales Team,PAR,2024-Q1,2024,H1,Paris,Electronics,Wireless Mouse,
+15,Kelly Martinez,F,54.0,181.0,62.0,UK Sales Team,LON,2023-Q2,2023,H1,London,Books,Marketing 101,
+22,Alice Davis,F,22.0,179.0,80.0,US Sales Team,NYC,2023-Q2,2023,H1,New York,Books,Python Programming,
+4,Olivia Williams,F,24.0,161.0,88.0,US Sales Team,NYC,2023-Q3,2023,H2,New York,Books,Business Strategy,
+19,Liam Martinez,D,25.0,,66.0,EU Sales Team,PAR,2023-Q2,2023,H1,Paris,Books,Finance Basics,
+37,Sam Martinez,F,,177.0,61.0,UK Sales Team,LON,2023-Q1,2023,H1,London,Books,Python Programming,Gold
+21,Carol Brown,F,47.0,173.0,56.0,UK Sales Team,LON,2023-Q3,2023,H2,London,Home & Garden,Vacuum Cleaner,
