@@ -1,0 +1,21 @@
+SALES PERFORMANCE REPORT
+==================================================
+
+Product Sales Summary:
+------------------------------
+Widget A: £15,000
+Widget B: £22,000
+Widget C: £8,500
+Widget D: £19,000
+Widget E: £11,000
+
+==================================================
+Key Metrics:
+------------------------------
+Total Sales: £75,500
+Average Sales: £15,100.00
+Best Performer: Widget B (£22,000)
+Worst Performer: Widget C (£8,500)
+
+==================================================
+Report generated successfully

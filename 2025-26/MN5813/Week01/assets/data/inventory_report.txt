@@ -1,0 +1,7 @@
+INVENTORY REPORT
+========================================
+Laptop: 25 units @ £899 = £22475
+Mouse: 100 units @ £15 = £1500
+Keyboard: 50 units @ £45 = £2250
+========================================
+Total inventory value: £26225
