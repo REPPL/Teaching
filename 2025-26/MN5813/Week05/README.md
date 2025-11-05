@@ -4,7 +4,7 @@
 
 This week explores advanced Pandas techniques for complex data manipulation and analysis, building on the fundamentals you learnt in Week 04. You'll master data reshaping, pivot tables, hierarchical indexing, and advanced aggregation techniques essential for sophisticated data analysis.
 
-## Learning Objectives
+## Learning objectives
 
 By the end of this week, you will be able to:
 
@@ -101,7 +101,7 @@ Tidy data makes analysis easier, more intuitive, and compatible with most data a
 ### When to Reshape
 
 - **Melt to long format** when:
-  - Creating visualizations
+  - Creating visualisations
   - Performing statistical analysis
   - Working with time series data
   - Preparing data for machine learning
@@ -204,7 +204,7 @@ After completing Week 05:
 1. **Week 06**: Apply these techniques to your Olympics group project
 2. **Practice**: Try reshaping and analyzing your own datasets
 3. **Explore**: Investigate additional Pandas features for your interests
-4. **Prepare**: Week 07-09 cover data visualization—you'll visualize reshaped data
+4. **Prepare**: Week 07-09 cover data visualisation—you'll visualise reshaped data
 
 ---
 

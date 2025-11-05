@@ -109,7 +109,7 @@ This 1:1 mapping allows you to:
 ### During the session (2 hours)
 
 **Phase 1: Setup (15 min)**
-- Organize your group, assign roles
+- Organise your group, assign roles
 - Copy Week03/Template.ipynb for your group
 - Place athlete_events.csv in same directory
 

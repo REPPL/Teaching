@@ -217,9 +217,6 @@ __marimo__/
 # Teaching materials - video tutorial scripts (local only)
 **/tutorials/
 
-# Temporarily exclude weeks 07-11 from MN5813
-2025-26/MN5813/Week07/
-2025-26/MN5813/Week08/
-2025-26/MN5813/Week09/
+# Temporarily exclude weeks 10-11 from MN5813
 2025-26/MN5813/Week10/
 2025-26/MN5813/Week11/

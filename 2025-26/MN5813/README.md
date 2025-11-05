@@ -11,10 +11,10 @@
 | Week 03 | In person | Assessment | Overview of two-part assessment: group project (artefact) and individual analytics report | [📖](./Week03/README.md) |
 | Week 04 | In person | Introduction to Pandas | DataFrames, Series, file I/O, basic operations, merging, and aggregation | [📖](./Week04/README.md) |
 | Week 05 | In person | Advanced Pandas | Data reshaping (melt, pivot, stack/unstack), window functions, and complex aggregations | [📖](./Week05/README.md) |
-| Week 06 | In person | Pandas application (group project workshop) | Apply Pandas skills to Olympics group project using demonstration dataset | [📖](./Week06/README.md) |
-| Week 07 | In person | Introduction to data visualisation | Basic plotting with Pandas, Seaborn, Matplotlib | |
-| Week 08 | In person | Advanced Data visualisation | Time series visualisation, interactive plots with hvPlot, small multiples | |
-| Week 09 | In person | Data visualisation practice | Practical session to work towards your individual report | |
+| Week 06 | In person | Pandas application (group project workshop) | Apply Pandas skills to the group assignment | [📖](./Week06/README.md) |
+| Week 07 | In person | Introduction to data visualisation | Basic plotting with Pandas, Seaborn, Matplotlib | [📖](./Week07/README.md) |
+| Week 08 | In person | Advanced Data visualisation | Time series visualisation, interactive plots with hvPlot, small multiples | [📖](./Week08/README.md) |
+| Week 09 | In person | Data visualisation practice | Practical session to work towards your group assignment | [📖](./Week09/README.md) |
 | Week 10 | In person | First revision session | Module revision to support your group assignment | |
 | Week 11 | Hybrid | Second revision session | Q&A & revision to support your individual report | |
 

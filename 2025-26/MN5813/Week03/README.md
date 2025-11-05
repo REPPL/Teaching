@@ -32,7 +32,7 @@
 2. **Data Wrangling**
    - Transform data for analysis
    - Create derived features
-   - Prepare data for visualization
+   - Prepare data for visualisation
 
 3. **Analysis & Insights**
    - Apply appropriate statistical methods

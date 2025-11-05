@@ -1,4 +1,4 @@
-# Advanced Python
+# Week 02: Advanced Python
 
 *Building on `Week01` to explore more advanced Python programming concepts and techniques.*
 

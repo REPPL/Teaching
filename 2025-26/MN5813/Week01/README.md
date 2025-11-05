@@ -1,4 +1,4 @@
-# Introduction to Python
+# Week 01: Introduction to Python
 
 *Building on Setup week to explore Python fundamentals for business analytics.*
 

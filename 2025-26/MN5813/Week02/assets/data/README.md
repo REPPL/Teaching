@@ -2,7 +2,7 @@
 
 This directory contains sample datasets for Week 02 (Advanced Python).
 
-## Important Note on File Organization
+## Important Note on File Organisation
 
 **Note**: The notebooks in Week 02 currently reference data files in the parent `assets/` directory, not in this `assets/data/` subdirectory. The files in this directory appear to be duplicates and are not actively used by the teaching materials. Consider consolidating all data files into this `assets/data/` directory and updating notebook paths for consistency with other weeks.
 
@@ -131,9 +131,9 @@ Students working with these files should be able to:
 - Read and write structured data
 - Process and transform data between formats
 - Calculate basic statistics on data
-- Handle file paths and organize output files
+- Handle file paths and organise output files
 
-## Data Organization Recommendations
+## Data Organisation Recommendations
 
 **Current structure** (inconsistent):
 ```

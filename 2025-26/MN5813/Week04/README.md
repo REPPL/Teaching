@@ -1,4 +1,4 @@
-# Introduction to Pandas
+# Week 04: Introduction to Pandas
 
 *This week introduces Pandas, the fundamental library for data analysis in Python.*
 
