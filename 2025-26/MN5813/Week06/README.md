@@ -25,15 +25,15 @@ Unlike previous teaching weeks, Week 06 focuses on **application and practice**:
 
 ### Notebooks
 
-1. **[Introduction.ipynb](Introduction.ipynb)** – Application week overview, workflow, and common challenges
-2. **[Demonstration.ipynb](Demonstration.ipynb)** – Complete worked example using Olympics-parallel dataset
+1. **[Introduction.ipynb](./Introduction.ipynb)** – Application week overview, workflow, and common challenges
+2. **[Demonstration.ipynb](./Demonstration.ipynb)** – Complete worked example using Olympics-parallel dataset
 
 ### Data files
 
-Located in `assets/data/`:
+Located in `assets/data/week06/`:
 
-- **[employee_sales.csv](assets/data/employee_sales.csv)** – Demonstration dataset (245 rows × 15 columns)
-- **[README.md](assets/data/README.md)** – Detailed dataset documentation and column mapping
+- **[employee_sales.csv](./assets/data/week06/employee_sales.csv)** – Demonstration dataset (245 rows × 15 columns)
+- **[README.md](./assets/data/week06/README.md)** – Detailed dataset documentation and column mapping
 
 ### Project files (from Week 03)
 
@@ -46,7 +46,7 @@ Located in `assets/data/`:
 
 **[120 years of Olympic history: athletes and results](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)**
 
-- 271,116 rows (athlete-event combinations)
+- 271,116 rows *(athlete-event combinations)*
 - 15 columns: ID, Name, Sex, Age, Height, Weight, Team, NOC, Games, Year, Season, City, Sport, Event, Medal
 - Data from Athens 1896 to Rio 2016
 
@@ -86,6 +86,7 @@ The Demonstration uses `employee_sales.csv` – a dataset with **identical struc
 | award | Medal |
 
 This 1:1 mapping allows you to:
+
 - See complete solutions to similar problems
 - Understand the analytical approach
 - Adapt code patterns to your Olympics data
@@ -101,10 +102,10 @@ This 1:1 mapping allows you to:
 
 ### Before the session (15 minutes)
 
-- Review Week 04 Demonstration (basic Pandas)
-- Review Week 05 Demonstration (data reshaping)
-- Download Olympics athlete_events.csv
-- Read Week 03 assessment requirements
+- Review Week 04 Demonstration *(basic Pandas)*
+- Review Week 05 Demonstration *(data reshaping)*
+- Download Olympics `athlete_events.csv`
+- Read [Week 03](../Week03/Introduction.ipynb) assessment requirements
 
 ### During the session (2 hours)
 
@@ -121,7 +122,7 @@ This 1:1 mapping allows you to:
 
 **Phase 3: Data cleaning (30 min)**
 - Identify missing values (`.isnull().sum()`)
-- Fix data types (Year to datetime)
+- Fix data types (`Year` to `datetime`)
 - Remove duplicates
 - Document your decisions
 - Reference: Demonstration Part 2, Section 2
@@ -147,7 +148,7 @@ This 1:1 mapping allows you to:
 ### After the session
 
 - Complete remaining analysis
-- Create visualisations (Week 07-09 techniques)
+- Create visualisations *(Week 07, 08, and 09)*
 - Write introduction, literature review, conclusion
 - Format references
 - Review and polish together
@@ -156,7 +157,7 @@ This 1:1 mapping allows you to:
 
 ### Challenge 1: Missing medal values
 
-**Issue**: Most athletes don't win medals (Medal column is mostly NaN)
+**Issue**: Most athletes don't win medals *(`Medal` column is mostly `NaN`)*
 
 **Solution**: This is expected! Filter appropriately:
 ```python
@@ -166,7 +167,7 @@ df[df["Medal"].notna()].groupby("NOC")["Medal"].count()
 
 ### Challenge 2: Year to datetime
 
-**Issue**: Year is integer, not full date
+**Issue**: `Year` is integer, not full date
 
 **Solution**:
 ```python
@@ -198,7 +199,7 @@ See [Introduction notebook](Introduction.ipynb) for more detailed solutions.
 
 ## Stretch goals (advanced techniques)
 
-Once essentials are complete, consider Week 05 techniques:
+Once essentials are complete, consider [Week 05](../Week05/Demonstration.ipynb) techniques:
 
 - **Reshaping**: Use `pivot_table()` for medal counts by country/year
 - **MultiIndex**: Hierarchical analysis (Country → Sport → Event)
@@ -240,7 +241,8 @@ Reference: Demonstration Part 2 "Advanced placeholder" sections
 
 ### Group report (20%)
 
-Week 06 provides:
+[Week 06](../Week06/Introduction.ipynb) provides:
+
 - Structured approach to data loading, cleaning, wrangling
 - Example analyses you can adapt
 - Best practices for documentation
@@ -248,7 +250,7 @@ Week 06 provides:
 
 ### Individual analytics report (80%)
 
-Week 06 skills transfer to:
+[Week 06](../Week06/Introduction.ipynb) skills transfer to:
 - Your chosen dataset
 - More sophisticated analyses
 - Advanced techniques for higher marks
@@ -257,19 +259,19 @@ Week 06 skills transfer to:
 ## Getting help
 
 - **In-session support**: Use session time to ask questions
-- **Moodle Q&A Forum**: Post challenges and solutions
+- **Moodle Q&A Forum**: Post questions, incl. challenges and solutions *(please!!)*
 - **Office hours**: Detailed guidance on approaches
 - **Demonstration notebook**: Worked example for reference
 - **Week 04/05 materials**: Technical reference
 
 ## Further resources
 
-- **Week 03 Introduction**: Assessment brief, marking criteria
-- **Week 03 Template**: Notebook structure for submission
-- **Week 04 Materials**: Basic Pandas reference
-- **Week 05 Materials**: Advanced techniques reference
-- **Pandas Documentation**: [Missing data](https://pandas.pydata.org/docs/user_guide/missing_data.html), [Group by](https://pandas.pydata.org/docs/user_guide/groupby.html)
-- **Olympics Dataset**: [Kaggle page](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
+- **Week 03 > Introduction**: Assessment brief, marking criteria
+- **Week 03 > Template**: Notebook structure for submission
+- **Week 04 materials**: Basic Pandas reference
+- **Week 05 materials**: Advanced techniques reference
+- **Pandas documentation**: [Missing data](https://pandas.pydata.org/docs/user_guide/missing_data.html), [Group by](https://pandas.pydata.org/docs/user_guide/groupby.html)
+- **Olympics dataset**: [Kaggle page](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
 
 ## Next steps
 
@@ -284,4 +286,4 @@ After Week 06:
 
 **Week structure**: Application week (Week 04 = basic, Week 05 = advanced, Week 06 = application)
 
-**Important**: Use Week03/Template.ipynb for your actual project, use Week06/Demonstration.ipynb as a reference guide
+**Important**: Adapt [Week03/Template.ipynb](..Week03/Template.ipynb) for your actual project

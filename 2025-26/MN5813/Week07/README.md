@@ -10,46 +10,52 @@
 - **[Solutions.ipynb](./Solutions.ipynb)**: Complete solutions with explanations
 - **assets/data/**: Sample datasets for exercises
   - Datasets generated within notebooks for demonstration purposes
-- **assets/figure/**: Visual learning aids
+- **assets/figure/week07/**: Visual learning aids
   - `figure.png`: Example figure output
 
 Start with the `Introduction` notebook for an overview, then work through the `Demonstration` to see concepts in action, complete the `Exercises` independently, and check your work against the `Solutions`.
 
 ## Topics
 
-1. **Choosing visualisation types**
-   - Line plots for trends over time
-   - Bar charts for comparing categories
-   - Scatter plots for relationships
-   - Histograms and box plots for distributions
-   - When to use each chart type
+**Choosing visualisation types**
 
-2. **Pandas plotting**
-   - Quick plots with `.plot()` method
-   - Chart type parameters
-   - Basic customisation options
+- Line plots for trends over time
+- Bar charts for comparing categories
+- Scatter plots for relationships
+- Histograms and box plots for distributions
+- When to use each chart type
 
-3. **Matplotlib fundamentals**
-   - Figure and axes objects
-   - Customising titles, labels, colours
-   - Controlling legends and grids
-   - Subplot arrangements
+**Pandas plotting**
 
-4. **Seaborn statistical plots**
-   - Distribution visualisations
-   - Relationship plots
-   - Categorical plots
-   - Statistical annotations
+- Quick plots with `.plot()` method
+- Chart type parameters
+- Basic customisation options
 
-5. **Best practices**
-   - Clear, informative labels
-   - Accessible colour schemes
-   - Professional styling
-   - Avoiding common mistakes
+**Matplotlib fundamentals**
+
+- `Figure` and `axes` objects
+- Customising `title`s, `label`s, `colour`s
+- Controlling `legend`s and `grid`s
+- `Subplot` arrangements
+
+**Seaborn statistical plots**
+
+- Distribution visualisations
+- Relationship plots
+- Categorical plots
+- Statistical annotations
+
+**Best practices**
+
+- Clear, informative labels
+- Accessible colour schemes
+- Professional styling
+- Avoiding common mistakes
 
 ## Learning outcomes
 
 After this week, you'll be able to:
+
 - Select appropriate visualisation types for different data and messages
 - Create quick exploratory plots with Pandas
 - Customise plots professionally with Matplotlib
@@ -72,7 +78,7 @@ After this week, you'll be able to:
 - Lecture: 45 minutes (introduces next week's content)
 - Workshop: 105 minutes (includes setup time and early departure)
 
-**Total self-study**: Approximately 3-3.5 hours per week
+*(Total self-study: Approximately 3-3.5 hours per week.)*
 
 ## Recommended workflow
 
@@ -99,4 +105,4 @@ Visualisation is essential for:
 - Creating publication-quality figures
 - Supporting your analytical narrative
 
-Your individual report must include clear, professional visualisations that enhance understanding of your findings.
+Your individual report must include clear, professional (!!) visualisations that enhance understanding of your findings.

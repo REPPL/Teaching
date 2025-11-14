@@ -19,21 +19,21 @@ By the end of this week, you will be able to:
 
 ### Notebooks
 
-1. **[Introduction.ipynb](Introduction.ipynb)** – Advanced concepts, building on Week 07 foundations
-2. **[Demonstration.ipynb](Demonstration.ipynb)** – Hands-on demonstrations of advanced techniques
-3. **[Exercises.ipynb](Exercises.ipynb)** – 90-minute practice exercises with complex scenarios
-4. **[Solutions.ipynb](Solutions.ipynb)** – Detailed solutions with design explanations
+1. **[Introduction.ipynb](./Introduction.ipynb)** – Advanced concepts, building on Week 07 foundations
+2. **[Demonstration.ipynb](./Demonstration.ipynb)** – Hands-on demonstrations of advanced techniques
+3. **[Exercises.ipynb](./Exercises.ipynb)** – 90-minute practice exercises with complex scenarios
+4. **[Solutions.ipynb](./Solutions.ipynb)** – Detailed solutions with design explanations
 
-### Data Files
+### Data files
 
-Located in `assets/data/`:
+Located in `assets/data/week08/`:
 
 - Sample datasets are generated within the notebooks for demonstration purposes
 - No external data files required for Week 08
 
-## Topics Covered
+## Topics
 
-### 1. Complex Time Series Visualisation
+### 1. Complex Time Series
 
 - Multiple time series on same axes
 - Dual-axis plots for different scales
@@ -41,14 +41,14 @@ Located in `assets/data/`:
 - Annotating key events and trends
 - Trend lines and confidence intervals
 
-### 2. Small Multiples for Comparison
+### 2. Small Multiples
 
 - **FacetGrid fundamentals**: Creating trellis plots
 - **Consistent scales**: Fair comparisons across panels
 - **Layout strategies**: Organising for readability
 - **Applications**: Comparing trends across categories, regions, or time periods
 
-### 3. Interactive Visualisation with hvPlot
+### 3. Interactive Visualisation *(hvPlot)*
 
 - Converting static plots to interactive
 - Hover tooltips for detailed information
@@ -56,14 +56,14 @@ Located in `assets/data/`:
 - Linked brushing across multiple plots
 - Dashboard components and widgets
 
-### 4. Advanced Seaborn Techniques
+### 4. Advanced Seaborn
 
 - **PairGrid**: Comprehensive relationship matrices
 - **Complex statistical plots**: Joint plots, violin plots with splits
 - **Custom colour palettes**: Brand-consistent and accessible colours
 - **Combining plot types**: Histograms, KDE, scatter in one figure
 
-### 5. Dashboard Design Principles
+### 5. Dashboards
 
 - Logical layout and information hierarchy
 - Consistent styling across components
@@ -71,7 +71,7 @@ Located in `assets/data/`:
 - Clear narrative flow
 - Effective use of colour and typography
 
-### 6. Performance Optimisation
+### 6. Better Performance *(optional!)*
 
 - Handling large datasets efficiently
 - Aggregation before plotting
@@ -82,22 +82,24 @@ Located in `assets/data/`:
 
 Before starting this week's materials, you should be comfortable with:
 
-- **Week 07 Visualisation fundamentals**:
-  - Creating basic plots with Pandas, Matplotlib, Seaborn
-  - Customising titles, labels, colours, and legends
-  - Creating subplot arrangements
-  - Understanding chart type selection
+**Week 07 Visualisation fundamentals**:
 
-- **Weeks 04-05 Pandas skills**:
-  - DataFrame manipulation and aggregation
-  - GroupBy operations
-  - Data reshaping and pivot tables
+- Creating basic `plot`s with Pandas, Matplotlib, Seaborn
+- Customising titles, labels, colours, and legends
+- Arranging `subplot`s
+- Understanding chart types
+
+**Weeks 04-05 Pandas skills**:
+
+- `DataFrame` manipulation and aggregation
+- `GroupBy` operations
+- Data reshaping and pivot tables
 
 If you need to review these topics, please revisit the appropriate week's materials before proceeding.
 
-## Key Concepts
+## Key concepts
 
-### Small Multiples (Trellis Plots)
+### Small multiples (Trellis plots)
 
 Small multiples show the same visualisation repeated across categories:
 - Maintain consistent scales for fair comparison
@@ -105,7 +107,7 @@ Small multiples show the same visualisation repeated across categories:
 - Reduce cognitive load vs overlapping plots
 - Ideal for categorical comparisons
 
-### Interactive Visualisation Benefits
+### Interactive visualisations
 
 Interactive plots enable:
 - **Exploration**: Users can zoom, pan, and investigate details
@@ -115,16 +117,17 @@ Interactive plots enable:
 
 **Note**: Your final report requires static figures (PNG/PDF), but interactive plots enhance presentations and exploration.
 
-### Dashboard Design Principles
+### Dashboard design principles
 
 Effective dashboards:
+
 1. **Focus on key insights**: Don't overwhelm with information
 2. **Logical flow**: Guide the viewer through the story
 3. **Consistent styling**: Unified colour scheme and typography
 4. **Clear hierarchy**: Important information stands out
 5. **Appropriate detail**: Balance overview with specifics
 
-## Practical Applications
+## Practical applications
 
 This week's content is essential for:
 
@@ -163,7 +166,7 @@ This week's content is essential for:
 3. **Attend workshop** (105 min) - Practice exercises with instructor support
 4. **Review solutions** (30 min) - Compare your approach after workshop
 
-## Study Tips
+## Tips
 
 1. **Follow along actively**: Run the Demonstration code yourself, try variations
 2. **Understand design choices**: Why use small multiples vs overlapping lines?
@@ -198,7 +201,7 @@ Mastering Week 08 content will enable you to:
 
 ## Getting help
 
-- **Moodle Q&A Forum**: Ask questions about concepts or exercises
+- **Moodle Q&A Forum**: Ask questions about concepts or exercises *(please ...)*
 - **Office Hours**: For detailed explanations and design guidance
 - **Week 07 Materials**: Review if you're struggling with basic plotting
 - **Documentation**: hvPlot, Seaborn, and Matplotlib official docs

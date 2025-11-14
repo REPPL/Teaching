@@ -27,42 +27,42 @@ By the end of this week, you will be able to:
 
 ### Data Files
 
-Located in `assets/data/`:
+Located in `assets/data/week05/`:
 
 - Sample datasets are generated within the notebooks for demonstration purposes
 - No external data files required for Week 05
 
-## Topics Covered
+## Topics covered
 
-### 1. Tidy Data Principles
+### 1. Tidy data
 
 - Understanding "tidy" vs "messy" data
 - The three principles of tidy data
 - When and why to reshape data
 - Common data quality problems and solutions
 
-### 2. Data Reshaping Fundamentals
+### 2. Data reshaping
 
 - **Wide vs long format**: Understanding the differences and use cases
 - **`melt()`**: Converting wide data to long format
 - **`pivot()`**: Converting long data to wide format
 - **`pivot_table()`**: Advanced pivoting with aggregation functions
 
-### 3. MultiIndex Operations
+### 3. MultiIndex operations
 
 - Creating and manipulating hierarchical indices
 - Cross-sectional selection with `.xs()`
 - `stack()` and `unstack()` for reshaping multi-level data
 - Sorting and slicing MultiIndex DataFrames
 
-### 4. Advanced DataFrame Operations
+### 4. Advanced `DataFrame` operations
 
 - Window functions and rolling calculations
 - Group-wise transformations with `.transform()`
 - Advanced data cleaning techniques
 - Binning continuous data with `pd.cut()` and `pd.qcut()`
 
-### 5. Aggregation and Analysis
+### 5. Aggregation and analysis
 
 - Applying multiple aggregation functions simultaneously
 - Creating summary statistics by multiple groups
@@ -73,48 +73,51 @@ Located in `assets/data/`:
 
 Before starting this week's materials, you should be comfortable with:
 
-- **Week 04 Pandas fundamentals**:
-  - Creating and manipulating DataFrames
-  - Filtering and selecting data with boolean indexing
-  - Using `groupby()` for basic aggregations
-  - Merging and concatenating DataFrames
-  - Handling missing values
+**Week 04 Pandas fundamentals**:
 
-- **Python fundamentals (Weeks 01-02)**:
-  - Lists, dictionaries, and functions
-  - Control flow (if/else, loops)
-  - List comprehensions
+- Creating and manipulating DataFrames
+- Filtering and selecting data with boolean indexing *(`True`/`False`)*
+- Using `groupby()` for basic aggregations
+- Merging and concatenating DataFrames
+- Handling missing values
 
-If you need to review these topics, please revisit the appropriate week's materials before proceeding.
+**Python fundamentals (Weeks 01-02)**:
 
-## Key Concepts
+- Lists, dictionaries, and functions
+- Control flow (if/else, loops)
+- List comprehensions
+
+## Key concepts
 
 ### Tidy Data
 
 A dataset is tidy when:
+
 1. Each variable forms a column
 2. Each observation forms a row
 3. Each type of observational unit forms a table
 
 Tidy data makes analysis easier, more intuitive, and compatible with most data analysis tools.
 
-### When to Reshape
+### When to reshape
 
-- **Melt to long format** when:
-  - Creating visualisations
-  - Performing statistical analysis
-  - Working with time series data
-  - Preparing data for machine learning
+**Melt to long format** when:
 
-- **Pivot to wide format** when:
-  - Creating summary tables
-  - Comparing values across categories
-  - Calculating differences between time periods
-  - Preparing data for reporting
+- Creating visualisations
+- Performing statistical analysis
+- Working with time series data
+- Preparing data for machine learning
 
-### MultiIndex Use Cases
+**Pivot to wide format** when:
 
-- Organizing hierarchical data (Country → Region → City)
+- Creating summary tables
+- Comparing values across categories
+- Calculating differences between time periods
+- Preparing data for reporting
+
+### MultiIndex use cases
+
+- Organising hierarchical data (Country → Region → City)
 - Multi-dimensional analysis
 - Complex grouping operations
 - Time series with multiple frequencies
@@ -134,24 +137,29 @@ This week's content is essential for:
 
 **Note**: This module uses 60-minute lecture slots and 2-hour workshop slots. The timings below show how content fits within these sessions, allowing time for discussion and questions.
 
-- **Introduction**: 20-30 minutes (presented in 45-minute lecture, which fits comfortably in the 60-minute slot)
-- **Demonstration**: 60-75 minutes (self-study notebook, work through before workshop)
-  - Core content: Essential techniques for exercises
-  - Supplementary content: Optional deeper exploration
-  - Run code cells, experiment with examples, take notes
-- **Workshop exercises**: 90 minutes (hands-on practice with instructor support, fits comfortably in the 2-hour workshop slot)
-- **Solutions review**: 30 minutes (after completing exercises)
+**Introduction**: 20-30 minutes (presented in 45-minute lecture, which fits comfortably in the 60-minute slot)
+
+**Demonstration**: 60-75 minutes (self-study notebook, work through before workshop)
+
+- Core content: Essential techniques for exercises
+- Supplementary content: Optional deeper exploration
+- Run code cells, experiment with examples, take notes
+
+**Workshop exercises**: 90 minutes (hands-on practice with instructor support, fits comfortably in the 2-hour workshop slot)
+
+**Solutions review**: 30 minutes (after completing exercises)
 
 **Session structure**:
+
 - Lecture: 45 minutes (introduces next week's content)
 - Workshop: 105 minutes (includes setup time and early departure)
 
-**Total self-study**: Approximately 3-3.5 hours per week
+*(Total self-study**: Approximately 3-3.5 hours per week.)*
 
 ## Recommended workflow
 
 1. **Attend lecture** (45 min) - Conceptual introduction to next week's topics
-2. **Work through Demonstration** (60-75 min) - Before workshop (optional but strongly recommended)
+2. **Work through Demonstration** (60-75 min) - Before workshop *(optional but strongly recommended)*
    - Run all code cells in sequence
    - Experiment with modifying examples
    - Take notes on techniques you'll use in exercises
@@ -184,7 +192,8 @@ The techniques in Week 05 are crucial for:
 - **Stretch goals**: Advanced analyses beyond basic requirements
 - **Individual project**: More sophisticated data manipulation and analysis
 
-Mastering Week 05 content will enable you to:
+Week 05 content will enable you to:
+
 - Create more insightful analyses
 - Handle complex data structures efficiently
 - Present findings in multiple formats
@@ -205,7 +214,3 @@ After completing Week 05:
 2. **Practice**: Try reshaping and analyzing your own datasets
 3. **Explore**: Investigate additional Pandas features for your interests
 4. **Prepare**: Week 07-09 cover data visualisation—you'll visualise reshaped data
-
----
-
-**Week structure**: Teaching week (Week 04 = basic, Week 05 = advanced, Week 06 = application)

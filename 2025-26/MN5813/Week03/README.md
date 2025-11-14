@@ -24,25 +24,29 @@
 
 ## Key requirements
 
-1. **Data Loading & Cleaning**
-   - Handle missing values
-   - Address data quality issues
-   - Document cleaning decisions
+**Data loading and cleaning**
 
-2. **Data Wrangling**
-   - Transform data for analysis
-   - Create derived features
-   - Prepare data for visualisation
+- Handle missing values
+- Address data quality issues
+- Document cleaning decisions
 
-3. **Analysis & Insights**
-   - Apply appropriate statistical methods
-   - Generate business insights
-   - Support conclusions with evidence
+**Data wrangling**
 
-4. **Visualisation**
-   - Create clear, informative charts
-   - Use appropriate visualisation types
-   - Follow best practices for data presentation
+- Transform data for analysis
+- Create derived features
+- Prepare data for visualisation
+
+**Analysis and insights**
+
+- Apply appropriate statistical methods
+- Generate business insights
+- Support conclusions with evidence
+
+**Visualisation**
+
+- Create clear, informative charts
+- Use appropriate visualisation types
+- Follow best practices for data presentation
 
 ## Time commitment
 
@@ -57,7 +61,7 @@
 
 **Total in-session**: Approximately 1.5 hours
 
-**Note**: The actual assessment work (group project in Week 06, individual project throughout) requires substantial time outside of scheduled sessions. Plan your time accordingly and start early.
+**Note**: The actual assessment work (group project in Week 06, individual report starting in December) requires substantial time outside of scheduled sessions. Plan your time accordingly and start early.
 
 ## Important notes
 
