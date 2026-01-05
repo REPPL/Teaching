@@ -31,48 +31,36 @@
 └──────────┬──────────┘
            │
 ┌──────────▼──────────┐
-│  Week 1: Python     │ ← Foundation: Variables, strings, functions, data structures
-│  fundamentals       │
-└──────────┬──────────┘
-           │
-┌──────────▼──────────┐
-│  Week 2: Advanced   │ ← Build skills: Functional programming, error handling
-│  Python             │
-└──────────┬──────────┘
-           │
-┌──────────▼──────────┐
-│  Week 3: Assessment │ ← KEY MILESTONE: Understand requirements
+│        Block 1      │ ← Foundation: Variables, strings, functions, data structures
+│        =======      │
+│                     │ 
+│  Weeks: 1-3         │ ← Build skills: Functional programming, error handling
+│                     │
+│  PYTHON             │ ← KEY MILESTONE: Understand requirements
 │                     │   • Group Project (20%): Olympics data
-└──────────┬──────────┘   • Individual Report (80%): Your choice
-           │
-┌──────────▼──────────┐
-│  Week 4: Intro to   │ ← Core tool: DataFrames for data analysis
-│  Pandas             │
+│                     │   • Individual Report (80%): Your choice
 └──────────┬──────────┘
            │
 ┌──────────▼──────────┐
-│  Week 5: Advanced   │ ← Power skills: Reshape, pivot, aggregate
-│  Pandas             │
+│        Block 2      │ ← Core tool: DataFrames for data analysis
+│        =======      │
+│                     │ 
+│  Weeks: 4-6         │ ← Power skills: Reshape, pivot, aggregate
+│                     │
+│  PANDAS             │ ← APPLY: Clean & prepare group project data
+│                     │ → Progress on Group Project
+│                     │ 
 └──────────┬──────────┘
            │
 ┌──────────▼──────────┐
-│  Week 6: Data       │ ← APPLY: Clean & prepare group project data
-│ wrangling practice  │ → Progress on Group Project
-└──────────┬──────────┘
-           │
-┌──────────▼──────────┐
-│  Week 7: Intro to   │ ← Visualise: Charts, plots, best practices
-│  visualisation      │
-└──────────┬──────────┘
-           │
-┌──────────▼──────────┐
-│  Week 8: Advanced   │ ← Enhance: Interactive & complex visuals
-│  visualisation      │
-└──────────┬──────────┘
-           │
-┌──────────▼──────────┐
-│  Week 9: Data vis   │ ← CREATE: Compelling visualisations
-│     practice        │ → Progress on Individual Report
+│        Block 3      │ ← Visualise: Charts, plots, best practices
+│        =======      │
+│                     │ 
+│  Weeks: 7-9         │ ← Enhance: Interactive & complex visuals
+│                     │
+│  DATA               │ ← CREATE: Compelling visualisations
+│  VISUALISATION      │ → Progress on Individual Report
+│                     │ 
 └──────────┬──────────┘
            │
       ┌────┴────┐
