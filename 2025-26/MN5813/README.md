@@ -1,7 +1,11 @@
+# MN5813
+
+## Business Analytics Languages and Platforms
+
 *Content (incl. `README.md` files and Jupyter Notebooks) was originally compiled by Alex Reppel (AR) based on conversations with [ClaudeAI](https://claude.ai/) *(version 3.5 Sonnet)*. For this year's materials, further revisions were made using [Claude Code](https://www.anthropic.com/claude-code) *(Opus 4.1)*, including updated documentation and git commit messages.*
 
 
-# Session outline
+## Session outline
 
 | Week | Format | Topic | Content | README |
 |------|--------|-------|---------|--------|
