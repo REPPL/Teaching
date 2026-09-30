@@ -1,0 +1,35 @@
+# Python dependencies for local work
+# Already installed in your GitHub Codespace (see Guides/codespaces-start.md), so no action needed there.
+# Only relevant if you set up a local toolchain instead (see Guides/working-locally.md).
+#
+# Install with:  pip install -r requirements.lock
+#
+# This file names the libraries the module teaches with; it is the human-
+# edited input, not the file you install from. requirements.lock pins the
+# complete environment (these nine libraries AND everything they pull in,
+# 127 packages in all), each with a checksum, so everyone on the module
+# gets the same libraries whenever they install. If a notebook still behaves
+# differently on your machine, say so rather than assuming you did
+# something wrong.
+#
+# Staff: after editing this file, regenerate the lock from this directory:
+#   uv pip compile --universal --generate-hashes --python-version 3.12 \
+#     requirements.txt -o requirements.lock
+# Resolved and verified against Python 3.12, the version the devcontainer pins.
+
+# Core data analysis
+pandas==3.0.5
+numpy==2.5.1
+
+# Visualisation
+matplotlib==3.11.1
+seaborn==0.13.2
+hvplot==0.12.2
+
+# Notebooks
+jupyterlab==4.6.2
+ipywidgets==8.1.8
+nbformat==5.10.4
+
+# File formats
+openpyxl==3.1.5

@@ -1,0 +1,28 @@
+// The pre-built workstation recipe the Codespaces Start guide promises.
+// The publisher places this file at the student repository's root. Every
+// student's own repository, made from that one with Use this template, then
+// opens the same Codespace: Python, the module's packages, Copilot, and the
+// SpecStory session recorder, with nothing to install by hand.
+// The two git settings let the weekly `git pull materials main` finish on its
+// own. GIT_MERGE_AUTOEDIT=no skips the merge-message editor. pull.rebase false
+// tells git to merge when both sides have new commits, instead of stopping to
+// ask how.
+{
+  "name": "Analyst workstation",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install --user -r MN5813/2026-27/requirements.lock && git config --global pull.rebase false",
+  "remoteEnv": {
+    "GIT_MERGE_AUTOEDIT": "no"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "SpecStory.specstory-vscode"
+      ]
+    }
+  }
+}
