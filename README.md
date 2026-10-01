@@ -21,4 +21,4 @@ A notebook therefore carries both: Its code cells are MIT, its prose is CC BY-SA
 
 ## Contributing
 
-These materials are an experiment. The more people use, test, and refine these materials, the better they will become. So please reuse them and consider contributing improvements, submit issues, participate in discussions etc. 
+These materials are an experiment. The more people use, test, and refine them, the more useful they will become for everyone. So please reuse them and consider contributing improvements, submit issues, participate in discussions etc. 
