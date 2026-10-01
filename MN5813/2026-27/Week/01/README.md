@@ -70,7 +70,7 @@ GitHub's student verification takes days. When GitHub approves you, turn on the 
 - [ ] Copy [QuestLog-Template.md](./QuestLog-Template.md) to `QuestLog.md`. This is your [QuestLog](../../Guides/glossary.md#term-questlog). Write your first entry in it, for Quest 01 (about 15 minutes)
 - [ ] Check that your GitHub account signs in
 - [ ] Check that your module Google account signs in to Colab
-- [ ] Submit your GitHub Student Developer Pack application. [Codespaces Start](../../Guides/codespaces-start.md), Step 1, has the detailed steps
+- [ ] Submit your GitHub Student Developer Pack application, or note in your `QuestLog.md` what blocked it. [Codespaces Start](../../Guides/codespaces-start.md), Step 1, has the detailed steps
 
 
 ## Contents

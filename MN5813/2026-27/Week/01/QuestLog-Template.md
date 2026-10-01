@@ -13,7 +13,7 @@ This log is three things:
 ## How to use it
 
 - Copy this file and rename it `QuestLog.md`
-- Keep it at the top level of your module folder
+- Keep it at the top level of your repository, which you create in Week 2
 - Add each entry within a day of finishing the quest. A short, honest entry beats a polished one written late
 - Delete the "Why this file exists" and "How to use it" sections once the file is yours. Keep the example entry at the bottom until you have written two entries of your own
 
@@ -57,7 +57,7 @@ Copy this block for each quest:
 
 *This example comes from the module team and shows the expected length and honesty. It contains **Quest 01 answers**. Do the quest and write your own entry before you read it.*
 
-- **Date:** 24 September
+- **Date:** 1 October
 - **Badge claimed:** 🥈
 - **1. Client explanation:** One of the twelve prices on the receipt was typed as text rather than a number. That is why the computer refused to add it up. We converted it back to a number and got the right total, £36.80, which matches the £3.20 change from the £40 note. The lesson is that data that *looks* fine can still be the wrong kind of thing, so we check types before we trust totals
 - **2. Associate audit:** Gemini's "quick" version crashed on the text price, which the quest warned about. But I had to catch the worse mistake myself. When I asked it what the average was, it *told me* "£3.35" in chat instead of running anything. The real answer from my code was £3.07. It stated a wrong number with complete confidence. I noted the exchange in my AI Use Record. The rule I learned: Only trust numbers from code that I ran
