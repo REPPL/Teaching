@@ -55,7 +55,7 @@ By the end of Week 1 you can:
   - Create your module Google account and sign in to Colab with it (10 min)
   - Submit the Student Developer Pack application (20 min)
 - The Colab taster (45 min): Open the Demonstration from its badge, run the first cells, and ask Colab's Gemini one question <!-- values-guard: allow: a workshop segment, not the lecture length -->
-- Wrap (15 min): The "At home" list, and how the [Prompt Diary](../../Guides/glossary.md#term-prompt-diary) works
+- Wrap-up (15 min): The "At home" list, and how the [Prompt Diary](../../Guides/glossary.md#term-prompt-diary) works
 
 Your module Google account is new, and you use it only for this module. Part 1 of the [Demonstration](./Demonstration.ipynb) gives the address to choose. You sign in to Colab with it now, and to [Stoa](../../Guides/glossary.md#term-stoa) from Week 4.
 
@@ -64,13 +64,13 @@ GitHub's student verification takes days. When GitHub approves you, turn on the 
 
 ## At home (about 2.5 hours, before Week 2)
 
-- [ ] If not done, finish Part 1 of the [Demonstration](./Demonstration.ipynb) **at home**, your first day at the firm (about 15 minutes)
-- [ ] **Also at home**, work through Part 2 of the Demonstration, the Python warm-up (about 45 minutes). Run every cell and do every ✏️ Try it <!-- values-guard: allow: a self-study estimate, not the lecture length -->
-- [ ] Read the [AI Guide](../../Guides/ai-guide.md). Then complete [Quest 01](./Quest.ipynb) with your [Associate](../../Guides/glossary.md#term-associate) (about 75 minutes for both). Fill in its Prompt Diary cell: Your best and worst exchange, pasted
-- [ ] Copy [QuestLog-Template.md](./QuestLog-Template.md) to `QuestLog.md`. This is your [QuestLog](../../Guides/glossary.md#term-questlog). Write your first entry in it, for Quest 01 (about 15 minutes)
+- [ ] If not done, finish Part 1 of the [Demonstration](./Demonstration.ipynb) **at home**, your first day at the firm (about 15 min)
+- [ ] **Also at home**, work through Part 2 of the Demonstration, the Python warm-up (about 45 min). Run every cell and do every ✏️ Try it <!-- values-guard: allow: a self-study estimate, not the lecture length -->
+- [ ] Read the [AI guide](../../Guides/ai-guide.md). Then complete [Quest 01](./Quest.ipynb) with your [Associate](../../Guides/glossary.md#term-associate) (about 75 min for both). Fill in its Prompt Diary cell: Your best and worst exchange, pasted
+- [ ] Copy [QuestLog-Template.md](./QuestLog-Template.md) to `QuestLog.md`. This is your [QuestLog](../../Guides/glossary.md#term-questlog). Write your first entry in it, for Quest 01 (about 15 min)
 - [ ] Check that your GitHub account signs in
 - [ ] Check that your module Google account signs in to Colab
-- [ ] Submit your GitHub Student Developer Pack application, or note in your `QuestLog.md` what blocked it. [Codespaces Start](../../Guides/codespaces-start.md), Step 1, has the detailed steps
+- [ ] Submit your GitHub Student Developer Pack application, or note in your `QuestLog.md` what blocked it. [Your workstation](../../Guides/codespaces-start.md), Step 1, has the detailed steps
 
 
 ## Contents
@@ -79,7 +79,7 @@ GitHub's student verification takes days. When GitHub approves you, turn on the 
 |------|------------|
 | [Introduction.ipynb](./Introduction.ipynb) | Start here: What this week covers, the lecture, the workshop, and what to finish at home |
 | [Demonstration.ipynb](./Demonstration.ipynb) | Part 1, the onboarding memo: How the module works, the AI-open charter, your Associate, and your accounts. Part 2, the Python warm-up: Numbers, text, variables, <!-- plain-language: everyday decision -->decisions, loops, and your first error message |
-| [Quest.ipynb](./Quest.ipynb) | **Quest 01: [Tutorial Island](../../Guides/glossary.md#term-tutorial-island)** (about 45 to 60 minutes): Your first job for the Partner, in the full quest format |
+| [Quest.ipynb](./Quest.ipynb) | **Quest 01: [Tutorial Island](../../Guides/glossary.md#term-tutorial-island)** (about 45 to 60 min): Your first job for the Partner, in the full quest format |
 | Debrief.ipynb | Worked answers for Quest 01, the [Red Flags](../../Guides/glossary.md#term-red-flags) fix, and the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery), released with Week 2 |
 | [QuestLog-Template.md](./QuestLog-Template.md) | Your personal learning journal, kept all term |
 
@@ -95,5 +95,5 @@ GitHub's student verification takes days. When GitHub approves you, turn on the 
 
 ## Essential guides
 
-- [AI Guide: Working with Your Associate](../../Guides/ai-guide.md): Read it at home, before Quest 01
-- [Codespaces Start](../../Guides/codespaces-start.md): Step 1 happens in this week's workshop. You build the rest in the Week 2 workshop
+- [AI guide: Working with your Associate](../../Guides/ai-guide.md): Read it at home, before Quest 01
+- [Your workstation](../../Guides/codespaces-start.md): Step 1 happens in this week's workshop. You build the rest in the Week 2 workshop

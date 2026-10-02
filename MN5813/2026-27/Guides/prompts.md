@@ -4,11 +4,11 @@
 
 > ⚠️ **Draft:** This page is a draft. It will be confirmed in Week 3.
 
-This page collects the prompts that appear across <!-- gen:values.yml#module.code -->MN5813<!-- /gen -->. It holds one template prompt for each of the four moves and the six prompting patterns. It also holds the three [Debrief](./glossary.md#term-debrief) prompts and every **[AI Lens](./glossary.md#term-ai-lens)** prompt, week by week. Fill in anything in angle brackets (your code, your figure, and your questions). Then paste the whole prompt into your [Associate](./glossary.md#term-associate). Do not reword it. Where a note in italics follows the prompt, judge the reply against it. The note says what a good answer contains. The moves and the habits of checking are in the [AI Guide](./ai-guide.md). The glossary explains the [Debrief](./glossary.md#term-debrief) stage.
+This page collects the prompts that appear across <!-- gen:values.yml#module.code -->MN5813<!-- /gen -->. It holds one template prompt for each of the four moves and the six prompting patterns. It also holds the three [Debrief](./glossary.md#term-debrief) prompts and every **[AI Lens](./glossary.md#term-ai-lens)** prompt, week by week. Fill in anything in angle brackets (your code, your figure, and your questions). Then paste the whole prompt into your [Associate](./glossary.md#term-associate). Do not reword it. Where a note in italics follows the prompt, judge the reply against it. The note says what a good answer contains. The moves and the habits of checking are in the [AI guide](./ai-guide.md). The glossary explains the [Debrief](./glossary.md#term-debrief) stage.
 
 ## The four moves
 
-[Section 3 of the AI Guide](./ai-guide.md) describes the four moves. This page gives one template prompt for each.
+[Section 3 of the AI guide](./ai-guide.md) describes the four moves. This page gives one template prompt for each.
 
 ### GENERATE-JUDGE
 
@@ -50,7 +50,7 @@ Set me three questions on pandas `groupby`, from easy to hard. I'll answer witho
 
 ## Six prompting patterns
 
-Your Associate has never seen your data, so each prompt describes your data. The six patterns are in [section 4 of the AI Guide](./ai-guide.md). Adapt the words and keep the structure.
+Your Associate has never seen your data, so each prompt describes your data. The six patterns are in [section 4 of the AI guide](./ai-guide.md). Adapt the words and keep the structure.
 
 ### The schema anchor
 
@@ -198,7 +198,7 @@ Explain this code three different ways: to a programmer, to a manager, and to a 
 
 *A good answer says the same thing all three times. Each explanation says that a variable is a label that can be moved to a new value, even one of a different type. The version you trust most is the one you can check against the printed output.*
 
-**Functions: code you can reuse** ([GENERATE-JUDGE](./glossary.md#term-generate-judge)): Ask for two versions of a loyalty-tier function, then check both at the tier cut-offs (£60, £30, £10).
+**Functions: Code you can reuse** ([GENERATE-JUDGE](./glossary.md#term-generate-judge)): Ask for two versions of a loyalty-tier function, then check both at the tier cut-offs (£60, £30, £10).
 
 ```text
 Write a Python function that maps a monthly spend to a loyalty tier: Gold from £60, Silver from £30, Bronze from £10, otherwise 'New customer'. Give me two different implementations and say which you'd recommend for a beginner-level codebase and why.
@@ -228,7 +228,7 @@ Does Python have a string method called `.reverse()`? What about `.capitalise()`
 
 *A good answer says neither exists (`.reverse()` belongs to lists, not strings, and the string method is spelled `.capitalize()`). Your spare cell agrees with it.*
 
-**Dictionaries: labelled data** (GENERATE-JUDGE): Try the vague prompt, then the prompt that carries the schema and a sample row.
+**Dictionaries: Labelled data** (GENERATE-JUDGE): Try the vague prompt, then the prompt that carries the schema and a sample row.
 
 ```text
 How do I total sales in Python?
@@ -240,7 +240,7 @@ I have a Python list called `transactions` where each item is a dict like `{"ite
 
 *A good answer to the second prompt is a loop that multiplies `cups` by `price` for every transaction. The loop adds each result to a running total and uses your real key names. The first prompt's reply shows you what guessing looks like.*
 
-**File handling: write it, read it back**: Ask what `with open()` gives you. Predict the answer to the second question before you read the reply.
+**File handling: Write it, read it back**: Ask what `with open()` gives you. Predict the answer to the second question before you read the reply.
 
 ```text
 In Python, what does `with open(...)` do that a bare `open(...)` doesn't, and what can go wrong without it?
@@ -254,7 +254,7 @@ What happens to the file's old contents when I open it in `'w'` mode?
 
 ### Week 2b: Introduction (optional, for your own time)
 
-**Strategy 3: run fragments**: Ask for a walk-through of the data flow, then check it with fragments you run yourself.
+**Strategy 3: Run fragments**: Ask for a walk-through of the data flow, then check it with fragments you run yourself.
 
 ```text
 <paste the draft here>
@@ -560,7 +560,7 @@ Beyond hover, zoom, and widgets dying on paper: if I ship the hvPlot version of 
 
 ### Week 9: Demonstration
 
-**Exhibit A: the candidate figure**: Run TRACE before you read the crit.
+**Exhibit A: The candidate figure**: Run TRACE before you read the crit.
 
 ```text
 <paste Exhibit A's code here>

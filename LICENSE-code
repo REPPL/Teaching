@@ -1,22 +1,3 @@
-SCOPE OF THIS LICENCE: CODE
-
-This licence covers the executable parts of this repository:
-
-  * the Tools/ directory of each delivery (the student-facing checker and
-    bundler, and the readable Tier-1 checks source they are generated from);
-  * any standalone script published alongside the teaching materials;
-  * the code cells of the published Jupyter notebooks.
-
-It does NOT cover the teaching prose: Notebook markdown cells, the Guides,
-the README files and the assessment documents are published under
-CC BY-SA 4.0 (see LICENSE-materials in this repository).
-
-Where a single file contains both (a notebook is the usual case), each part
-is licensed under the licence for its kind: The code cells under the terms
-below, the prose under CC BY-SA 4.0.
-
-=======================================================================
-
 MIT License
 
 Copyright (c) 2026 Alex Reppel

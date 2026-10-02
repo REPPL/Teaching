@@ -32,7 +32,7 @@ Quests are numbered by teaching week. Weeks 3, 7, 9, and 10 have no quest, so th
 | Quest 06 | | |
 | Quest 08 | | |
 
-Workstation Ready is the Week 2 badge. Claim the ⭐ when you have ticked all ten checklist items in the Codespaces Start guide (`Guides/codespaces-start.md`). You do items 1 and 2 in Week 1. You tick items 3 to 10 with the class in the Week 2 workshop.
+Workstation Ready is the Week 2 badge. Claim the ⭐ when you have ticked all ten checklist items in the Your workstation guide (`Guides/codespaces-start.md`). You do items 1 and 2 in Week 1. You tick items 3 to 10 with the class in the Week 2 workshop.
 
 ---
 

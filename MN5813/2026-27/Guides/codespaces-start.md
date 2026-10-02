@@ -1,10 +1,10 @@
-# Your Workstation: GitHub Codespaces
+# Your workstation: GitHub Codespaces
 
 *Your first task at [Runnymede Analytics](./glossary.md#term-runnymede-analytics): Open your workstation. Everything the firm uses is already installed.*
 
 > ⚠️ **Draft:** This page is a draft. It will be confirmed in Week 3.
 
-This guide assumes no experience with code editors, terminals, or git (the tool that records versions of your work). You build the workstation with the class in the Week 2 workshop. Step 1 happens a week earlier, in the Week 1 workshop, because GitHub's student verification takes days. Follow the steps in order and tick the checklist as you go. If something goes wrong, say so in the workshop or post on the Moodle forum.
+This guide assumes no experience with code editors, terminals, or git (the tool that records versions of your work). You build the workstation with the class in the Week 2 workshop. Step 1 happens a week earlier, in the Week 1 workshop, because GitHub's student verification takes days. Follow the steps in order and tick the checklist as you go. If something goes wrong, say so in the workshop or post on <!-- gen:values.yml#links.qa_forum|link:the Moodle forum -->[the Moodle forum](https://moodle.royalholloway.ac.uk/mod/hsuforum/view.php?id=1470467)<!-- /gen -->.
 
 A GitHub Codespace is a complete workstation that runs in your browser. It holds the VS Code editor, Python, GitHub Copilot (your AI [Associate](./glossary.md#term-associate)), and [SpecStory](./glossary.md#term-specstory) (a recorder that saves each AI session as a text file). It works the same on a five-year-old laptop, a Chromebook, or a lab machine. You install nothing on your own computer.
 
@@ -124,7 +124,7 @@ You opened the Codespace signed in to GitHub, so Copilot is usually ready at onc
 
 ## Step 5: Check your record (SpecStory)
 
-The module requires an **[AI Use Record](./glossary.md#term-ai-use-record)**, described in the [AI Guide](./ai-guide.md), section "7. The AI Use Record". SpecStory saves the transcripts for it automatically. Confirm it is working.
+The module requires an **[AI Use Record](./glossary.md#term-ai-use-record)**, described in the [AI guide](./ai-guide.md), section "7. The AI Use Record". SpecStory saves the transcripts for it automatically. Confirm it is working.
 
 1. With your project open, have a short, real exchange in Copilot Chat. Step 4 counts
 2. In the Explorer panel, find a folder named **`.specstory`** containing **`history/`**. Folders starting with a dot are hidden by convention, but VS Code shows them
@@ -179,7 +179,7 @@ Optional, for your own time: Use it when you need it.
 
 - **The Codespace never finishes building, or fails with an error.** Reload the browser tab. If it still fails, delete the Codespace at [github.com/codespaces](https://github.com/codespaces/) (the three-dot `...` menu, then **Delete**) and create a fresh one from your repo. If a fresh one also fails, say so in the workshop or on the Moodle forum
 - **Copilot says "not signed in" or never suggests anything.** Open the Accounts menu (person icon, bottom-left) and confirm you are signed in with your Step 1 GitHub account. If Copilot is disabled in the status bar (the strip along the bottom of the window), click it and enable it
-- **Student Pack verification still pending, or refused.** Use **Copilot Free** for now. Turn on the Copilot Student plan if the Pack is approved. If GitHub refuses your application, use Copilot Free plus a second tool. The second tools are in the [AI Guide](./ai-guide.md), section "If you cannot get Copilot, or run out of chat". Tell the module team as well
+- **Student Pack verification still pending, or refused.** Use **Copilot Free** for now. Turn on the Copilot Student plan if the Pack is approved. If GitHub refuses your application, use Copilot Free plus a second tool. The second tools are in the [AI guide](./ai-guide.md), section "If you cannot get Copilot, or run out of chat". Tell the module team as well
 - **`.specstory/history/` never appears.** It is created on your first AI session in this project. Have a Copilot chat first, then reload the window (Command Palette, "Developer: Reload Window"). If it still does not appear, keep your record another way (Step 5) and tell the module team
 - **`git pull materials main` says `'materials' does not appear to be a git repository`.** You have not connected the materials yet. Run the two commands in Step 3a
 - **`git push` asks for a password or fails.** Reload the window. If it persists, sign out and back in to GitHub from the Accounts menu, then retry
@@ -192,7 +192,7 @@ Optional, for your own time: Use it when you need it.
 Optional, for your own time: Use it when you need it.
 
 - **The workshop.** Bring your laptop. Say something the moment your screen stops matching the one at the front
-- **The Moodle forum.** Post problems as they happen. Answers there help the whole cohort
+- **<!-- gen:values.yml#links.qa_forum|link:The Moodle forum -->[The Moodle forum](https://moodle.royalholloway.ac.uk/mod/hsuforum/view.php?id=1470467)<!-- /gen -->.** Post problems as they happen. Answers there help the whole cohort
 - **What to bring or post.** Bring the **exact error text**, a **screenshot** of the whole window, and the step you were on. Copy and paste the error text; do not retype it in your own words
 - **Ask your Associate first.** Paste the error into Copilot Chat and ask what it means. Check its answer before you act on it
 

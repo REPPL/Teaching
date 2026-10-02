@@ -1,21 +1,3 @@
-SCOPE OF THIS LICENCE: TEACHING MATERIALS
-
-This licence covers the written teaching materials in this repository:
-
-  * the markdown (prose) cells of the published Jupyter notebooks;
-  * the Guides;
-  * the README files;
-  * the assessment briefs and any other assessment documentation.
-
-It does NOT cover the executable parts: The Tools/ directory, standalone
-scripts and notebook code cells are published under the MIT Licence (see
-LICENSE-code in this repository).
-
-Attribution: Cite the module and its coordinator, and link back to this
-repository. Share-alike: An adapted version carries this same licence.
-
-=======================================================================
-
 Attribution-ShareAlike 4.0 International
 
 =======================================================================

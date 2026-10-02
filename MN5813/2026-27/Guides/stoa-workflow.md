@@ -1,4 +1,4 @@
-# Stoa Workflow: Group Work at Runnymede
+# Stoa workflow: Group work at Runnymede
 
 *How your team runs the group project: Rooms, [stand-ups](./glossary.md#term-stand-up), [decision logging](./glossary.md#term-decision-entry), and what is recorded. You need this from Week 4, when the [Stoa](./glossary.md#term-stoa) rooms open.*
 
@@ -20,11 +20,11 @@ At [Runnymede Analytics](./glossary.md#term-runnymede-analytics), when the clien
 
 ## 1. What Stoa is, and what is recorded
 
-[Stoa](https://withstoa.com/) is a live team room for group work. It is made by <!-- plain-language: everyday SpecStory -->SpecStory, the company behind the extension that records your AI sessions in your Codespace (see the [Codespaces Start guide](./codespaces-start.md)). Your team meets in the room. Stoa transcribes the session, captures <!-- plain-language: everyday decision -->decisions and action items with named owners, and provides the room's built-in **[Associate](./glossary.md#term-associate)**, a Claude agent the whole team shares.
+[Stoa](https://withstoa.com/) is a live team room for group work. It is made by <!-- plain-language: everyday SpecStory -->SpecStory, the company behind the extension that records your AI sessions in your Codespace (see the [Your workstation guide](./codespaces-start.md)). Your team meets in the room. Stoa transcribes the session, captures <!-- plain-language: everyday decision -->decisions and action items with named owners, and provides the room's built-in **[Associate](./glossary.md#term-associate)**, a Claude agent the whole team shares.
 
 Stoa normally costs $5 per hour, pay-as-you-go. **For this module it is free**, by agreement with <!-- plain-language: everyday SpecStory -->SpecStory. Your workshop tutor confirms in Week 4 how the free access reaches you, and the module arrangement covers your room. [Section 2](#2-team-setup-in-week-4) covers how you sign up. If Stoa ever asks you for payment details, stop and tell your tutor. Do not pay.
 
-### What is recorded: full transparency, up front
+### What is recorded: Full transparency, up front
 
 The room keeps:
 
@@ -61,33 +61,33 @@ Finish setup **before you leave the Week 4 workshop, or as a team by the end of 
 - [ ] Export rota agreed and logged as a `DECISION:`
 - [ ] Working agreements logged as a `DECISION:`
 
-## 3. The weekly ritual: the recorded stand-up
+## 3. The weekly ritual: The recorded stand-up
 
-From Week 4 until group submission, your team holds **at least one recorded stand-up per week, roughly 30 minutes, in your Stoa room**. The Week 4 first stand-up is a shorter, 15-minute version ([Section 2](#2-team-setup-in-week-4)). More meetings are fine. Longer working sessions in the room are encouraged. Week 7 holds a full working session, your self-paced [Sprint Zero](./glossary.md#term-sprint-zero). The weekly stand-up is required.
+From Week 4 until group submission, your team holds **at least one recorded stand-up per week, roughly 30 minutes, in your Stoa room**. The Week 4 first stand-up is a shorter, 15-minute version ([section 2](#2-team-setup-in-week-4)). More meetings are fine. Longer working sessions in the room are encouraged. Week 7 holds a full working session, your self-paced [Sprint Zero](./glossary.md#term-sprint-zero). The weekly stand-up is required.
 
 The agenda is the same every week, with four items:
 
-### Progress: what moved since last time
+### Progress: What moved since last time
 
 Each member reports briefly, in turn. Be concrete.
 
 > "I cleaned the attendance-time columns: About 5% of incidents had no first-engine time, handled per last week's <!-- plain-language: everyday decision -->decision. The cleaned file is in the repo as `data/cleaned_incidents.csv`, and the SpecStory transcript of the session is in `.specstory/history/`."
 
-### Blockers: what is stuck, and what would unstick it
+### Blockers: What is stuck, and what would unstick it
 
 Say what is blocking you, so the team can help.
 
 > "I can't get the engine counts per incident to match `NumPumpsAttending`; I think it's the 1,400 mobilisations whose incident isn't in the extract. I need a second pair of eyes for twenty minutes, or a <!-- plain-language: everyday decision -->decision that we footnote it and move on."
 
-### Decisions: what the team is agreeing today
+### Decisions: What the team is agreeing today
 
-When the team settles something, say or type it with the `DECISION:` prefix ([Section 4](#4-the-decision-convention)).
+When the team settles something, say or type it with the `DECISION:` prefix ([section 4](#4-the-decision-convention)).
 
 > "`DECISION:` We treat fires, false alarms, and special services as separate series in all time-based charts. We do this because pooling them hides the summer fire peak under the false-alarm volume. Owner: Marta updates the two existing figures by Friday."
 
-### Next steps: who does what by when
+### Next steps: Who does what by when
 
-Every action has one owner and a date. "We should all look at the visualisations" is a wish. "Dayo drafts the response-time figure by Tuesday, Priya reviews it against [TRACE](./glossary.md#term-trace) by Thursday" is a plan. TRACE is the figure checklist in the DataViz Design Guide, taught from Week 6. Before then, "a teammate reviews it" does the same job.
+Every action has one owner and a date. "We should all look at the visualisations" is a wish. "Dayo drafts the response-time figure by Tuesday, Priya reviews it against [TRACE](./glossary.md#term-trace) by Thursday" is a plan. TRACE is the figure checklist in the DataViz design guide, taught from Week 6. Before then, "a teammate reviews it" does the same job.
 
 > "Next stand-up Monday 4pm. Dayo: Response-time figure by Tuesday. Priya: TRACE review Thursday. Marta: Chart fixes Friday. Ben: Draft the data-cleaning section of the report, first pass Sunday."
 
@@ -134,7 +134,7 @@ From Week 9's [Gallery](./glossary.md#term-gallery), one member of your group is
 The room's **Associate** can see what your team says and types there. Use it in four ways:
 
 - **"Summarise our disagreement."** When two of you keep arguing over a choice, ask the Associate to summarise both positions. A neutral summary often settles it, or turns it into a `DECISION:` you can log
-- **"Draft a <!-- plain-language: everyday spec -->spec from this discussion."** Suppose you have discussed a figure or an analysis for twenty minutes without a conclusion. Ask the Associate to turn the discussion into a short written specification (a plan of what to build). Then edit it as a team. This is the [GENERATE-JUDGE](./glossary.md#term-generate-judge) move from the [AI Guide](./ai-guide.md), done as a team
+- **"Draft a <!-- plain-language: everyday spec -->spec from this discussion."** Suppose you have discussed a figure or an analysis for twenty minutes without a conclusion. Ask the Associate to turn the discussion into a short written specification (a plan of what to build). Then edit it as a team. This is the [GENERATE-JUDGE](./glossary.md#term-generate-judge) move from the [AI guide](./ai-guide.md), done as a team
 - **"List the open questions."** At the end of a messy session, ask the Associate what was raised but not resolved
 - **"Challenge our approach."** Before you <!-- plain-language: everyday commit -->commit to a plan, ask the Associate to argue against it
 
@@ -150,7 +150,7 @@ The rubric is in the group project brief. Its section "6. How each criterion is 
 
 ## 7. Weekly export and backup
 
-Every week, after your stand-up, **one member exports the room's outputs**. They save them to **the shared space your team agreed in Week 4** ([Section 2](#2-team-setup-in-week-4)). Follow the export rota you logged in Week 4.
+Every week, after your stand-up, **one member exports the room's outputs**. They save them to **the shared space your team agreed in Week 4** ([section 2](#2-team-setup-in-week-4)). Follow the export rota you logged in Week 4.
 
 - Use the export, download, or sync option in your Stoa room. Save at minimum the meeting notes, the <!-- plain-language: everyday decision -->decisions log, and the transcript in whatever format Stoa offers
 - Save them in one folder per session, named by date, such as `transcripts/2026-10-19-standup/`
@@ -177,4 +177,4 @@ Markers assess your **recorded process** (regular meetings, logged <!-- plain-la
 
 ---
 
-*Related guides: [Codespaces Start](./codespaces-start.md) · [AI Guide: Working with Your Associate](./ai-guide.md) · Assessment interpretation · Group project brief*
+*Related guides: [Your workstation](./codespaces-start.md) · [AI guide: Working with your Associate](./ai-guide.md) · Assessment interpretation · Group project brief*

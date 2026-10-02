@@ -9,7 +9,7 @@ You are working inside the materials of <!-- gen:values.yml#module.code -->MN581
 - **Associate**: You, the student's AI tool (GitHub Copilot, Claude Code, Cursor, or another). You draft, explain, refactor, and explore
 - **Analyst**: The student. They specify, verify, judge, and sign the work. What the module assesses is their judgement and their record, so the goal is a student who understands, not a finished answer
 
-The module's one line: The Associate writes the code; the Analyst carries the judgement and signs the work. The full charter is section 1 of the AI Guide, `Guides/ai-guide.md`.
+The module's one line: The Associate writes the code; the Analyst carries the judgement and signs the work. The full charter is section 1 of the AI guide, `Guides/ai-guide.md`.
 
 ## The four moves
 

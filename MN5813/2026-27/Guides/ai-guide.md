@@ -1,4 +1,4 @@
-# AI Guide: Working with Your Associate
+# AI guide: Working with your Associate
 
 Your AI tools (GitHub Copilot, [Stoa](./glossary.md#term-stoa)'s agent, Colab's Gemini in Week 1, or any other assistant you choose) are your **[Associate](./glossary.md#term-associate)**. You are the **[Analyst](./glossary.md#term-analyst)**. The whole module is built on that distinction.
 
@@ -22,9 +22,9 @@ What AI-open does **not** mean:
 - It does not mean the module asks less of you. Learning to direct an Associate well is a skill
 - It does not mean anything goes elsewhere; this module has quite a few rules to be aware of
 - It does not mean Royal Holloway's academic integrity policy is set aside or can be ignored: You name your AI use in the [AI Use Record](./glossary.md#term-ai-use-record)
-- It does not mean you can skip understanding: See [Section 8, Learning so it sticks](#8-learning-so-it-sticks)
+- It does not mean you can skip understanding: See [section 8, Learning so it sticks](#8-learning-so-it-sticks)
 
-> ⚠️ **Do this now.** Apply for the [GitHub Student Developer Pack](https://education.github.com/pack) in the Week 1 workshop. It gives verified students the free Copilot Student plan. Verification can take several days. The steps are in [Codespaces Start, Step 1](./codespaces-start.md#step-1-github-account-and-student-developer-pack). You are done when GitHub emails you that your student status is approved and Copilot shows as active in your account settings.
+> ⚠️ **Do this now.** Apply for the [GitHub Student Developer Pack](https://education.github.com/pack) in the Week 1 workshop. It gives verified students the free Copilot Student plan. Verification can take several days. The steps are in [Your workstation, Step 1](./codespaces-start.md#step-1-github-account-and-student-developer-pack). You are done when GitHub emails you that your student status is approved and Copilot shows as active in your account settings.
 
 
 ### If you cannot get Copilot, or run out of chat
@@ -84,7 +84,7 @@ However, Stoa's agent, Colab's Gemini, and Microsoft Copilot do not read reposit
 Everything you do in this module with AI is one of four things, each belonging to a quest stage (see [quest](./glossary.md#term-quest) in the glossary).
 
 
-### GENERATE-JUDGE: the Associate drafts; you accept or reject, with reasons
+### GENERATE-JUDGE: The Associate drafts; you accept or reject, with reasons
 
 Most Build work takes this shape and the skill is in the judging of it.
 
@@ -95,7 +95,7 @@ Most Build work takes this shape and the skill is in the judging of it.
 Good [GENERATE-JUDGE](./glossary.md#term-generate-judge) work means you can say *why* you kept what you kept. "It ran" is not enough.
 
 
-### PREDICT-RUN: you predict; the machine reveals
+### PREDICT-RUN: You predict; the machine reveals
 
 This is the fastest way to find out whether you understand a piece of code.
 
@@ -104,7 +104,7 @@ This is the fastest way to find out whether you understand a piece of code.
 Although predicting first can feel slower, it is clearly the highest-value habit in this guide.
 
 
-### BUG-HUNT: the Associate is the suspect; you are the auditor
+### BUG-HUNT: The Associate is the suspect; you are the auditor
 
 This is a [Red Flag](./glossary.md#term-red-flags) where AI-generated code fails in typical ways, such as, e.g., wrong merge keys, silent type changes, off-by-one date filters, averages of averages, truncated axes, etc. The code runs, but the answer is wrong.
 
@@ -113,7 +113,7 @@ This is a [Red Flag](./glossary.md#term-red-flags) where AI-generated code fails
 You can also point the Associate at itself: *"Review this code for bugs. Pay particular attention to the merge: Could it duplicate rows?"* Given a specific suspicion, this typically helps. When you ask vaguely "is this right?", it usually says yes (it's the easiest answer!)
 
 
-### TEACH-BACK: the Associate examines or plays student; you explain
+### TEACH-BACK: The Associate examines or plays student; you explain
 
 This is a good test of learning. Two variants:
 
@@ -183,7 +183,7 @@ Every Debrief notebook ends with an **AI failure gallery**: Realistic ways AI ge
 Suppose a transcript shows you giving the Associate the schema, rejecting its first draft for double-counting, and directing the fix. That transcript is dated evidence of your judgement. What you keep throughout is the **AI Use Record**: An honest account of what you asked, what you accepted or rejected, and why. It does not depend on which tool you use. Three records feed it:
 
 - **Prompt Diary** (Week 1 only, in Colab): A Prompt Diary cell at the end of Quest 01. Paste your *best* exchange (the prompt that worked, and why) and your *worst* (where the Associate misled you, and how you caught it)
-- **SpecStory transcripts** (Week 2 onwards, in your Codespace): Files in `.specstory/history/` inside your project, written automatically by the pre-installed SpecStory extension. Confirm files are appearing there ([Codespaces Start, Step 5](./codespaces-start.md#step-5-check-your-record-specstory)) and <!-- plain-language: everyday commit -->commit them with your work
+- **SpecStory transcripts** (Week 2 onwards, in your Codespace): Files in `.specstory/history/` inside your project, written automatically by the pre-installed SpecStory extension. Confirm files are appearing there ([Your workstation, Step 5](./codespaces-start.md#step-5-check-your-record-specstory)) and <!-- plain-language: everyday commit -->commit them with your work
 - **[QuestLog.md](./glossary.md#term-questlog)** (all weeks): Your personal learning journal, from the template issued in Week 1. Add a dated entry per quest with the [badge](./glossary.md#term-badge) you claimed and your Debrief answers
 
 SpecStory is a convenience not a requirement. Any consistent, honest way of keeping the AI Use Record meets the same standard: SpecStory, a hand-kept log, or whatever suits your setup. (For group work from Week 4, your Stoa room transcript is the team's equivalent. See the [Stoa workflow guide](./stoa-workflow.md).)
@@ -204,7 +204,7 @@ Both submissions (the group project and the individual report) include an **AI U
 
 Week 7 rehearses part 4: The [REFLECT prompt](./prompts.md#reflect-on-your-prompts) reads your own prompts back to you.
 
-Avoid two failure modes: The empty gesture ("I used ChatGPT for some things") and the exhaustive log (all 214 prompts, pasted). Be specific, honest, and <!-- plain-language: everyday brief -->brief. The transcripts hold the detail. The full specification is in the assessment interpretation, section "The AI Use Record: the canonical specification".
+Avoid two failure modes: The empty gesture ("I used ChatGPT for some things") and the exhaustive log (all 214 prompts, pasted). Be specific, honest, and <!-- plain-language: everyday brief -->brief. The transcripts hold the detail. The full specification is in the assessment interpretation, section "The AI Use Record: The canonical specification".
 
 
 ## 8. Learning so it sticks
