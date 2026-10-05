@@ -7,9 +7,15 @@
 // own. GIT_MERGE_AUTOEDIT=no skips the merge-message editor. pull.rebase false
 // tells git to merge when both sides have new commits, instead of stopping to
 // ask how.
+// The git-lfs feature is there because Codespaces installs Git LFS hooks when
+// it clones; without git-lfs in the image, every git push fails with
+// "git-lfs was not found on your path".
 {
   "name": "Analyst workstation",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "features": {
+    "ghcr.io/devcontainers/features/git-lfs:1": {}
+  },
   "postCreateCommand": "pip install --user -r MN5813/2026-27/requirements.lock && git config --global pull.rebase false",
   "remoteEnv": {
     "GIT_MERGE_AUTOEDIT": "no"

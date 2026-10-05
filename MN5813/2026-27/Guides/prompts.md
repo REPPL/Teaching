@@ -166,7 +166,7 @@ Explain this error in plain English, and give me two different ways to fix it.
 
 *A good answer says in plain words that Python was asked to add a number to a piece of text. It offers two fixes that are genuinely different, one of which is `float()`.*
 
-### Week 2: Exercises
+### [Week 2: Exercises](../Week/02/Exercises.ipynb)
 
 **Cells run in the order you run them**: Ask for a plain-English explanation of an error.
 
@@ -186,7 +186,7 @@ What does restarting the kernel do in a Jupyter notebook, and what do I lose whe
 
 *A good answer says a restart forgets every variable, import, and function while the notebook's text and old outputs stay on screen. The answer adds that nothing exists again until you re-run the cells.*
 
-### Week 2: Demonstration
+### [Week 2: Demonstration](../Week/02/Demonstration.ipynb)
 
 **Data types, and why you check them**: Ask for three explanations of one cell, then decide which you trust.
 
@@ -252,7 +252,7 @@ What happens to the file's old contents when I open it in `'w'` mode?
 
 *A good answer says `with` closes the file for you even when an error interrupts the block. It also says that opening in `'w'` mode empties the file the moment it opens, which is what you should have predicted.*
 
-### Week 2b: Introduction (optional, for your own time)
+### [Week 2b: Introduction](../Week/02b/Introduction.ipynb) (optional, for your own time)
 
 **Strategy 3: Run fragments**: Ask for a walk-through of the data flow, then check it with fragments you run yourself.
 
@@ -264,7 +264,7 @@ Walk me through the data flow: what is the type and shape of each variable?
 
 *A good answer names every variable in the draft with its type and shape. The draft has a list of dicts, a dict of names to totals, and a list of pairs. Each claim survives a fragment you run yourself.*
 
-### Week 2b: Demonstration (optional, for your own time)
+### [Week 2b: Demonstration](../Week/02b/Demonstration.ipynb) (optional, for your own time)
 
 **When a comprehension is too clever**: Ask for a loop rewrite of an unreadable one-liner, then three explanations of it.
 

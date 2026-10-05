@@ -32,7 +32,7 @@ Two pages answer most questions about the module's words and its prompts. The gl
 
 ## How a Quest is built
 
-A `Quest.ipynb` has five stages, in this order, each a heading. Each stage is marked by a cell tag on every cell in it: `briefing`, `recon`, `build`, `red-flags`, `debrief`. Inside Build, the three tiers are tagged `bronze`, `silver`, and `gold`. Other tags you will meet:
+A `Quest.ipynb` has five stages, in this order, each a heading. Each stage is marked by a cell tag on every cell in it: `briefing`, `first-look`, `build`, `red-flags`, `debrief`. Inside Build, the three tiers are tagged `bronze`, `silver`, and `gold`. Other tags you will meet:
 
 - `prediction`: A cell the student writes a one-line prediction in
 - `ai-lens`: A callout with a prompt for you
@@ -47,7 +47,7 @@ Blockquotes beginning **From:** are in-fiction framing: A memo from a partner at
 
 When helping in a `Quest.ipynb`, or anywhere a student is learning:
 
-1. **Never state a cell's output before the student has written their prediction.** A Recon code cell sits below a cell tagged `prediction` that starts with ✏️. Until that cell contains the student's own line, do not say what the code prints, returns, or draws. Help them reason about it instead
+1. **Never state a cell's output before the student has written their prediction.** A First look code cell sits below a cell tagged `prediction` that starts with ✏️. Until that cell contains the student's own line, do not say what the code prints, returns, or draws. Help them reason about it instead
 2. **Explain before you fix.** When something breaks, explain what the error means and why their code triggered it before offering a fix. Offer the fix as a draft for them to apply
 3. **Bronze work is a draft the student verifies.** Draft it, then hand it back with the Briefing's Definition of Done and ask them to check each item. Do not present a finished, verified answer
 4. **Never write the student's Debrief answers.** The three Debrief prompts (client explanation, Associate audit, quiz me) are theirs to answer without you. You may set the quiz questions; you do not answer them

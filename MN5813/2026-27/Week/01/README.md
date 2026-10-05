@@ -80,7 +80,7 @@ GitHub's student verification takes days. When GitHub approves you, turn on the 
 | [Introduction.ipynb](./Introduction.ipynb) | Start here: What this week covers, the lecture, the workshop, and what to finish at home |
 | [Demonstration.ipynb](./Demonstration.ipynb) | Part 1, the onboarding memo: How the module works, the AI-open charter, your Associate, and your accounts. Part 2, the Python warm-up: Numbers, text, variables, <!-- plain-language: everyday decision -->decisions, loops, and your first error message |
 | [Quest.ipynb](./Quest.ipynb) | **Quest 01: [Tutorial Island](../../Guides/glossary.md#term-tutorial-island)** (about 45 to 60 min): Your first job for the Partner, in the full quest format |
-| Debrief.ipynb | Worked answers for Quest 01, the [Red Flags](../../Guides/glossary.md#term-red-flags) fix, and the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery), released with Week 2 |
+| [Debrief.ipynb](./Debrief.ipynb) | Worked answers for Quest 01, the [Red Flags](../../Guides/glossary.md#term-red-flags) fix, and the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery), released with Week 2 |
 | [QuestLog-Template.md](./QuestLog-Template.md) | Your personal learning journal, kept all term |
 
 **Start here:** Read the [Introduction](./Introduction.ipynb), then open `Demonstration.ipynb` in Colab from this <!-- plain-language: everyday badge -->badge.

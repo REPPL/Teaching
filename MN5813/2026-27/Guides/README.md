@@ -22,7 +22,7 @@ None of these is needed for a session, a [quest](./glossary.md#term-quest), or a
 
 | Guide | What it covers |
 |-------|----------------|
-| Working locally | The same toolchain on your own machine, if you prefer it to your Codespace |
+| [Working locally](./working-locally.md) | The same toolchain on your own machine, if you prefer it to your Codespace |
 | [Your workstation: Troubleshooting](./codespaces-start.md#troubleshooting) and [Getting help](./codespaces-start.md#getting-help) | The sections after Step 7, for when something goes wrong with your Codespace |
 
 See also the [module overview](../README.md) and the assessment interpretation document.

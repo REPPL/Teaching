@@ -10,6 +10,7 @@ A GitHub Codespace is a complete workstation that runs in your browser. It holds
 
 The time budget is about 30 to 40 minutes, plus a wait of up to a few days for GitHub's student verification.
 
+
 ## ⭐ The checklist
 
 Copy this into your `QuestLog.md` and tick items off as you go. When all ten are ticked, claim the **[Workstation Ready](./glossary.md#term-workstation-ready) ⭐** [badge](./glossary.md#term-badge).
@@ -27,17 +28,20 @@ Copy this into your `QuestLog.md` and tick items off as you go. When all ten are
 
 You do items 1 and 2 in the Week 1 workshop and items 3 to 10 with the class in the Week 2 workshop.
 
+
 ## Step 1: GitHub account and Student Developer Pack
 
 You do this step with staff in the Week 1 workshop. GitHub is where your project and your Codespace live. Your GitHub account also signs you in to Copilot. The **GitHub Student Developer Pack** gives verified students the **GitHub Copilot Student** plan free, plus extra Codespaces hours.
 
 > ⚠️ **Apply in Week 1.** GitHub's verification can take several days. **Copilot Free needs no verification and covers everything this module asks of you.** So nothing waits on the Pack.
 
+
 ### 1a. Create the account
 
 1. Go to [github.com](https://github.com/) and choose **Sign up**
 2. Pick a username you would be happy to show a future employer
 3. Register with any email. Then **add your university email** (`...@live.rhul.ac.uk` or `...@rhul.ac.uk`) under your email settings and verify it. The Student Pack checks for an academic email
+
 
 ### 1b. Apply for the Student Developer Pack
 
@@ -47,6 +51,7 @@ You do this step with staff in the Week 1 workshop. GitHub is where your project
 4. Submit. GitHub emails you when it decides. You can check any time at [education.github.com](https://education.github.com/)
 
 > 💡 While you wait, use **Copilot Free**. Details are under "Copilot Free" at [docs.github.com/en/copilot](https://docs.github.com/en/copilot). When your Pack is approved, turn on the free Copilot Student plan in your GitHub settings.
+
 
 ## Step 2: Create your own repository
 
@@ -62,6 +67,7 @@ You can always return to your repository from your GitHub profile under **Your r
 
 > 💡 Your repository starts with the module materials and the workstation setup. The materials sit in the folder **<!-- gen:values.yml#module.code -->MN5813<!-- /gen -->/<!-- gen:values.yml#module.year -->2026-27<!-- /gen -->/**. The tools in the next steps are ready when your Codespace opens.
 
+
 ## Step 3: Open your workstation (create a Codespace)
 
 1. On your repository page, click the green **`< > Code`** button
@@ -71,6 +77,7 @@ You can always return to your repository from your GitHub profile under **Your r
 The **Explorer** panel on the left lists your project's files, including all the week folders. The large area is where you read and edit. To open a **terminal** (a place to type commands), choose **New Terminal** from the **Terminal** menu. You can also press `` Ctrl+` `` (Control and backtick, top-left of most keyboards).
 
 > ♿ Codespaces in the browser is the same VS Code as the desktop app, including its screen-reader support. If you use a screen reader, turn on Screen Reader Mode when prompted. You can also open the Command Palette (VS Code's search box for commands, `Ctrl/Cmd+Shift+P`) and choose "Toggle Screen Reader Accessibility Mode".
+
 
 ## Step 3a: Connect the materials
 
@@ -87,6 +94,7 @@ The first command gives the student repository the short name `materials`. The s
 
 If git reports a conflict here, follow steps 1, 3, and 4 under "If git reports a conflict" below. Then run the second command again.
 
+
 ## Each week: New materials
 
 > 📅 **Each week**
@@ -102,6 +110,7 @@ If git reports a conflict here, follow steps 1, 3, and 4 under "If git reports a
 > - **Open and change only your copy.** Your copies in `work/` are yours to keep
 > - **Never edit the originals** in **<!-- gen:values.yml#module.code -->MN5813<!-- /gen -->/<!-- gen:values.yml#module.year -->2026-27<!-- /gen -->/**. Next week's materials arrive on top of them, and an edited original can block the update
 
+
 ### If git reports a conflict
 
 This happens only when you changed an original file. Git prints the file's path. Run these steps in the terminal, replacing `<file>` with that path:
@@ -114,6 +123,7 @@ This happens only when you changed an original file. Git prints the file's path.
 
 If git names more than one file, repeat steps 2 and 3 for each file. If the pull still fails, copy the exact message and post it on the Moodle forum.
 
+
 ## Step 4: Meet your Associate (GitHub Copilot)
 
 You opened the Codespace signed in to GitHub, so Copilot is usually ready at once.
@@ -121,6 +131,7 @@ You opened the Codespace signed in to GitHub, so Copilot is usually ready at onc
 1. Find the **Copilot chat icon** in the top or left bar and open the chat panel. If it asks you to sign in or enable Copilot, use your Step 1 account. Either the student plan or Copilot Free works
 2. Ask it something real, for example *"Explain what a Python list is, three different ways"*
 3. If it answers, your Associate is ready. When you type code later, grey **inline suggestions** appear. Press `Tab` to accept, `Esc` to dismiss
+
 
 ## Step 5: Check your record (SpecStory)
 
@@ -133,6 +144,7 @@ The module requires an **[AI Use Record](./glossary.md#term-ai-use-record)**, de
 SpecStory records only your AI conversations in this project, nothing else on your workstation. Each session becomes one markdown file in your repo. That transcript is your [quest](./glossary.md#term-quest) record and the evidence behind your AI Use Record in both assessments. It is the automatic version of the [Prompt Diary](./glossary.md#term-prompt-diary) you kept by hand in Quest 01. After each session, check that the file is in `.specstory/history/`. Full details are at [docs.specstory.com](https://docs.specstory.com/).
 
 If SpecStory does not suit you, any consistent, honest, and dated way of keeping the same record satisfies the requirement. Talk to the module team.
+
 
 ## Step 6: Sign your work (git identity and your first commit)
 
@@ -157,9 +169,10 @@ Your Codespace saves your files as you go. To send your work back to GitHub, you
 
    In a Codespace, git is already signed in to GitHub, so `push` works with no passwords to set up
 
-If it worked, the <!-- plain-language: everyday commit -->commit line reports something like `12 files changed` and `push` ends without an error. Refresh your repository page on github.com and your <!-- plain-language: everyday commit -->commit is there. This is how your work reaches us: Your notebook and your `.specstory/` transcripts, committed and pushed. Each assessment also needs a PDF of your report uploaded to Moodle, and that upload is what counts for the deadline. The assessment briefs have the details.
+If it worked, the <!-- plain-language: everyday commit -->commit line reports something like `12 files changed` and `push` ends without an error. Refresh your repository page on github.com and your <!-- plain-language: everyday commit -->commit is there. This is how your work reaches us: Your notebook and your `.specstory/` transcripts, committed and pushed. Each assessment also needs a PDF of your report uploaded to Moodle, and that upload is what counts for the submission date. The assessment briefs have the details.
 
 > 💡 Prefer buttons to typing? VS Code's **Source Control** panel (the branch icon in the left bar) does the same thing. Stage the changes (mark them for the <!-- plain-language: everyday commit -->commit), type a message, click **<!-- plain-language: everyday commit -->Commit**, then **Sync/Push**.
+
 
 ## Step 7: Stopping your workstation
 
@@ -171,7 +184,8 @@ Codespaces gives you a **free monthly allowance** of running hours. Your worksta
 
 You can see your Codespaces, their status, and your usage at [github.com/codespaces](https://github.com/codespaces/). Current allowances and how billing works are at [docs.github.com/codespaces](https://docs.github.com/en/codespaces).
 
-For checklist item 10, open the Week 2 Quest in this Codespace and run one stage.
+For checklist item 10, open [the Week 2 Quest](../Week/02/Quest.ipynb) in this Codespace and run one stage.
+
 
 ## Troubleshooting
 
@@ -187,6 +201,7 @@ Optional, for your own time: Use it when you need it.
 - **Everything is slow or laggy in the browser.** Codespaces needs a steady connection, not a fast computer. Try a wired or eduroam connection and close other heavy browser tabs
 - **I closed the tab or lost my place.** Nothing is lost. Resume your Codespace as in Step 7
 
+
 ## Getting help
 
 Optional, for your own time: Use it when you need it.
@@ -200,4 +215,4 @@ Every quest from here on runs in this workstation.
 
 ---
 
-*Next: The Week 2 Exercises notebook, driving lessons for your new workstation. Back to the [module overview](../README.md).*
+*Next: [The Week 2 Exercises notebook](../Week/02/Exercises.ipynb), driving lessons for your new workstation. Back to the [module overview](../README.md).*

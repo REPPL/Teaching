@@ -10,7 +10,7 @@ At [Runnymede Analytics](./glossary.md#term-runnymede-analytics), when the clien
 
 1. [What Stoa is, and what is recorded](#1-what-stoa-is-and-what-is-recorded)
 2. [Team setup in Week 4](#2-team-setup-in-week-4)
-3. [The weekly ritual: the recorded stand-up](#3-the-weekly-ritual-the-recorded-stand-up)
+3. [The weekly ritual: The recorded stand-up](#3-the-weekly-ritual-the-recorded-stand-up)
 4. [The DECISION: convention](#4-the-decision-convention)
 5. [Using the room's Associate well](#5-using-the-rooms-associate-well)
 6. [How process evidence feeds the rubric](#6-how-process-evidence-feeds-the-rubric)

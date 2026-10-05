@@ -13,7 +13,7 @@ All you need is a modern browser. Each week's lessons are a collection of notebo
 2. **On GitHub.** <!-- gen:values.yml#links.student_repository|link:The teaching repository -->[The teaching repository](https://github.com/REPPL/Teaching)<!-- /gen --> shows each notebook as a page, without its outputs
 3. **By running it.** In Week 1 you open each notebook in [Google Colab](https://colab.research.google.com/) from the <!-- plain-language: everyday badge -->badge in the week's README. From the Week 2 workshop you run them in your own [GitHub Codespace](https://github.com/features/codespaces). The [Your workstation guide](./Guides/codespaces-start.md) takes you through it
 
-You also have the option to work locally, that is, on your own machine or on one of the PCs in the Lab. The Working locally guide arrives together with Week 3 and you can read it in your own time. Your Codespace already has the module's Python libraries installed. For local work only, install from [requirements.lock](./requirements.lock). It is the fully pinned environment built from the library list in [requirements.txt](./requirements.txt).
+You also have the option to work locally, that is, on your own machine or on one of the PCs in the Lab. The [Working locally](./Guides/working-locally.md) guide arrives together with Week 3 and you can read it in your own time. Your Codespace already has the module's Python libraries installed. For local work only, install from [requirements.lock](./requirements.lock). It is the fully pinned environment built from the library list in [requirements.txt](./requirements.txt).
 
 
 ## How this module works
@@ -33,8 +33,8 @@ This module is completely [AI-open](./Guides/ai-guide.md), which means that:
 | Week | Format | Topic | Content | README | Status |
 |------|--------|-------|---------|--------|--------|
 | Week 01 | In person | Onboarding at Runnymede Analytics | Module orientation and the AI-open charter, then accounts and a Colab taster | [Week 01](./Week/01/README.md) | <!-- gen:publish.yml#status.week01 -->Released<!-- /gen --> |
-| Week 02 | In person | Python fundamentals | Variables, strings, control flow, functions, lists, dictionaries: How to ask and judge an AI Associate. The Codespace build in the workshop | Week 02 | <!-- gen:publish.yml#status.week02 -->Not yet<!-- /gen --> |
-| Week 02b | Optional, self-paced | Advanced Python | An overview of advanced Python concepts, such as comprehensions, lambdas, error handling, light object-oriented programming. This will help you judge AI-generated code | Week 02b (optional, for your own time) | <!-- gen:publish.yml#status.week02b -->Not yet<!-- /gen --> |
+| Week 02 | In person | Python fundamentals | Variables, strings, control flow, functions, lists, dictionaries: How to ask and judge an AI Associate. The Codespace build in the workshop | [Week 02](./Week/02/README.md) | <!-- gen:publish.yml#status.week02 -->Released<!-- /gen --> |
+| Week 02b | Optional, self-paced | Advanced Python | An overview of advanced Python concepts, such as comprehensions, lambdas, error handling, light object-oriented programming. This will help you judge AI-generated code | [Week 02b](./Week/02b/README.md) (optional, for your own time) | <!-- gen:publish.yml#status.week02b -->Released<!-- /gen --> |
 | Week 03 | In person | Assessment briefing | Both assessments explained, the assessment interpretation document, plus support clinic for any remaining workstation problems | Week 03 | <!-- gen:publish.yml#status.week03 -->Not yet<!-- /gen --> |
 | Week 04 | In person | Introduction to pandas | DataFrames, Series, file I/O, filtering, merging, aggregation; introduction to the (optional) Stoa team rooms | Week 04 | <!-- gen:publish.yml#status.week04 -->Not yet<!-- /gen --> |
 | Week 05 | In person | Advanced pandas | Reshaping (melt, pivot, stack/unstack), window functions, complex aggregations | Week 05 | <!-- gen:publish.yml#status.week05 -->Not yet<!-- /gen --> |
@@ -68,7 +68,7 @@ Each teaching week's folder contains:
 - **Introduction.ipynb**: The week's key concepts and how the week fits the bigger picture. Start here
 - **Demonstration.ipynb**: Worked examples with detailed explanations. Each example shows your Associate's first draft next to the human-directed revision
 - **Exercises.ipynb**: Practice for the workshop (not all weeks have an exercise book). Week 2's Exercises are your first practice in your Codespace
-- **Quest.ipynb**: The week's *Analyst Quest*, about 90 minutes of work. It is a client scenario with five stages (Briefing, [Recon](./Guides/glossary.md#term-recon), Build, [Red Flags](./Guides/glossary.md#term-red-flags), and [Debrief](./Guides/glossary.md#term-debrief)). Complete it with your Associate and keep <!-- plain-language: everyday abcd record -->the record
+- **Quest.ipynb**: The week's *Analyst Quest*, about 90 minutes of work. It is a client scenario with five stages (Briefing, [First look](./Guides/glossary.md#term-first-look), Build, [Red Flags](./Guides/glossary.md#term-red-flags), and [Debrief](./Guides/glossary.md#term-debrief)). Complete it with your Associate and keep <!-- plain-language: everyday abcd record -->the record
 - **Debrief.ipynb**: Worked answers, alternative approaches, and the *[AI failure gallery](./Guides/glossary.md#term-ai-failure-gallery)*: The mistakes AI tools plausibly make on this week's material, and how to catch them
 - **assets/**: A folder with supporting files, which some notebooks create when you run them
 
@@ -89,7 +89,7 @@ Each teaching week's folder contains:
 |-------|-----|----------------|
 | [AI guide: Working with your Associate](./Guides/ai-guide.md) | Students | The AI-open charter, the four canonical moves, prompting for analytics, evidence and attribution |
 | [Your workstation](./Guides/codespaces-start.md) | Students | Your Week 2 workstation and the module's default environment: GitHub Codespaces, GitHub Copilot, and your automatic record |
-| Working locally (optional) | Students | The same toolchain on your own machine, if you prefer it to your Codespace |
+| [Working locally (optional)](./Guides/working-locally.md) | Students | The same toolchain on your own machine, if you prefer it to your Codespace |
 | [Stoa workflow](./Guides/stoa-workflow.md) | Students | Group work: Rooms, stand-ups, [decision logging](./Guides/glossary.md#term-decision-entry), what is recorded |
 | The Runnymede Standard: Data visualisation design guide | Students | Chart choice, decluttering, colour, honesty, accessibility, TRACE, design rationales |
 | [Glossary](./Guides/glossary.md) | Students | What every module term means, and which notebook and section teaches each technique |
