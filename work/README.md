@@ -1,9 +1,7 @@
 # Your work
 
-This folder holds your own copies of the module's notebooks.
+This folder is a place for your own extra copies and files.
 
-Copy a notebook into this folder before you edit it. Then open and change the copy, never the original.
+You can change the module's notebooks where they are. Get new materials never overwrites a file you changed. Step 3a of the Your workstation guide explains what it does instead.
 
-Name each copy after its week, such as `Week02-Quest.ipynb`. A later week's `Quest.ipynb` then cannot overwrite it.
-
-Never edit the originals in the week folders. Each week's new materials arrive on top of them, and an edited original can block that update.
+Use this folder when you want a second copy, such as a fresh try at a notebook. Name each copy after its week, such as `Week02-Quest.ipynb`.

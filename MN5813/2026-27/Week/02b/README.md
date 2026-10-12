@@ -2,12 +2,12 @@
 # Week 02b: Advanced Python
 <!-- /gen -->
 
-*Optional and self-paced, with no taught session: Comprehensions, lambdas, error handling, and a first class, learnt as reading skills. Released with Week 2, it ends with [Quest](../../Guides/glossary.md#term-quest) 02b: The Subscription Churn Memo.*
+*Optional and self-paced, released with Week 2: Comprehensions, lambdas, error handling, and a first class, learnt as reading skills.*
 
 
 ## Overview
 
-This material is for your own time, at your own pace. It teaches three named strategies for reading code you didn't write, alongside the Python patterns AI-generated code uses most. It ends with **Quest 02b: The Subscription Churn Memo**. Your client is StreamShore, a streaming startup whose board wants churn numbers it can trust.
+This material is for your own time, at your own pace. It teaches three named strategies for reading code you didn't write, alongside the Python patterns AI-generated code uses most. It ends with **[Quest](../../Guides/glossary.md#term-quest) 02b: The Subscription Churn Memo**. Your client is StreamShore, a streaming startup whose board wants churn numbers it can trust.
 
 Nothing later in the module depends on it. Later weeks explain each construct where they use it.
 
@@ -34,7 +34,7 @@ Week 2b has no class, because it is optional and self-paced.
 - [ ] Start with the [Introduction](./Introduction.ipynb): The three code-reading strategies and a preview of the week's vocabulary (about 20 min)
 - [ ] Work through the [Demonstration](./Demonstration.ipynb) (60 to 75 min)
 - [ ] Do [Quest 02b](./Quest.ipynb) (about 90 min)
-- [ ] Finish the [quest](../../Guides/glossary.md#term-quest) tiers, then read the Debrief (60 to 75 min for both)
+- [ ] Finish the [quest](../../Guides/glossary.md#term-quest) tiers, then read the [Debrief](./Debrief.ipynb) (60 to 75 min for both)
 - [ ] Add a dated Quest 02b entry to your `QuestLog.md`. Then tick its line in your `Optional-Checklist.md`
 
 
@@ -45,5 +45,5 @@ Week 2b has no class, because it is optional and self-paced.
 | [Introduction.ipynb](./Introduction.ipynb) | Start here: The three code-reading strategies and a preview of the week's vocabulary |
 | [Demonstration.ipynb](./Demonstration.ipynb) | Comprehensions, `lambda` with `sorted`, error handling, and a first class, each as an [Associate](../../Guides/glossary.md#term-associate) draft you read and direct. An optional 🧗 Stretch section closes the notebook |
 | [Quest.ipynb](./Quest.ipynb) | **[Quest 02b](../../Guides/glossary.md#term-quest): The Subscription Churn Memo** (about 90 min). It covers churn by plan, a customer-lifetime number with two honest definitions, and a board-pack draft with a silent bug |
-| Debrief.ipynb | Worked answers and the case for each of the two lifetime fixes. It also holds the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery): Bare `except`, a mutable default argument, and the comprehension that drops records. Read it after you attempt the quest |
+| [Debrief.ipynb](./Debrief.ipynb) | Worked answers and the case for each of the two lifetime fixes. It also holds the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery): Bare `except`, a mutable default argument, and the comprehension that drops records. Read it after you attempt the quest |
 

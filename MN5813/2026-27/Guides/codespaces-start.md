@@ -2,7 +2,7 @@
 
 *Your first task at [Runnymede Analytics](./glossary.md#term-runnymede-analytics): Open your workstation. Everything the firm uses is already installed.*
 
-> ⚠️ **Draft:** This page is a draft. It will be confirmed in Week 3.
+> ⚠️ **Draft:** This page is a draft. It will be confirmed at a later date.
 
 This guide assumes no experience with code editors, terminals, or git (the tool that records versions of your work). You build the workstation with the class in the Week 2 workshop. Step 1 happens a week earlier, in the Week 1 workshop, because GitHub's student verification takes days. Follow the steps in order and tick the checklist as you go. If something goes wrong, say so in the workshop or post on <!-- gen:values.yml#links.qa_forum|link:the Moodle forum -->[the Moodle forum](https://moodle.royalholloway.ac.uk/mod/hsuforum/view.php?id=1470467)<!-- /gen -->.
 
@@ -62,6 +62,7 @@ Your work lives in a **repository** ("repo"), a project folder GitHub keeps for 
 3. Leave **Owner** as your own account. Type a name for the repository, such as `mn5813-work`
 4. Choose **Private**, then click **Create repository**. GitHub opens your new repository's page
 5. On that page, open **Settings**, then **Collaborators**, and click **Add people**. Add the staff account named on the <!-- gen:values.yml#module.code -->MN5813<!-- /gen --> Moodle page
+6. Click the **Actions** tab. If GitHub shows a button to enable workflows, click it. This lets new materials arrive by themselves (Step 3a)
 
 You can always return to your repository from your GitHub profile under **Your repositories**.
 
@@ -79,49 +80,52 @@ The **Explorer** panel on the left lists your project's files, including all the
 > ♿ Codespaces in the browser is the same VS Code as the desktop app, including its screen-reader support. If you use a screen reader, turn on Screen Reader Mode when prompted. You can also open the Command Palette (VS Code's search box for commands, `Ctrl/Cmd+Shift+P`) and choose "Toggle Screen Reader Accessibility Mode".
 
 
-## Step 3a: Connect the materials
+## Step 3a: Get new materials
 
-Each week's new materials arrive from the student repository. You connect your repository to it once. Do this straight after Step 3, before you change any file.
+New materials arrive in your repository by themselves. A helper called **Get new materials** runs every afternoon. It copies anything new from the student repository into yours. You type nothing.
 
-Open a terminal (choose **New Terminal** from the **Terminal** menu) and run these two commands:
+The helper follows these rules:
 
-```
-git remote add materials https://github.com/REPPL/Teaching.git
-git pull materials main --allow-unrelated-histories
-```
+- It adds every new file
+- It updates every file you have not changed
+- It never touches a file you changed. If I correct that file, the new version is saved next to yours. Its name has `.updated` in it, such as `Quest.updated.ipynb` next to your `Quest.ipynb`
 
-The first command gives the student repository the short name `materials`. The second brings in its history. Your repository began as a separate copy, so git needs `--allow-unrelated-histories` to join the two histories once. You never need that option again.
+To get new materials straight away, run the helper yourself:
 
-If git reports a conflict here, follow steps 1, 3, and 4 under "If git reports a conflict" below. Then run the second command again.
+1. Open your repository on GitHub
+2. Click the **Actions** tab
+3. Click **Get new materials** in the list on the left
+4. Click **Run workflow**, then the green **Run workflow** button
+5. Wait about a minute for a green tick. Click the run to see what it brought in
+
+To bring the new files into your Codespace, click the circling arrows next to `main` in the status bar at the bottom of the window. Do this each time you open your Codespace.
+
+
+### Adding Get new materials to an older repository
+
+A repository made before the helper existed needs it added once. You do this on GitHub, not in the Codespace.
+
+1. Open [the helper's file](https://github.com/REPPL/Teaching/blob/main/.github/workflows/get-materials.yml) in the student repository <!-- values-guard: allow: one file's address inside the student repository -->
+2. Click **Copy raw file**, the button with two overlapping squares above the file
+3. Open your own repository. Click **Add file**, then **Create new file**
+4. In the name box, type `.github/workflows/get-materials.yml`. Each `/` starts a new folder
+5. Click in the large box below it and paste
+6. Click **<!-- plain-language: everyday commit -->Commit changes**, then **<!-- plain-language: everyday commit -->Commit changes** again
+7. Run the helper once, as in Step 3a
+
+If you connected the materials with git commands earlier, you can stop using them now. Nothing needs undoing.
 
 
 ## Each week: New materials
 
 > 📅 **Each week**
 >
-> Each week's folder arrives at the start of its teaching week. To get it, run this in the terminal:
+> Each week's folder arrives in your repository on the Monday afternoon of its teaching week. Open your Codespace with the **Open in GitHub Codespaces** button at the top of any notebook in your repository.
 >
-> ```
-> git pull materials main
-> ```
->
-> - **Copy a notebook into the `work/` folder before you open it.** For example: `cp MN5813/2026-27/Week/02/Quest.ipynb work/Week02-Quest.ipynb`
-> - **Name each copy after its week.** A later week's `Quest.ipynb` then cannot overwrite it
-> - **Open and change only your copy.** Your copies in `work/` are yours to keep
-> - **Never edit the originals** in **<!-- gen:values.yml#module.code -->MN5813<!-- /gen -->/<!-- gen:values.yml#module.year -->2026-27<!-- /gen -->/**. Next week's materials arrive on top of them, and an edited original can block the update
-
-
-### If git reports a conflict
-
-This happens only when you changed an original file. Git prints the file's path. Run these steps in the terminal, replacing `<file>` with that path:
-
-1. If git printed the word `CONFLICT`, run `git merge --abort`. This undoes the unfinished pull
-2. Keep your edits: Run `cp <file> work/my-edits.md`. Choose a name that is not already in `work/`
-3. Put back the original: Run `git checkout materials/main -- <file>`
-4. Save the change: Run `git add .`, then `git commit -m "Move my edits into work"`
-5. Pull again: Run `git pull materials main`
-
-If git names more than one file, repeat steps 2 and 3 for each file. If the pull still fails, copy the exact message and post it on the Moodle forum.
+> - **Change any file you like.** Get new materials never overwrites a change you have synced to GitHub
+> - **Look out for `.updated` files.** One appears when I correct a file you changed. Compare the two and keep what you need
+> - **Use the `work/` folder for extra copies.** For example, try a second approach to a Quest there
+> - **End each session with <!-- plain-language: everyday commit -->Commit and Sync.** Step 6 shows how. Your work is then safe on GitHub
 
 
 ## Step 4: Meet your Associate (GitHub Copilot)
@@ -143,7 +147,7 @@ The module requires an **[AI Use Record](./glossary.md#term-ai-use-record)**, de
 
 SpecStory records only your AI conversations in this project, nothing else on your workstation. Each session becomes one markdown file in your repo. That transcript is your [quest](./glossary.md#term-quest) record and the evidence behind your AI Use Record in both assessments. It is the automatic version of the [Prompt Diary](./glossary.md#term-prompt-diary) you kept by hand in Quest 01. After each session, check that the file is in `.specstory/history/`. Full details are at [docs.specstory.com](https://docs.specstory.com/).
 
-If SpecStory does not suit you, any consistent, honest, and dated way of keeping the same record satisfies the requirement. Talk to the module team.
+If SpecStory does not suit you, any consistent, dated way of keeping the same record satisfies the requirement. Talk to the module team.
 
 
 ## Step 6: Sign your work (git identity and your first commit)
@@ -169,7 +173,7 @@ Your Codespace saves your files as you go. To send your work back to GitHub, you
 
    In a Codespace, git is already signed in to GitHub, so `push` works with no passwords to set up
 
-If it worked, the <!-- plain-language: everyday commit -->commit line reports something like `12 files changed` and `push` ends without an error. Refresh your repository page on github.com and your <!-- plain-language: everyday commit -->commit is there. This is how your work reaches us: Your notebook and your `.specstory/` transcripts, committed and pushed. Each assessment also needs a PDF of your report uploaded to Moodle, and that upload is what counts for the submission date. The assessment briefs have the details.
+If it worked, the <!-- plain-language: everyday commit -->commit line reports something like `12 files changed` and `push` ends without an error. Refresh your repository page on github.com and your <!-- plain-language: everyday commit -->commit is there. This is how your work reaches us: Your notebook and your `.specstory/` transcripts, committed and pushed. Each assessment also needs a PDF of your report uploaded to Moodle, and that upload is what counts for the submission date. The [assessment briefs](../Assessment/README.md) have the details.
 
 > 💡 Prefer buttons to typing? VS Code's **Source Control** panel (the branch icon in the left bar) does the same thing. Stage the changes (mark them for the <!-- plain-language: everyday commit -->commit), type a message, click **<!-- plain-language: everyday commit -->Commit**, then **Sync/Push**.
 
@@ -182,7 +186,7 @@ Codespaces gives you a **free monthly allowance** of running hours. Your worksta
 2. Type **"Codespaces: Stop Current Codespace"** and select it. Closing the browser tab also stops it after a short idle period
 3. Next time, open your repo, click **`< > Code`**, choose **Codespaces**, and click your existing Codespace to resume it. Resuming is much faster than the first build
 
-You can see your Codespaces, their status, and your usage at [github.com/codespaces](https://github.com/codespaces/). Current allowances and how billing works are at [docs.github.com/codespaces](https://docs.github.com/en/codespaces).
+You can see your Codespaces, their status, and your usage at [github.com/codespaces](https://github.com/codespaces/). From Week 2 on, each notebook in your repository has an *Open in GitHub Codespaces* button at the top. It opens your own Codespace, once Get new materials has run. It cannot open the notebook itself, so open the notebook from the Explorer panel. Current allowances and how billing works are at [docs.github.com/codespaces](https://docs.github.com/en/codespaces).
 
 For checklist item 10, open [the Week 2 Quest](../Week/02/Quest.ipynb) in this Codespace and run one stage.
 
@@ -195,7 +199,9 @@ Optional, for your own time: Use it when you need it.
 - **Copilot says "not signed in" or never suggests anything.** Open the Accounts menu (person icon, bottom-left) and confirm you are signed in with your Step 1 GitHub account. If Copilot is disabled in the status bar (the strip along the bottom of the window), click it and enable it
 - **Student Pack verification still pending, or refused.** Use **Copilot Free** for now. Turn on the Copilot Student plan if the Pack is approved. If GitHub refuses your application, use Copilot Free plus a second tool. The second tools are in the [AI guide](./ai-guide.md), section "If you cannot get Copilot, or run out of chat". Tell the module team as well
 - **`.specstory/history/` never appears.** It is created on your first AI session in this project. Have a Copilot chat first, then reload the window (Command Palette, "Developer: Reload Window"). If it still does not appear, keep your record another way (Step 5) and tell the module team
-- **`git pull materials main` says `'materials' does not appear to be a git repository`.** You have not connected the materials yet. Run the two commands in Step 3a
+- **There is no Get new materials in the Actions tab.** Your repository was made before the helper existed. Add it once, as in "Adding Get new materials to an older repository" above
+- **Get new materials shows a red cross.** Click the run, then the step with the red cross. Copy the message and post it on the Moodle forum. A failed run changes none of your files
+- **The status bar arrows report a conflict.** This happens when you change a file in your Codespace without syncing, and the helper updates it on GitHub. Post a screenshot on the Moodle forum before you click anything else
 - **`git push` asks for a password or fails.** Reload the window. If it persists, sign out and back in to GitHub from the Accounts menu, then retry
 - **"You have run low on Codespaces hours".** Stop your Codespace whenever you are not using it (Step 7). If you are out of hours, post on the Moodle forum. The Student Pack (Step 1) raises your allowance if it is approved
 - **Everything is slow or laggy in the browser.** Codespaces needs a steady connection, not a fast computer. Try a wired or eduroam connection and close other heavy browser tabs

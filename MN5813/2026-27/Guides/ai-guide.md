@@ -171,7 +171,7 @@ Five recommended habits:
 
 1. **Never accept unrun code.** Code you have not run is a claim, not a result
 2. **Check shapes and count your rows.** After any filter, merge, groupby, or dropna, check `df.shape`, or compare `len(before)` with `len(after)`. Rows lost or gained that you did not expect are the most common silent failure in data analysis
-3. **Recompute one number by hand.** Pick one value in any summary table and check it independently. Filter the raw rows for one region in one month, add them up, and compare. This is how you honestly tick a quest's [Definition of Done](./glossary.md#term-definition-of-done) (the self-check list in every quest Briefing)
+3. **Recompute one number by hand.** Pick one value in any summary table and check it independently. Filter the raw rows for one region in one month, add them up, and compare. This is what lets you tick a quest's [Definition of Done](./glossary.md#term-definition-of-done) (the self-check list in every quest Briefing)
 4. **The three explanations trick.** Take any output you are about to rely on. Ask your Associate to explain it three ways: To a programmer, to a manager, and to a ten-year-old (or, alternatively, to a [golden retriever](https://youtu.be/LTDS6SHwA6w)). Invented answers rarely survive that, and should the versions disagree about what the code does, investigate
 5. **Eyeball the extremes.** Look at `df.describe()`, the min and max, and the top five and bottom five rows of anything sorted. A negative age, a £2 million coffee order, or a date in 1970 is where a broken pipeline shows itself
 
@@ -180,15 +180,15 @@ Every Debrief notebook ends with an **AI failure gallery**: Realistic ways AI ge
 
 ## 6. Your record is your evidence
 
-Suppose a transcript shows you giving the Associate the schema, rejecting its first draft for double-counting, and directing the fix. That transcript is dated evidence of your judgement. What you keep throughout is the **AI Use Record**: An honest account of what you asked, what you accepted or rejected, and why. It does not depend on which tool you use. Three records feed it:
+Suppose a transcript shows you giving the Associate the schema, rejecting its first draft for double-counting, and directing the fix. That transcript is dated evidence of your judgement. What you keep throughout is the **AI Use Record**: An account of what you asked, what you accepted or rejected, and why. It does not depend on which tool you use. Three records feed it:
 
 - **Prompt Diary** (Week 1 only, in Colab): A Prompt Diary cell at the end of Quest 01. Paste your *best* exchange (the prompt that worked, and why) and your *worst* (where the Associate misled you, and how you caught it)
 - **SpecStory transcripts** (Week 2 onwards, in your Codespace): Files in `.specstory/history/` inside your project, written automatically by the pre-installed SpecStory extension. Confirm files are appearing there ([Your workstation, Step 5](./codespaces-start.md#step-5-check-your-record-specstory)) and <!-- plain-language: everyday commit -->commit them with your work
 - **[QuestLog.md](./glossary.md#term-questlog)** (all weeks): Your personal learning journal, from the template issued in Week 1. Add a dated entry per quest with the [badge](./glossary.md#term-badge) you claimed and your Debrief answers
 
-SpecStory is a convenience not a requirement. Any consistent, honest way of keeping the AI Use Record meets the same standard: SpecStory, a hand-kept log, or whatever suits your setup. (For group work from Week 4, your Stoa room transcript is the team's equivalent. See the [Stoa workflow guide](./stoa-workflow.md).)
+SpecStory is a convenience not a requirement. Any consistent way of keeping the AI Use Record meets the same standard: SpecStory, a hand-kept log, or whatever suits your setup. (For group work from Week 4, your Stoa room transcript is the team's equivalent. See the [Stoa workflow guide](./stoa-workflow.md).)
 
-While markers will look at your transcripts (see the assessment interpretation), those indicators are supporting evidence only, and no mark is computed from them. (The interpretation arrives with Week 3.)
+While markers will look at your transcripts (see the [assessment interpretation](../Assessment/interpretation.md)), those indicators are supporting evidence only, and no mark is computed from them. (The interpretation arrives with Week 3.)
 
 Remember: A transcript full of rejected AI output and corrections is a *good* transcript. <!-- plain-language: everyday abcd record -->The record to worry about is the empty one.
 
@@ -198,18 +198,18 @@ Remember: A transcript full of rejected AI output and corrections is a *good* tr
 Both submissions (the group project and the individual report) include an **AI Use Record**. It is a short declaration plus a summary of how AI was involved. It is half a page to a page long in total. It has four parts:
 
 1. **Tools used.** Name each and where you used it
-2. **What each was used for.** Be honest and specific
+2. **What each was used for.** Be specific
 3. **Notable rejections and corrections.** Give two or three moments where you overruled the Associate, with your reason. This part shows the judgement being assessed most directly
 4. **One paragraph of reflection.** Say where the Associate helped, where it slowed or misled you, and what you would do differently
 
 Week 7 rehearses part 4: The [REFLECT prompt](./prompts.md#reflect-on-your-prompts) reads your own prompts back to you.
 
-Avoid two failure modes: The empty gesture ("I used ChatGPT for some things") and the exhaustive log (all 214 prompts, pasted). Be specific, honest, and <!-- plain-language: everyday brief -->brief. The transcripts hold the detail. The full specification is in the assessment interpretation, section "The AI Use Record: The canonical specification".
+Avoid two failure modes: The empty gesture ("I used ChatGPT for some things") and the exhaustive log (all 214 prompts, pasted). Be specific and <!-- plain-language: everyday brief -->brief. The transcripts hold the detail. The full specification is in the [assessment interpretation](../Assessment/interpretation.md).
 
 
 ## 8. Learning so it sticks
 
-Working this way carries one risk. If the Associate does all the thinking, you learn nothing while feeling productive. Watching fluent code appear feels like understanding until ... you face a blank cell alone. The quest stages were designed to guard against this (see [quest](./glossary.md#term-quest) in the glossary). Remember: The individual report asks you to direct an Associate on your own analysis of [the record](./glossary.md#term-abcd-record), and that cannot be delegated to the Associate.
+Working this way carries one risk. If the Associate does all the thinking, you learn nothing while feeling productive. Watching fluent code appear feels like understanding until ... you face a blank cell alone. The quest stages were designed to guard against this (see [quest](./glossary.md#term-quest) in the glossary). Remember: The [individual report](../Assessment/individual-report.md) asks you to direct an Associate on your own analysis of [the record](./glossary.md#term-abcd-record), and that cannot be delegated to the Associate.
 
 Three practices beyond the quests:
 

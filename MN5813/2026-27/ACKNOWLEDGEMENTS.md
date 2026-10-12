@@ -8,4 +8,4 @@ This declaration covers every notebook, guide, <!-- plain-language: everyday bri
 
 ## Data
 
-The teaching datasets are generated within each notebook from a fixed seed, so no data is ever hosted. The assessment datasets are fetched from their public sources by the scripts (in `Tools/`). See data notes for name and licence.
+The teaching datasets are generated within each notebook from a fixed seed, so no data is ever hosted. The assessment datasets are fetched from their public sources by the scripts (in `Tools/`). See [data notes](./Assessment/README.md) for name and licence.

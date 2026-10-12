@@ -2,7 +2,7 @@
 
 *Every prompt the module's materials ask you to try, on one page.*
 
-> ⚠️ **Draft:** This page is a draft. It will be confirmed in Week 3.
+> ⚠️ **Draft:** This page is a draft. It will be confirmed at a later date.
 
 This page collects the prompts that appear across <!-- gen:values.yml#module.code -->MN5813<!-- /gen -->. It holds one template prompt for each of the four moves and the six prompting patterns. It also holds the three [Debrief](./glossary.md#term-debrief) prompts and every **[AI Lens](./glossary.md#term-ai-lens)** prompt, week by week. Fill in anything in angle brackets (your code, your figure, and your questions). Then paste the whole prompt into your [Associate](./glossary.md#term-associate). Do not reword it. Where a note in italics follows the prompt, judge the reply against it. The note says what a good answer contains. The moves and the habits of checking are in the [AI guide](./ai-guide.md). The glossary explains the [Debrief](./glossary.md#term-debrief) stage.
 
@@ -128,7 +128,7 @@ Each quest's Quiz me also suggests a prompt naming that week's topics. Its shape
 
 In Week 7, run this once on your own record. Nothing from it is marked.
 
-**REFLECT: read your own prompting**: Open one transcript from `.specstory/history/`, or your [Prompt Diary](./glossary.md#term-prompt-diary), then paste this with the file open.
+**REFLECT: Read your own prompting**: Open one transcript from `.specstory/history/`, or your [Prompt Diary](./glossary.md#term-prompt-diary), then paste this with the file open.
 
 ```text
 Read only the file I have open. It is my own record of prompts to an AI assistant: A transcript or my Prompt Diary.
@@ -148,7 +148,7 @@ This section lists every **AI Lens** callout in the notebooks, in module order. 
 
 ### [Week 1: Demonstration](../Week/01/Demonstration.ipynb)
 
-**f-strings: readable output**: Ask for a business analogy, then check it against the code you ran.
+**f-strings: Readable output**: Ask for a business analogy, then check it against the code you ran.
 
 ```text
 Explain what an f-string is in Python using a business analogy, as if I write reports for a living.
@@ -310,7 +310,7 @@ Explain what `self` means in a Python class three ways: to a Java programmer, to
 
 *A good answer says the same thing in all three voices: `self` is this particular object, Priya's card and not the idea of a card. Your own prediction for `priya.add_stamps(25)` should match what the fragment prints.*
 
-**Stretch 4: classes that cooperate**: Ask for a class edit, then check it for invented attributes.
+**Stretch 4: `__repr__`, and classes that cooperate**: Ask for a class edit, then check it for invented attributes.
 
 ```text
 <paste the LoyaltyCard class here>
@@ -390,7 +390,7 @@ I have a sales table and a product-details table, and some products in the sales
 
 ### Week 5: Demonstration
 
-**`melt()`: wide to long**: Describe the shape you want, wide to long and then long to wide, without naming a pandas function.
+**`melt()`: Wide to long**: Describe the shape you want, wide to long and then long to wide, without naming a pandas function.
 
 ```text
 I have a DataFrame with columns centre, line, and one column per month. I want one row per centre per line per month, with columns centre, line, month, sales.
@@ -424,7 +424,7 @@ What is the index of this object right now, and what does a NaN in it mean in bu
 
 *A good answer names the index and the columns by level. It says what the `NaN` stands for in business terms (a centre-and-line combination that was never observed, not a zero take). It does not call it 'missing data'.*
 
-**Window functions: trend from noise**: Ask what goes wrong with a plain `shift(7)` compared with a grouped one. Then ask for a counter-example that shows it.
+**Window functions: Trend from noise**: Ask what goes wrong with a plain `shift(7)` compared with a grouped one. Then ask for a counter-example that shows it.
 
 ```text
 <paste the cell's code here>
@@ -454,7 +454,7 @@ Here are three business questions from my group project. For each one: Which of 
 
 ### Week 6: Demonstration
 
-**Pair 1, comparison: bar chart**: Ask for a critique of the draft bar chart against Task, Reduce, Accessible, Context.
+**Pair 1: Comparison → bar chart**: Ask for a critique of the draft bar chart against Task, Reduce, Accessible, Context.
 
 ```text
 <paste the draft cell's code here>
@@ -464,7 +464,7 @@ Critique this chart against the checklist Task, Reduce, Accessible, Context. Wha
 
 *A good answer names the meaningless colours, the redundant legend, the alphabetical order, the missing units and source, and a title that tells nobody anything. That is the list the notebook's revision fixes.*
 
-**Pair 3, relationship: scatter plot**: Ask for three rival explanations for a correlation.
+**Pair 3: Relationship → scatter plot**: Ask for three rival explanations for a correlation.
 
 ```text
 Give me three reasons this correlation between marketing spend and weekly revenue might exist even if the marketing does nothing.
@@ -484,7 +484,7 @@ Run this through TRACE: Task, Reduce, Accessible, Context, Explain. Where does i
 
 ### Week 7: Demonstration
 
-**Part 1: the audit**: Ask for hypotheses to test in your data audit. Do not record the reply as findings in your log.
+**Part 1: The audit**: Ask for hypotheses to test in your data audit. Do not record the reply as findings in your log.
 
 ```text
 What data-quality problems would you expect in a fire brigade's incident and mobilisation records, where one table has a row per 999 call, the other a row per engine sent, and the two join on an incident number?
@@ -492,7 +492,7 @@ What data-quality problems would you expect in a fire brigade's incident and mob
 
 *A good answer lists plausible suspects. Some are engines whose incident is missing from the other table, and arrival times empty where no engine arrived. Others are timestamps stored as text in more than one format, place names cased differently across the two tables, and repeated engine rows. Your audit is what decides which of them are real.*
 
-**Part 2: <!-- plain-language: everyday decision -->decisions, then cleaning**: Ask the room's Associate for a neutral summary of a team disagreement.
+**Part 2: <!-- plain-language: everyday decision -->Decisions, then cleaning**: Ask the room's Associate for a neutral summary of a team disagreement.
 
 ```text
 Summarise our disagreement about the empty attendance times. State each position and its strongest argument fairly, then list what evidence from our own audit would settle it.
@@ -512,7 +512,7 @@ Run this figure through TRACE (Task, Reduce, Accessible, Context, Explain). Wher
 
 *A good answer fails the figure on most letters and matches the notebook's own critique. It names six competing colours, a legend on the data, and the tinted panel and full grid. It also names an axis labelled `value` and a title that names variables instead of the finding.*
 
-**Step 6: emphasis last**: Give the Associate the six declutter steps, one at a time and then all at once.
+**Step 6: Emphasis last**: Give the Associate the six declutter steps, one at a time and then all at once.
 
 ```text
 <paste the original draft chart code here>
@@ -544,7 +544,7 @@ Draft one-sentence alt text for this figure.
 
 *A good answer names the chart type, the variables and their units, and the takeaway, as the notebook's alt text does. The takeaway is Egham roughly doubling while the other five branches stay flat. A draft that stops at the furniture is the one you fix.*
 
-**Interlude: interactive charts with hvPlot**: Ask what a printed board pack loses, first what stops working and then what you stop controlling.
+**Interlude: Interactive charts with hvPlot**: Ask what a printed board pack loses, first what stops working and then what you stop controlling.
 
 ```text
 <paste the hvPlot cell's code here>
@@ -594,7 +594,7 @@ Here are three DECISION: entries from our project's room log. Play the sceptical
 
 ### January revision session: Introduction
 
-**The design-rationale surgery**: Ask for an attack on your figure's chart form, then accept or rebut it on <!-- plain-language: everyday abcd record -->the record.
+**Feedback on your [design rationale](./glossary.md#term-design-rationale)**: Ask for an attack on your figure's chart form, then accept or rebut it on <!-- plain-language: everyday abcd record -->the record.
 
 ```text
 <paste your figure's code here>

@@ -3,10 +3,14 @@
 // student's own repository, made from that one with Use this template, then
 // opens the same Codespace: Python, the module's packages, Copilot, and the
 // SpecStory session recorder, with nothing to install by hand.
-// The two git settings let the weekly `git pull materials main` finish on its
-// own. GIT_MERGE_AUTOEDIT=no skips the merge-message editor. pull.rebase false
-// tells git to merge when both sides have new commits, instead of stopping to
-// ask how.
+// New materials reach the student's repository on GitHub through the "Get
+// new materials" workflow (.github/workflows/get-materials.yml). The
+// postStartCommand brings them into the Codespace each time it starts. It
+// only fast-forwards, so it never starts a merge, and a failed pull never
+// stops the Codespace from opening. The two git settings let the Source
+// Control panel's Sync Changes finish on its own when both sides have new
+// commits. GIT_MERGE_AUTOEDIT=no skips the merge-message editor. pull.rebase
+// false tells git to merge, instead of stopping to ask how.
 // The git-lfs feature is there because Codespaces installs Git LFS hooks when
 // it clones; without git-lfs in the image, every git push fails with
 // "git-lfs was not found on your path".
@@ -17,6 +21,7 @@
     "ghcr.io/devcontainers/features/git-lfs:1": {}
   },
   "postCreateCommand": "pip install --user -r MN5813/2026-27/requirements.lock && git config --global pull.rebase false",
+  "postStartCommand": "git pull --ff-only --quiet || true",
   "remoteEnv": {
     "GIT_MERGE_AUTOEDIT": "no"
   },

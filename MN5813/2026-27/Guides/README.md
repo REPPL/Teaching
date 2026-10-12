@@ -2,7 +2,7 @@
 
 *Index of the <!-- gen:values.yml#module.code -->MN5813<!-- /gen --> <!-- gen:values.yml#module.year -->2026-27<!-- /gen --> guides: What each one is for, and who it is written for.*
 
-> ⚠️ **Draft:** This page is a draft. It will be confirmed in Week 3.
+> ⚠️ **Draft:** This page is a draft. It will be confirmed at a later date.
 
 ## Student-facing guides
 
@@ -25,4 +25,4 @@ None of these is needed for a session, a [quest](./glossary.md#term-quest), or a
 | [Working locally](./working-locally.md) | The same toolchain on your own machine, if you prefer it to your Codespace |
 | [Your workstation: Troubleshooting](./codespaces-start.md#troubleshooting) and [Getting help](./codespaces-start.md#getting-help) | The sections after Step 7, for when something goes wrong with your Codespace |
 
-See also the [module overview](../README.md) and the assessment interpretation document.
+See also the [module overview](../README.md) and the [assessment interpretation document](../Assessment/interpretation.md).

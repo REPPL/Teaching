@@ -56,10 +56,10 @@ By the end of Week 2 you can:
 - [ ] Read the [Week 1 Debrief](../01/Debrief.ipynb) first, including its [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery) (about 20 min)
 - [ ] Work through the [Demonstration](./Demonstration.ipynb) (about 75 to 90 min)
 - [ ] Finish [Quest 02](./Quest.ipynb) to at least [Bronze](../../Guides/glossary.md#term-bronze), with your AI Use Record up to date (about 60 min). [Silver](../../Guides/glossary.md#term-silver) is the expected standard by the end of term. Section 4 of the [AI guide](../../Guides/ai-guide.md) is the part you need this week
-- [ ] Read the Debrief, including the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery) (about 30 min)
+- [ ] Read the [Debrief](./Debrief.ipynb), including the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery) (about 30 min)
 - [ ] Add a dated Quest 02 entry to your `QuestLog.md`, including the [badge](../../Guides/glossary.md#term-badge) you claim (about 15 min)
 - [ ] Confirm your GitHub account works, and that your Student Developer Pack application is submitted. See [Your workstation](../../Guides/codespaces-start.md)
-- [ ] Skim the assessment interpretation document when it arrives with Week 3
+- [ ] Skim the [assessment interpretation document](../../Assessment/interpretation.md) when it arrives with Week 3
 - [ ] Copy [`Optional-Checklist-Template.md`](./Optional-Checklist-Template.md) to `Optional-Checklist.md` at the top level of your repository, beside `QuestLog.md`. Tick what you have done, and <!-- plain-language: everyday commit -->commit it by the end of Week 2 (<!-- gen:values.yml#optional-checklist.due -->Wednesday 14 October<!-- /gen -->)
 
 
@@ -71,7 +71,7 @@ By the end of Week 2 you can:
 | [Demonstration.ipynb](./Demonstration.ipynb) | Worked examples of every technique, with six 🤖 [AI Lens](../../Guides/glossary.md#term-ai-lens) callouts |
 | [Exercises.ipynb](./Exercises.ipynb) | Driving lessons for your Codespace, in the workshop: Cells, the kernel that runs your code, restarts, files, and GitHub Copilot |
 | [Quest.ipynb](./Quest.ipynb) | **Quest 02: The Coffee Cart Ledger** (about 90 min) in the five-stage format |
-| Debrief.ipynb | Worked answers for all tiers and the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery), to read after you attempt the quest |
+| [Debrief.ipynb](./Debrief.ipynb) | Worked answers for all tiers and the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery), to read after you attempt the quest |
 | [Optional-Checklist-Template.md](./Optional-Checklist-Template.md) | A checklist of the optional material you have done, to copy, tick, and <!-- plain-language: everyday commit -->commit by the end of Week 2 (<!-- gen:values.yml#optional-checklist.due -->Wednesday 14 October<!-- /gen -->) |
 
 <!-- generated from videos.json: week02-codespaces-setup; edit videos.json, not this region -->

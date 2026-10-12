@@ -1,0 +1,62 @@
+# Get new materials: Brings the module's latest materials into this
+# repository, and never changes a file you changed.
+#
+# It runs by itself every day at about 4pm UK time (16:00 UTC, so 5pm
+# while the clocks are on summer time). To run it now, open the Actions
+# tab, choose "Get new materials", then "Run workflow".
+#
+# The rules it follows are written at the top of .github/get_materials.py.
+# It runs that file from the module's repository, so a fix to it reaches
+# you on the next run. It does nothing in the module's own repository.
+# To stop it, open the Actions tab, choose "Get new materials", then
+# "Disable workflow", or delete this file.
+name: Get new materials
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 16 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: get-materials
+  cancel-in-progress: false
+
+jobs:
+  get-materials:
+    if: github.repository != 'REPPL/Teaching'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Plain git rather than a checkout action: This file never changes in
+      # your repository once it is there, so it uses nothing that could
+      # stop working.
+      - name: Check out this repository
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          git init --quiet .
+          git config http.https://github.com/.extraheader \
+            "AUTHORIZATION: basic $(printf 'x-access-token:%s' "$TOKEN" | base64 -w0)"
+          git remote add origin "https://github.com/$GITHUB_REPOSITORY.git"
+          git fetch --quiet --no-tags origin
+          git checkout --quiet -B "$GITHUB_REF_NAME" "origin/$GITHUB_REF_NAME"
+
+      - name: Fetch the module's materials
+        env:
+          MATERIALS_URL: https://github.com/REPPL/Teaching.git # <!-- values-guard: allow: the workflow fetches from this address as written -->
+        run: git fetch --no-tags --no-prune "$MATERIALS_URL" +main:refs/materials/main
+
+      - name: Bring in what is new
+        run: |
+          git show refs/materials/main:.github/get_materials.py > "$RUNNER_TEMP/get_materials.py"
+          python3 "$RUNNER_TEMP/get_materials.py" --upstream refs/materials/main --repo "$GITHUB_REPOSITORY"
+
+      - name: Save it to this repository
+        run: |
+          if [ "$(git rev-parse HEAD)" = "$(git rev-parse "origin/$GITHUB_REF_NAME")" ]; then
+            exit 0
+          fi
+          git push origin "HEAD:$GITHUB_REF_NAME"

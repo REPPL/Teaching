@@ -2,7 +2,7 @@
 
 *How your team runs the group project: Rooms, [stand-ups](./glossary.md#term-stand-up), [decision logging](./glossary.md#term-decision-entry), and what is recorded. You need this from Week 4, when the [Stoa](./glossary.md#term-stoa) rooms open.*
 
-> ⚠️ **Draft:** This page is a draft. It will be confirmed in Week 3.
+> ⚠️ **Draft:** This page is a draft. It will be confirmed at a later date.
 
 At [Runnymede Analytics](./glossary.md#term-runnymede-analytics), when the client asks "why did you drop that data?", someone answers with a date and a reason. Your group project works the same way.
 
@@ -34,7 +34,7 @@ The room keeps:
 
 Module staff can read your group's transcripts. The transcript is your team's evidence of process, and process evidence is part of how the group project is assessed. Nothing in the room is private from the marking team. Everything in the room is private from other groups.
 
-The assessment interpretation document, section "2. What we collect and why", lists what the module collects across Stoa, [SpecStory](./glossary.md#term-specstory), and your submissions.
+The [assessment interpretation document](../Assessment/interpretation.md) lists what the module collects across Stoa, [SpecStory](./glossary.md#term-specstory), and your submissions.
 
 ## 2. Team setup in Week 4
 
@@ -63,7 +63,7 @@ Finish setup **before you leave the Week 4 workshop, or as a team by the end of 
 
 ## 3. The weekly ritual: The recorded stand-up
 
-From Week 4 until group submission, your team holds **at least one recorded stand-up per week, roughly 30 minutes, in your Stoa room**. The Week 4 first stand-up is a shorter, 15-minute version ([section 2](#2-team-setup-in-week-4)). More meetings are fine. Longer working sessions in the room are encouraged. Week 7 holds a full working session, your self-paced [Sprint Zero](./glossary.md#term-sprint-zero). The weekly stand-up is required.
+From Week 4 until group submission, your team holds **at least one recorded stand-up per week, roughly 30 minutes**. We recommend holding it in your Stoa room. A team that works elsewhere follows [section 9](#9-fallback-plan-if-stoa-is-unavailable). The Week 4 first stand-up is a shorter, 15-minute version ([section 2](#2-team-setup-in-week-4)). More meetings are fine. Longer working sessions in the room are encouraged. Week 7 holds a full working session, your self-paced [Sprint Zero](./glossary.md#term-sprint-zero). The weekly stand-up is required.
 
 The agenda is the same every week, with four items:
 
@@ -105,7 +105,7 @@ false-alarm counts and note the cut in the report. Owner: Priya
 updates the loading script.
 ```
 
-How markers read your <!-- plain-language: everyday decision -->decision trail is in the group project brief, section "6. How each criterion is evidenced".
+How markers read your <!-- plain-language: everyday decision -->decision trail is in the [group project brief](../Assessment/group-project.md), section "6. Evidence".
 
 ### A good/bad pair
 
@@ -142,11 +142,11 @@ The room's **Associate** can see what your team says and types there. Use it in 
 
 ## 6. How process evidence feeds the rubric
 
-The rubric is in the group project brief. Its section "6. How each criterion is evidenced" says what markers read from your recorded process.
+The rubric is in the [group project brief](../Assessment/group-project.md). Its section "6. Evidence" says what markers read from your recorded process.
 
 - **Process indicators are checks, not marks.** An indicator is a count from your record, such as meetings per week or `DECISION:` entries per member. No grade is computed from any indicator
 - **A member with no recorded contribution is asked about their role, not accused.** If your name appears in no transcripts, <!-- plain-language: everyday decision -->decision log, <!-- plain-language: everyday commit -->commits, or exports, staff invite you to a conversation, and you can present other evidence
-- **There is an alternative evidence route.** If a disability, caring responsibility, or access <!-- plain-language: everyday issue -->issue makes recorded live meetings difficult, talk to the module leader early. Written stand-ups, shared documents, and SpecStory sessions can carry the same weight (see the interpretation document, section "2. What we collect and why")
+- **There is an alternative evidence route.** If a disability, caring responsibility, or access <!-- plain-language: everyday issue -->issue makes recorded live meetings difficult, talk to the module leader early. Written stand-ups, shared documents, and SpecStory sessions can carry the same weight (see the [interpretation document](../Assessment/interpretation.md))
 
 ## 7. Weekly export and backup
 
@@ -155,8 +155,6 @@ Every week, after your stand-up, **one member exports the room's outputs**. They
 - Use the export, download, or sync option in your Stoa room. Save at minimum the meeting notes, the <!-- plain-language: everyday decision -->decisions log, and the transcript in whatever format Stoa offers
 - Save them in one folder per session, named by date, such as `transcripts/2026-10-19-standup/`
 - If your shared space is a git repository, <!-- plain-language: everyday commit -->commit them. A transcript folder next to your `.specstory/history/` makes a tidy evidence pack
-
-At the **Week 8 evidence checkpoint**, one member uploads your team's current export bundle to the Moodle checkpoint. Nothing from it is marked. See the Week 8 README and the group project brief.
 
 ## 8. Etiquette and conflict
 
@@ -168,7 +166,7 @@ At the **Week 8 evidence checkpoint**, one member uploads your team's current ex
 
 ## 9. Fallback plan if Stoa is unavailable
 
-Markers assess your **recorded process** (regular meetings, logged <!-- plain-language: everyday decision -->decisions, and visible contributions), not any single tool. If Stoa is unavailable (an outage, an account problem, or a change in the arrangement mid-term):
+Markers assess your **recorded process** (regular meetings, logged <!-- plain-language: everyday decision -->decisions, and visible contributions), not any single tool. Stoa is recommended, not required. If Stoa is unavailable (an outage, an account problem, or a change in the arrangement mid-term), or your team chooses another room:
 
 1. **Meet on Microsoft Teams** (your university account) at your usual time. Turn on transcription or recording if available. Otherwise appoint a minute-taker
 2. **Keep a `decisions.md`** in the group repository, with date, `DECISION:` line, reasoning, and owner. It is the same convention, typed by hand
@@ -177,4 +175,4 @@ Markers assess your **recorded process** (regular meetings, logged <!-- plain-la
 
 ---
 
-*Related guides: [Your workstation](./codespaces-start.md) · [AI guide: Working with your Associate](./ai-guide.md) · Assessment interpretation · Group project brief*
+*Related guides: [Your workstation](./codespaces-start.md) · [AI guide: Working with your Associate](./ai-guide.md) · [Assessment interpretation](../Assessment/interpretation.md) · [Group project brief](../Assessment/group-project.md)*

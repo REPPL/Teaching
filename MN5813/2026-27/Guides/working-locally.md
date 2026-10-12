@@ -2,7 +2,7 @@
 
 *Optional, for your own time. Your workstation is a Codespace (see the [Your workstation guide](./codespaces-start.md)). This page is for students who want the same tools on their own machine.*
 
-> ⚠️ **Draft:** This page is a draft. It will be confirmed in Week 3.
+> ⚠️ **Draft:** This page is a draft. It will be confirmed at a later date.
 
 > **From:** A. Partner, [Runnymede Analytics](./glossary.md#term-runnymede-analytics)
 > **To:** You (Junior [Analyst](./glossary.md#term-analyst))
@@ -46,16 +46,15 @@ git clone <your repository's URL>
 
 To find the URL, open your repository on GitHub and click the green **`< > Code`** button. Copy the URL from the **Local** tab, next to the **Codespaces** tab. Then open the new folder in VS Code with **File → Open Folder…**.
 
-Then give the new folder the two git settings your Codespace has. In VS Code's terminal, inside the new folder, run:
+Then give the new folder the git setting your Codespace has. In VS Code's terminal, inside the new folder, run:
 
 ```
 git config pull.rebase false
-git remote add materials https://github.com/REPPL/Teaching.git
 ```
 
-The first tells git to merge when your local copy and GitHub both have new <!-- plain-language: everyday commit -->commits. The second connects the weekly materials, as [Step 3a](./codespaces-start.md#step-3a-connect-the-materials) did in your Codespace. Your repository already holds both histories, so you do not need `--allow-unrelated-histories` here.
+It tells git to merge when your local copy and GitHub both have new <!-- plain-language: everyday commit -->commits.
 
-To get each week's materials on your machine, run `git pull --no-edit materials main`. The `--no-edit` option stops git opening an editor for its merge message. Your Codespace skips that editor for you. Copy notebooks into `work/` here too, and never edit the originals.
+New materials reach your repository on GitHub through Get new materials, as in [Step 3a](./codespaces-start.md#step-3a-get-new-materials) of the Your workstation guide. To bring them to your machine, run `git pull --no-edit`. The `--no-edit` option stops git opening an editor for its merge message.
 
 Your Codespace and your local copy are two separate copies of the same repository. Run `git pull --no-edit` before you start, to get the latest copy. Run `git push` when you finish, to send your changes back. Work in either, as long as you push before switching.
 
