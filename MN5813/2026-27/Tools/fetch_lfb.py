@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fetch the London Fire Brigade records once and write the group-project tables.
 
-    python3 Tools/fetch_lfb.py            # download, trim, write Tools/data/lfb/
+    python3 Tools/fetch_lfb.py            # download, trim, write work/data/lfb/
     python3 Tools/fetch_lfb.py --check    # verify the tables match the manifest
     python3 Tools/fetch_lfb.py --selftest # prove the trim on a tiny extract
 
@@ -10,7 +10,7 @@ mobilisation records, published by the Greater London Authority on the
 London Datastore under the Open Government Licence v2. Nothing is hosted in
 this repository: this script downloads the two current extracts, keeps the
 rows and columns the brief names, and writes two tables and a manifest into
-a local, gitignored folder. Run it once per workstation with network access;
+the student's work/data/lfb/ folder, which work/.gitignore keeps out of git. Run it once per workstation with network access;
 later runs reuse the cached downloads and reproduce the same tables, and
 `--check` proves it.
 
@@ -31,7 +31,7 @@ more recent rows. The manifest records each download's size and SHA-256 and
 each table's row count, so two teammates can tell in one glance whether
 they hold the same cut; the data note (Assessment/lfb-data.md) asks every
 team to compare manifests in the first block of the Week 7 Sprint Zero and,
-if they differ, to copy one member's Tools/data/ folder to the others.
+if they differ, to copy one member's work/data/lfb/ folder to the others.
 
 Tables written (gzipped CSV; the data note describes every column):
 
@@ -49,12 +49,33 @@ import io
 import json
 import os
 import pathlib
+import shutil
 import sys
 import tempfile
 from datetime import datetime, timezone
 
+def find_work(tools: pathlib.Path) -> pathlib.Path:
+    """The work/ folder the fetched data goes in.
+
+    Published, work/ sits at the root of the student's repository, two
+    folders above Tools/ (<repo>/<module>/<year>/Tools); in the source tree it
+    sits beside Tools/. So walk up from Tools/ to the first folder that holds
+    a work/ folder, stopping at the repository root (the folder that holds
+    .git), whose work/ is used even before it exists.
+    """
+    for folder in tools.parents:
+        if (folder / "work").is_dir() or (folder / ".git").exists():
+            return folder / "work"
+    return tools.parent / "work"
+
+
 HERE = pathlib.Path(__file__).resolve().parent
-OUT_DIR = HERE / "data" / "lfb"
+# The data lives in the student's work/ folder, never in Tools/: find_work()
+# says where that is. OLD_DIR is where earlier versions wrote; the next run
+# moves a copy found there across.
+WORK = find_work(HERE)
+OUT_DIR = WORK / "data" / "lfb"
+OLD_DIR = HERE / "data" / "lfb"
 # The raw downloads are scratch (about 150 MB): they live in the user's cache
 # directory, outside the delivery, and are reused on every later run.
 # Override with FETCH_LFB_CACHE to put them elsewhere.
@@ -117,6 +138,29 @@ def sha256_of(path: pathlib.Path) -> str:
 
 def say(msg: str) -> None:
     print(msg, flush=True)
+
+
+def show(path: pathlib.Path) -> str:
+    """*path* as the pages name it: from the folder that holds work/ or Tools/."""
+    for base in (WORK.parent, HERE.parent):
+        if path.is_relative_to(base):
+            return path.relative_to(base).as_posix()
+    return str(path)
+
+
+def move_old_data(old: pathlib.Path, new: pathlib.Path) -> None:
+    """Move tables an earlier version wrote under Tools/data/ to work/data/,
+    so nobody downloads them again. When both exist, the new copy wins."""
+    if old.is_dir() and not new.exists():
+        new.parent.mkdir(parents=True, exist_ok=True)
+        shutil.move(str(old), str(new))
+        say(f"moved {show(old)}/ to {show(new)}/ (the data now lives in work/)")
+        try:
+            old.parent.rmdir()  # Tools/data/, once nothing else is in it
+        except OSError:
+            pass
+    elif old.is_dir():
+        say(f"note: {show(new)}/ is in use; the older copy in {show(old)}/ can be deleted")
 
 
 def require_deps() -> None:
@@ -213,10 +257,10 @@ def run_fetch(out_dir: pathlib.Path = OUT_DIR, cache_dir: pathlib.Path = CACHE_D
         path = out_dir / f"{name}.csv.gz"
         n, digest = write_table(df, path)
         manifest["tables"][name] = {"file": path.name, "rows": n, "columns": list(df.columns), "sha256": digest}
-        say(f"  wrote {path.relative_to(HERE)}  ({n} rows, {len(df.columns)} columns)")
+        say(f"  wrote {show(path)}  ({n} rows, {len(df.columns)} columns)")
     (out_dir / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    say(f"wrote {(out_dir / 'manifest.json').relative_to(HERE)}")
-    say(f"done: records from {CUT_FROM}, two tables under {out_dir.relative_to(HERE)}")
+    say(f"wrote {show(out_dir / 'manifest.json')}")
+    say(f"done: records from {CUT_FROM}, two tables under {show(out_dir)}")
     return 0
 
 
@@ -294,6 +338,19 @@ def selftest() -> int:
             expect("a missing column is refused", False)
         except SystemExit as exc:
             expect("a missing column is refused", exc.code == 1)
+    with tempfile.TemporaryDirectory(prefix="fetch-lfb-selftest-work-") as tmp:
+        repo = pathlib.Path(tmp)
+        (repo / ".git").mkdir()
+        tools = repo / "MOD" / "2000-01" / "Tools"
+        tools.mkdir(parents=True)
+        expect("work/ is found at the repository root, before it exists", find_work(tools) == repo / "work")
+        (repo / "work").mkdir()
+        expect("work/ is found two folders above Tools/", find_work(tools) == repo / "work")
+        old, new = tools / "data" / "lfb", repo / "work" / "data" / "lfb"
+        old.mkdir(parents=True)
+        (old / "manifest.json").write_text("{}")
+        move_old_data(old, new)
+        expect("an old Tools/data copy moves to work/data", (new / "manifest.json").is_file() and not (tools / "data").exists())
     print("\nselftest: " + ("all checks passed" if not fails else f"{fails} failed"))
     return 1 if fails else 0
 
@@ -305,6 +362,7 @@ def main() -> int:
     a = p.parse_args()
     if a.selftest:
         return selftest()
+    move_old_data(OLD_DIR, OUT_DIR)
     if a.check:
         return run_check()
     return run_fetch()

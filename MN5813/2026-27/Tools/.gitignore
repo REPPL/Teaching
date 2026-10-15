@@ -1,4 +1,4 @@
-# The group-project data is fetched, never hosted: Tools/fetch_lfb.py writes it
-# into data/lfb/ here, and this rule keeps git from committing it. The abcd
-# tables in data/abcd/ are small, and your report commits them.
-/data/lfb/
+# An older version of the fetch scripts wrote their data into data/ here. The
+# next run of a script moves that copy into work/data/. Until then, this rule
+# keeps git from committing it.
+/data/

@@ -26,7 +26,7 @@ The [primer](./abcd-record.md) shows how you download the record's tables. Every
 - **Several numerical *and* categorical variables.** The record has both. Severities, categories, buckets, sources, and authors are categorical. Word counts, line counts, the durations you derive, and the degrees you compute are numerical
 - **Publicly shareable or properly licensed.** The record is public and MIT-licensed. Cite it as the primer explains
 
-Markers run your notebook exactly as submitted, without fetching anything. <!-- plain-language: everyday commit -->Commit the fetched tables (`Tools/data/abcd/`, under 1 MB together) and their `manifest.json` alongside your notebook. Load them by **relative paths**, which start inside your project folder. A path that starts at the root of your computer works only on your computer, so nobody else can run your notebook.
+Markers run your notebook exactly as submitted, without fetching anything. <!-- plain-language: everyday commit -->Keep your report notebook at the top of your `work` folder. Commit the fetched tables (`work/data/abcd/`, under 1 MB together) and their `manifest.json` with it. Load them by **relative paths**, which start inside your project folder. A path that starts at the root of your computer works only on your computer, so nobody else can run your notebook.
 
 These are examples of **poor** choices (angles that go wrong or are not worth investigating):
 

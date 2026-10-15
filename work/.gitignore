@@ -1,0 +1,7 @@
+# This file tells git which files in work/ to leave out of your commits.
+# git leaves out the fire-brigade data in data/lfb/: It is large (about 20 MB),
+# and Tools/fetch_lfb.py can fetch it again at any time. Your team commits one
+# shared copy to the team repository instead. You commit everything else in
+# work/ as usual, including the abcd tables in data/abcd/ and your notebook
+# copies.
+/data/lfb/

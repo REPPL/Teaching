@@ -5,7 +5,7 @@
 
 ## fetch_lfb.py and fetch_abcd.py
 
-This repository points to the two assessment datasets rather than storing copies. Each script fetches its dataset once into `Tools/data/`, with a manifest of what it wrote. git ignores the LFB data there, but not the abcd tables. A later run with `--check` confirms that your tables still match the manifest:
+This repository points to the two assessment datasets rather than storing copies. Each script fetches its dataset once into your `work/data/` folder (`work/data/lfb/` and `work/data/abcd/`), with a manifest of what it wrote. git ignores the LFB data there, but not the abcd tables. If an older version of a script wrote into `Tools/data/`, the next run moves that copy into `work/data/`, so you do not download it again. A later run with `--check` confirms that your tables still match the manifest:
 
 ```bash
 python3 Tools/fetch_lfb.py     # group project: London Fire Brigade incidents and mobilisations

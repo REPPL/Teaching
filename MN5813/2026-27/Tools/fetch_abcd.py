@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fetch the abcd project record once and write the individual-report tables.
 
-    python3 Tools/fetch_abcd.py            # fetch, derive, write Tools/data/abcd/
+    python3 Tools/fetch_abcd.py            # fetch, derive, write work/data/abcd/
     python3 Tools/fetch_abcd.py --check    # verify the tables match the manifest
     python3 Tools/fetch_abcd.py --selftest # prove the derivation on a tiny record
 
@@ -9,8 +9,8 @@ The individual report analyses the documented record of abcd, an open-source
 tool (MIT licence, github.com/intentdriven/abcd). Nothing is hosted in this
 repository: this script clones the repository once at one pinned release tag
 and derives ten tables from it (the record files' own fields, the links
-between records, the commit history, and the releases) into a local,
-gitignored folder. Run it once per workstation with network access; every
+between records, the commit history, and the releases) into the student's
+work/data/abcd/ folder, where the individual report commits them. Run it once per workstation with network access; every
 later run reuses the cached clone and reproduces the same tables byte for
 byte, and `--check` proves it.
 
@@ -56,8 +56,28 @@ import tempfile
 from datetime import datetime, timezone
 from typing import NoReturn
 
+def find_work(tools: pathlib.Path) -> pathlib.Path:
+    """The work/ folder the fetched data goes in.
+
+    Published, work/ sits at the root of the student's repository, two
+    folders above Tools/ (<repo>/<module>/<year>/Tools); in the source tree it
+    sits beside Tools/. So walk up from Tools/ to the first folder that holds
+    a work/ folder, stopping at the repository root (the folder that holds
+    .git), whose work/ is used even before it exists.
+    """
+    for folder in tools.parents:
+        if (folder / "work").is_dir() or (folder / ".git").exists():
+            return folder / "work"
+    return tools.parent / "work"
+
+
 HERE = pathlib.Path(__file__).resolve().parent
-OUT_DIR = HERE / "data" / "abcd"
+# The data lives in the student's work/ folder, never in Tools/: find_work()
+# says where that is. OLD_DIR is where earlier versions wrote; the next run
+# moves a copy found there across.
+WORK = find_work(HERE)
+OUT_DIR = WORK / "data" / "abcd"
+OLD_DIR = HERE / "data" / "abcd"
 # The clone is scratch, not data: it lives in the user's cache directory,
 # outside the delivery, so no documentation lint or publisher walk under
 # materials/ ever meets a second repository's files. Override with
@@ -99,6 +119,29 @@ def sha256_of(path: pathlib.Path) -> str:
 
 def say(msg: str) -> None:
     print(msg, flush=True)
+
+
+def show(path: pathlib.Path) -> str:
+    """*path* as the pages name it: from the folder that holds work/ or Tools/."""
+    for base in (WORK.parent, HERE.parent):
+        if path.is_relative_to(base):
+            return path.relative_to(base).as_posix()
+    return str(path)
+
+
+def move_old_data(old: pathlib.Path, new: pathlib.Path) -> None:
+    """Move tables an earlier version wrote under Tools/data/ to work/data/,
+    so nobody downloads them again. When both exist, the new copy wins."""
+    if old.is_dir() and not new.exists():
+        new.parent.mkdir(parents=True, exist_ok=True)
+        shutil.move(str(old), str(new))
+        say(f"moved {show(old)}/ to {show(new)}/ (the data now lives in work/)")
+        try:
+            old.parent.rmdir()  # Tools/data/, once nothing else is in it
+        except OSError:
+            pass
+    elif old.is_dir():
+        say(f"note: {show(new)}/ is in use; the older copy in {show(old)}/ can be deleted")
 
 
 def fail(msg: str, code: int = 1) -> NoReturn:
@@ -401,10 +444,10 @@ def run_fetch(out_dir: pathlib.Path = OUT_DIR, cache_dir: pathlib.Path = CACHE_D
         path = out_dir / f"{name}.csv.gz"
         n, digest = write_table(rows, path)
         manifest["tables"][name] = {"file": path.name, "rows": n, "sha256": digest}
-        say(f"  wrote {path.relative_to(HERE)}  ({n} rows)")
+        say(f"  wrote {show(path)}  ({n} rows)")
     (out_dir / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
-    say(f"wrote {(out_dir / 'manifest.json').relative_to(HERE)}")
-    say(f"done: {PINNED['tag']} ({commit[:8]}), {len(tables)} tables under {out_dir.relative_to(HERE)}")
+    say(f"wrote {show(out_dir / 'manifest.json')}")
+    say(f"done: {PINNED['tag']} ({commit[:8]}), {len(tables)} tables under {show(out_dir)}")
     return 0
 
 
@@ -491,6 +534,19 @@ def selftest() -> int:
         expect("--check passes on matching tables", run_check(out) == 0)
         (out / "issues.csv.gz").write_bytes(b"changed")
         expect("--check fails on a changed table", run_check(out) == 1)
+    with tempfile.TemporaryDirectory(prefix="fetch-abcd-selftest-work-") as tmp:
+        repo = pathlib.Path(tmp)
+        (repo / ".git").mkdir()
+        tools = repo / "MOD" / "2000-01" / "Tools"
+        tools.mkdir(parents=True)
+        expect("work/ is found at the repository root, before it exists", find_work(tools) == repo / "work")
+        (repo / "work").mkdir()
+        expect("work/ is found two folders above Tools/", find_work(tools) == repo / "work")
+        old, new = tools / "data" / "abcd", repo / "work" / "data" / "abcd"
+        old.mkdir(parents=True)
+        (old / "manifest.json").write_text("{}")
+        move_old_data(old, new)
+        expect("an old Tools/data copy moves to work/data", (new / "manifest.json").is_file() and not (tools / "data").exists())
     print("\nselftest: " + ("all checks passed" if not fails else f"{fails} failed"))
     return 1 if fails else 0
 
@@ -502,6 +558,7 @@ def main() -> int:
     a = p.parse_args()
     if a.selftest:
         return selftest()
+    move_old_data(OLD_DIR, OUT_DIR)
     if a.check:
         return run_check()
     return run_fetch()

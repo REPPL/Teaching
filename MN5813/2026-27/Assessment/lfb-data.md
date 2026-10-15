@@ -30,7 +30,7 @@ This module's repository hosts no data. One script fetches it:
 python3 Tools/fetch_lfb.py
 ```
 
-Everyone runs it once, in the Week 4 workshop. Run it in your Codespace, from the folder that contains `Tools/`. It downloads the two current extracts (about 150 MB together). It keeps the rows and columns listed under [What is kept, what is dropped, and why](#what-is-kept-what-is-dropped-and-why). It writes the files below into `Tools/data/lfb/`, a folder git ignores:
+Everyone runs it once, in the Week 4 workshop. Run it in your Codespace, from the folder that contains `Tools/`. It downloads the two current extracts (about 150 MB together). It keeps the rows and columns listed under [What is kept, what is dropped, and why](#what-is-kept-what-is-dropped-and-why). It writes the files below into `work/data/lfb/`, a folder git ignores:
 
 | File | What it contains |
 |------|---------------|
@@ -40,13 +40,13 @@ Everyone runs it once, in the Week 4 workshop. Run it in your Codespace, from th
 
 The first run takes about three minutes in a default two-core Codespace (you need network access!). It keeps the downloads under `~/.cache/mn5813-fetch/`. Every later run reuses those downloads, needs no network, finishes in under a minute, and writes the same files byte for byte. Run `python3 Tools/fetch_lfb.py --check` to confirm the files are unchanged.
 
-Read the tables with pandas. Keep the incident number as text so it has the same type in both tables:
+Read the tables with pandas. The example below is for a notebook kept at the top of your `work` folder, next to `data/`. Keep the incident number as text so it has the same type in both tables:
 
 ```python
 import pandas as pd
 
-incidents = pd.read_csv("Tools/data/lfb/incidents.csv.gz", dtype={"IncidentNumber": str})
-mobilisations = pd.read_csv("Tools/data/lfb/mobilisations.csv.gz", dtype={"IncidentNumber": str}, low_memory=False)
+incidents = pd.read_csv("data/lfb/incidents.csv.gz", dtype={"IncidentNumber": str})
+mobilisations = pd.read_csv("data/lfb/mobilisations.csv.gz", dtype={"IncidentNumber": str}, low_memory=False)
 ```
 
 
@@ -55,7 +55,7 @@ mobilisations = pd.read_csv("Tools/data/lfb/mobilisations.csv.gz", dtype={"Incid
 The Brigade updates its files regularly, so teammates who fetch on different days can end up with different data. Your team works from **one copy**.
 
 1. Everyone fetches in the Week 4 workshop. Compare the `sha256` values under `sources` in your `manifest.json` files
-2. If they differ, pick one member's copy and give everyone that member's `Tools/data/lfb/` folder. Log it as `DECISION: working from <name>'s fetch of <date>`
+2. If they differ, pick one member's copy and give everyone that member's `work/data/lfb/` folder. Log it as `DECISION: working from <name>'s fetch of <date>`
 3. One member <!-- plain-language: everyday commit -->commits the two tables and the manifest to the **team repository** (about 20 MB)
 
 Your notebook reads the tables from there, so *Restart & Run All* works for the marker without fetching anything.

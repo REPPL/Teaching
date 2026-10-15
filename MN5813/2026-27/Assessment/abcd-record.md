@@ -42,16 +42,16 @@ We use a Python script to fetch (i.e., get) the record from the public project. 
 python3 Tools/fetch_abcd.py
 ```
 
-Run it once, in your Codespace, from the folder that contains `Tools/`. The `Tools/` in `python3 Tools/fetch_abcd.py` above shows that the script is in the `Tools` folder. It downloads a copy of the project (about 50 MB, under a minute). It reads every record file and the change history, and writes the tables into `Tools/data/abcd/`.
+Run it once, in your Codespace, from the folder that contains `Tools/`. The `Tools/` in `python3 Tools/fetch_abcd.py` above shows that the script is in the `Tools` folder. It downloads a copy of the project (about 50 MB, under a minute). It reads every record file and the change history, and writes the tables into `work/data/abcd/`, in your own `work` folder.
 
 It also writes `manifest.json`, which records the version number of `abcd` (called a `tag`), the commit it points at, and a checksum for every table. The tables are identical on any machine. The [Tools page](../Tools/README.md) explains how to check your tables against the manifest.
 
-Read a table with `pandas`. The timestamps are plain text in a specific format, so `pd.to_datetime` is needed to convert a date as text into a date `object` (we'll cover this in class):
+Read a table with `pandas`. The example below is for a notebook kept at the top of your `work` folder, next to `data/`. The timestamps are plain text in a specific format, so `pd.to_datetime` is needed to convert a date as text into a date `object` (we'll cover this in class):
 
 ```python
 import pandas as pd
 
-issues = pd.read_csv("Tools/data/abcd/issues.csv.gz")
+issues = pd.read_csv("data/abcd/issues.csv.gz")
 issues["created_at"] = pd.to_datetime(issues["created_at"])
 ```
 

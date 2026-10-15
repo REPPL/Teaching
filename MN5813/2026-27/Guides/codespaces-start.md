@@ -124,7 +124,7 @@ If you connected the materials with git commands earlier, you can stop using the
 >
 > - **Change any file you like.** Get new materials never overwrites a change you have synced to GitHub
 > - **Look out for `.updated` files.** One appears when I correct a file you changed. Compare the two and keep what you need
-> - **Use the `work/` folder for extra copies.** For example, try a second approach to a Quest there
+> - **Use the `work/` folder for extra copies.** For example, try a second approach to a Quest there. Keep each copy in a folder for its week, as [Your work](../../../work/README.md) explains
 > - **End each session with <!-- plain-language: everyday commit -->Commit and Sync.** Step 6 shows how. Your work is then safe on GitHub
 
 
