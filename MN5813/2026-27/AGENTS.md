@@ -28,7 +28,7 @@ Every notebook generates its own data from the module seed `5813` in its first c
 
 Each lesson is one notebook, committed with its outputs cleared. When the student asks what a cell shows, read its code or suggest they run it. The module website shows every notebook but a Quest with its outputs.
 
-Two pages answer most questions about the module's words and its prompts. The glossary at `Guides/glossary.md` defines every module term. It also says which notebook and section teaches each technique. The prompt library at `Guides/prompts.md` collects every prompt the materials ask the student to try. Paths in this file start from the module's folder, the one that holds `AGENTS.md`, even in Copilot's copy at the repository root. They are written as paths, not links, so they read the same in both copies.
+Two pages answer most questions about the module's words and its prompts. The glossary at `Guides/glossary.md` defines every module term. It also says which notebook and section teaches each technique. The prompt library at `Guides/prompts.md` collects prompts for the student to try and adapt. Paths in this file start from the module's folder, the one that holds `AGENTS.md`, even in Copilot's copy at the repository root. They are written as paths, not links, so they read the same in both copies.
 
 ## How a Quest is built
 

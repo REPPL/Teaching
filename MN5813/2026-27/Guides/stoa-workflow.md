@@ -1,113 +1,144 @@
 # Stoa workflow: Group work at Runnymede
 
-*How your team runs the group project: Rooms, [stand-ups](./glossary.md#term-stand-up), [decision logging](./glossary.md#term-decision-entry), and what is recorded. You need this from Week 4, when the [Stoa](./glossary.md#term-stoa) rooms open.*
+*How your team runs the group project, on Microsoft Teams or in a [Stoa](./glossary.md#term-stoa) room: Rooms, [stand-ups](./glossary.md#term-stand-up), [decision logging](./glossary.md#term-decision-entry), and your team's record. You need this from Week 4, when your team's meetings begin.*
 
-> ⚠️ **Draft:** This page is a draft. It will be confirmed at a later date.
+At [Runnymede Analytics](./glossary.md#term-runnymede-analytics), when the client asks "*why did you remove that data from your analysis?*", someone answers with a date and a reason.
 
-At [Runnymede Analytics](./glossary.md#term-runnymede-analytics), when the client asks "why did you drop that data?", someone answers with a date and a reason. Your group project works the same way.
+Your group project works the same way: You record what you're doing, including the [decisions](./glossary.md#term-decision) that were taken, why they were taken, and what you expect from it.
+
 
 ## Contents
 
-1. [What Stoa is, and what is recorded](#1-what-stoa-is-and-what-is-recorded)
+1. [Rooms](#1-rooms)
 2. [Team setup in Week 4](#2-team-setup-in-week-4)
-3. [The weekly ritual: The recorded stand-up](#3-the-weekly-ritual-the-recorded-stand-up)
+3. [The weekly stand-up](#3-the-weekly-stand-up)
 4. [The DECISION: convention](#4-the-decision-convention)
-5. [Using the room's Associate well](#5-using-the-rooms-associate-well)
-6. [How process evidence feeds the rubric](#6-how-process-evidence-feeds-the-rubric)
+5. [The Stoa room's Associate](#5-the-stoa-rooms-associate)
+6. [Process evidence](#6-process-evidence)
 7. [Weekly export and backup](#7-weekly-export-and-backup)
 8. [Etiquette and conflict](#8-etiquette-and-conflict)
-9. [Fallback plan if Stoa is unavailable](#9-fallback-plan-if-stoa-is-unavailable)
 
-## 1. What Stoa is, and what is recorded
 
-[Stoa](https://withstoa.com/) is a live team room for group work. It is made by <!-- plain-language: everyday SpecStory -->SpecStory, the company behind the extension that records your AI sessions in your Codespace (see the [Your workstation guide](./codespaces-start.md)). Your team meets in the room. Stoa transcribes the session, captures <!-- plain-language: everyday decision -->decisions and action items with named owners, and provides the room's built-in **[Associate](./glossary.md#term-associate)**, a Claude agent the whole team shares.
+## 1. Rooms
 
-Stoa normally costs $5 per hour, pay-as-you-go. **For this module it is free**, by agreement with <!-- plain-language: everyday SpecStory -->SpecStory. Your workshop tutor confirms in Week 4 how the free access reaches you, and the module arrangement covers your room. [Section 2](#2-team-setup-in-week-4) covers how you sign up. If Stoa ever asks you for payment details, stop and tell your tutor. Do not pay.
+Your team meets on **Microsoft Teams**, with your university account. A [Stoa](https://withstoa.com/) room is the alternative, and using one is optional, although it remains the more convenient option for the team. Markers are interested in your **recorded process** (regular meetings, logged <!-- plain-language: everyday decision -->decisions, and visible contributions), not any single tool.
 
-### What is recorded: Full transparency, up front
+In either room, your team keeps the same record:
 
-The room keeps:
+- Your weekly stand-ups ([section 3](#3-the-weekly-stand-up))
+- Your `DECISION:` entries ([section 4](#4-the-decision-convention))
+- Your meeting transcripts or notes, exported every week ([section 7](#7-weekly-export-and-backup))
+- Each member's [SpecStory](./glossary.md#term-specstory) history, in `.specstory/history/`
+
+> ⚠️ **Remember:** This module is designed as a safe space for you to experiment. That means, adapting the above to make it practical and useful.
+>
+> Don't spend your energy on worrying about this and/or trying to figure out what I want. When you can justify a decision, it's probably the right one!
+
+The [assessment interpretation document](../Assessment/interpretation.md) explains what we see across your meetings, SpecStory, and your submissions.
+
+### Microsoft Teams
+
+Record every meeting, as [section 2](#2-team-setup-in-week-4) describes. Keep a `decisions.md` in your team repository, with the date, the `DECISION:` line, the reasoning, and the owner of each entry.
+
+### Stoa
+
+Stoa is a live team room that makes your team's record easier to keep. It is made by <!-- plain-language: everyday SpecStory -->SpecStory, the company whose extension records your AI sessions in your Codespace ([Your workstation guide](./codespaces-start.md)). Stoa transcribes your meetings, captures <!-- plain-language: everyday decision -->decisions and action items with named owners, and gives the team a shared **[Associate](./glossary.md#term-associate)**, the room's built-in Claude agent.
+
+Stoa normally charges by the hour. **For this module it is free**. I'll confirm in Week 4 how you get the free access. [Section 2](#2-team-setup-in-week-4) covers how you sign up. If Stoa ever asks you for payment details (it shouldn't!), stop and tell your tutor. **Do not pay.**
+
+A Stoa room keeps:
 
 - **The room transcript**: Who said or typed what, by name, with timestamps
 - **<!-- plain-language: everyday decision -->Decisions and action items**: Anything captured as a <!-- plain-language: everyday decision -->decision or action, and who owns it
 - **The Associate's activity**: What your team asked the Associate, and what it produced
 
-Module staff can read your group's transcripts. The transcript is your team's evidence of process, and process evidence is part of how the group project is assessed. Nothing in the room is private from the marking team. Everything in the room is private from other groups.
+Stoa rooms are **public**, so anyone, me included, can see your room. Your team exports its transcripts and submits them. Markers assess them as evidence of your process.
 
-The [assessment interpretation document](../Assessment/interpretation.md) lists what the module collects across Stoa, [SpecStory](./glossary.md#term-specstory), and your submissions.
+Your team may lose Stoa through an outage, an account problem, or a change in the arrangement mid-term. If it does, move to Microsoft Teams and keep the same record. Tell me when your team changes room.
+
 
 ## 2. Team setup in Week 4
 
-Teams are announced on Moodle before Week 4. Each team creates its Stoa room in the Week 4 workshop.
+You form your own team before Week 4. The [group project brief](../Assessment/group-project.md) sets its size. Your team sets up its room in the Week 4 workshop.
 
-1. **Create your account.** Everyone signs up at [withstoa.com](https://withstoa.com/) with the **module Google account** they made in Week 1. Use your name as it appears on the register, so your name in the transcript matches the register
-2. **Create the room.** One team member creates the room. Look for the option to create a new room or session on the Stoa home screen after signing in
-3. **Name the room** **<!-- gen:values.yml#module.code -->MN5813<!-- /gen -->-Group-NN** (so Group 7 is **<!-- gen:values.yml#module.code -->MN5813<!-- /gen -->-Group-07**). Staff use this name to find your room and to match your transcripts to your submission
-4. **Everyone joins.** The room creator invites the rest of the team with the room's invite or share option. Every member joins with their own account, under their own name. Check in the workshop that all names appear correctly. A member who takes part through someone else's screen is invisible in the evidence
-5. **Add module staff.** Your workshop tutor tells you how staff access works. Do this in the workshop
-6. **Hold your first [stand-up](./glossary.md#term-stand-up) in the workshop.** A stand-up is a short status meeting. This first one is **15 minutes**: Each member says what they have done, what they will do next, and what is blocking them. Then log your first `DECISION:`, normally your meeting day and time for the coming weeks. The full weekly stand-up is in [Section 3](#3-the-weekly-ritual-the-recorded-stand-up)
-7. **Complete the rest of the setup as a team:**
-   - Agree where your shared evidence lives: A shared git repository (recommended) or a shared folder. Log it as a `DECISION:`
-   - Agree who exports the transcript each week (rotate it) and log the rota as a `DECISION:`
-   - Agree your working agreements (the [Atlassian working agreements play](https://www.atlassian.com/team-playbook/plays/working-agreements) is a 10-minute template) and log them as a `DECISION:`
+**On Microsoft Teams:**
+
+1. **Start the meeting.** One team member starts a Microsoft Teams meeting and invites the rest of the team. Every member joins with their own university account, so that your names in the transcript match the register
+2. **Turn on transcription or recording** for every meeting. Where neither is available, appoint a minute-taker
+
+**In a Stoa room:**
+
+1. **Create your account.** Sign up at [withstoa.com](https://withstoa.com/) with the **"throwaway" Google account** you made in Week 1. Do not use your real name, but an alias instead (e.g. "Alex Anders"). The name you use in Stoa must not match your real name (because all of it can be seen by anyone else in the class); having said that, you are, of course, free to share your alias with friends and classmates if you wish to do so
+2. **Create the room.** One team member creates the room, from the Stoa home screen after signing in (TBC: I may do that for you)
+3. **Name the room** after your team's letter, such as **<!-- gen:values.yml#module.code -->MN5813<!-- /gen -->-Team-A**. Markers use this name to match your transcripts to your submission
+4. **Everyone joins.** The room creator invites the rest of the team with the room's invite or share option. Every member joins with their own account, under their own name. Check in the workshop that every name appears correctly. A member who takes part through someone else's screen does not appear in the transcript
+
+**Then, in either room:**
+
+1. **Hold your first [stand-up](./glossary.md#term-stand-up) in the workshop.** This first one is **15 minutes**: Each member says what they have done, what they will do next, and what is blocking them. Then log your first `DECISION:`, normally your meeting day and time for the coming weeks. [Section 3](#3-the-weekly-stand-up) covers the full weekly stand-up
+2. **Complete the rest of the setup as a team:**
+   - Agree on your team repository, where your shared evidence lives. Log it as a `DECISION:`
+   - Agree who exports the transcript or notes each week (rotate it). Log the rota as a `DECISION:`
+   - Write your team's working agreements, and log them as a `DECISION:`. Atlassian's [working agreements template](https://www.atlassian.com/team-playbook/plays/working-agreements) takes about 10 minutes
 
 Finish setup **before you leave the Week 4 workshop, or as a team by the end of the same day**. Setup is complete when you can tick every item below:
 
-- [ ] Room created and named **<!-- gen:values.yml#module.code -->MN5813<!-- /gen -->-Group-NN**
+- [ ] Room set up: A recorded Microsoft Teams meeting, or a Stoa room named after your team's letter
 - [ ] Every member visible in the room under their own name
-- [ ] Module staff added
 - [ ] Meeting day and time agreed
-- [ ] Shared evidence location agreed and logged as a `DECISION:`
+- [ ] Team repository agreed and logged as a `DECISION:`
 - [ ] Export rota agreed and logged as a `DECISION:`
 - [ ] Working agreements logged as a `DECISION:`
 
-## 3. The weekly ritual: The recorded stand-up
 
-From Week 4 until group submission, your team holds **at least one recorded stand-up per week, roughly 30 minutes**. We recommend holding it in your Stoa room. A team that works elsewhere follows [section 9](#9-fallback-plan-if-stoa-is-unavailable). The Week 4 first stand-up is a shorter, 15-minute version ([section 2](#2-team-setup-in-week-4)). More meetings are fine. Longer working sessions in the room are encouraged. Week 7 holds a full working session, your self-paced [Sprint Zero](./glossary.md#term-sprint-zero). The weekly stand-up is required.
+## 3. The weekly stand-up
 
-The agenda is the same every week, with four items:
+The [group project brief](../Assessment/group-project.md) sets how often your team holds a stand-up, and for how long, from Week 4 until submission. Hold it in your team's room ([section 1](#1-rooms)). The first stand-up, in the Week 4 workshop, is shorter ([section 2](#2-team-setup-in-week-4)). You can meet more often, and hold longer working sessions in the room. Week 7 is one such session: Your team's self-paced [Sprint Zero](./glossary.md#term-sprint-zero).
 
-### Progress: What moved since last time
+The agenda is the same every week:
 
-Each member reports briefly, in turn. Be concrete.
+### Progress
+
+Each member reports, in turn, what they have done since the last stand-up. Be concrete.
 
 > "I cleaned the attendance-time columns: About 5% of incidents had no first-engine time, handled per last week's <!-- plain-language: everyday decision -->decision. The cleaned file is in the repo as `data/cleaned_incidents.csv`, and the SpecStory transcript of the session is in `.specstory/history/`."
 
-### Blockers: What is stuck, and what would unstick it
+### Blockers
 
-Say what is blocking you, so the team can help.
+Say what is **blocking your work**, and what would help, so the team can act on it.
 
 > "I can't get the engine counts per incident to match `NumPumpsAttending`; I think it's the 1,400 mobilisations whose incident isn't in the extract. I need a second pair of eyes for twenty minutes, or a <!-- plain-language: everyday decision -->decision that we footnote it and move on."
 
-### Decisions: What the team is agreeing today
+### Decisions
 
 When the team settles something, say or type it with the `DECISION:` prefix ([section 4](#4-the-decision-convention)).
 
 > "`DECISION:` We treat fires, false alarms, and special services as separate series in all time-based charts. We do this because pooling them hides the summer fire peak under the false-alarm volume. Owner: Marta updates the two existing figures by Friday."
 
-### Next steps: Who does what by when
+### Next steps
 
-Every action has one owner and a date. "We should all look at the visualisations" is a wish. "Dayo drafts the response-time figure by Tuesday, Priya reviews it against [TRACE](./glossary.md#term-trace) by Thursday" is a plan. TRACE is the figure checklist in the DataViz design guide, taught from Week 6. Before then, "a teammate reviews it" does the same job.
+Every action has one owner and a date. "We should all look at the visualisations" is a wish. "Dayo drafts the response-time figure by Tuesday, Priya reviews it against [TRACE](./glossary.md#term-trace) by Thursday" is a plan. You meet TRACE in Week 6, in the DataViz design guide. Until then, "a teammate reviews it" does the same job.
 
 > "Next stand-up Monday 4pm. Dayo: Response-time figure by Tuesday. Priya: TRACE review Thursday. Marta: Chart fixes Friday. Ben: Draft the data-cleaning section of the report, first pass Sunday."
 
 Keep discussion of *how* to do things out of the stand-up. Note the topic, then schedule a separate working session for it, ideally also in the room.
 
-## 4. The DECISION: convention
 
-Type every significant agreement into the room with the prefix `DECISION:`, followed by **what** you decided, **why**, and **who owns** any resulting action:
+## 4. The DECISION
+
+Log every significant agreement with the prefix `DECISION:`, followed by **what** you decided, **why**, and **who owns** any resulting action. On Microsoft Teams, add it to your team's `decisions.md` ([section 1](#1-rooms)). In a Stoa room, type it into the room. For example:
 
 ```
-DECISION: exclude incidents with no first-engine attendance time from
+DECISION: Exclude incidents with no first-engine attendance time from
 the response-time analysis because no engine attended them (about 5%
 of rows, mostly calls stood down before arrival). We keep them in the
 false-alarm counts and note the cut in the report. Owner: Priya
 updates the loading script.
 ```
 
-How markers read your <!-- plain-language: everyday decision -->decision trail is in the [group project brief](../Assessment/group-project.md), section "6. Evidence".
+The [group project brief](../Assessment/group-project.md) explains how markers read your <!-- plain-language: everyday decision -->decision trail.
 
-### A good/bad pair
+### Good and bad entries
 
 **Bad:**
 
@@ -119,7 +150,7 @@ No reasoning, no owner, and it is barely a <!-- plain-language: everyday decisio
 
 > `DECISION:` Keep the 1,400 mobilisations whose incident is not in the incidents table. Use a left join with an indicator column, rather than an inner join. We keep them because dropping them silently understates station workload in the last weeks of the extract. We flag them in a new column. Owner: Ben implements; Marta spot-checks 20 rows.
 
-This entry gives what, why, the alternative considered, and two named owners.
+This entry gives *what*, *why*, the *alternative* considered, and *named owners*.
 
 Log reversals too. For example:
 
@@ -127,52 +158,46 @@ Log reversals too. For example:
 
 ### A second prefix from Week 9: `CRIT`
 
-From Week 9's [Gallery](./glossary.md#term-gallery), one member of your group is the scribe. The scribe types every [Four-D crit](./glossary.md#term-four-d-crit) your group receives into your room as one scorecard entry prefixed `CRIT`. One entry per figure, per crit round. The template is in Week 9's Introduction notebook, section "The scorecard". Crit outcomes then become ordinary `DECISION:` entries: Which change you accepted, why, owner, and deadline.
+From Week 9's [Gallery](./glossary.md#term-gallery), one member of your team is the scribe. The scribe types every [Four-D crit](./glossary.md#term-four-d-crit) your team receives into your team's record (your meeting notes or your Stoa room), as a [`CRIT` entry](./glossary.md#term-crit-entry). Each figure gets one entry per crit round. The template is in Week 9's Introduction notebook, section "The scorecard". Crit outcomes then become ordinary `DECISION:` entries: Which change you accepted, why, owner, and deadline.
 
-## 5. Using the room's Associate well
 
-The room's **Associate** can see what your team says and types there. Use it in four ways:
+## 5. The Stoa room's Associate
+
+In a Stoa room, the **Associate** can see what your team says and types there. Use it in these ways:
 
 - **"Summarise our disagreement."** When two of you keep arguing over a choice, ask the Associate to summarise both positions. A neutral summary often settles it, or turns it into a `DECISION:` you can log
 - **"Draft a <!-- plain-language: everyday spec -->spec from this discussion."** Suppose you have discussed a figure or an analysis for twenty minutes without a conclusion. Ask the Associate to turn the discussion into a short written specification (a plan of what to build). Then edit it as a team. This is the [GENERATE-JUDGE](./glossary.md#term-generate-judge) move from the [AI guide](./ai-guide.md), done as a team
 - **"List the open questions."** At the end of a messy session, ask the Associate what was raised but not resolved
 - **"Challenge our approach."** Before you <!-- plain-language: everyday commit -->commit to a plan, ask the Associate to argue against it
 
-⚠️ **The Associate is a participant, not a member.** It drafts, summarises, and challenges. Your team decides, and every <!-- plain-language: everyday decision -->decision in your log must be yours, for reasons you can defend. "The Associate said so" is not a reason.
+⚠️ **The Associate is a participant, not a member.** It drafts, summarises, and challenges. Your team *decides*. Every <!-- plain-language: everyday decision -->decision in your log must be yours, for reasons you can defend. "The Associate said so" is not a reason.
 
-## 6. How process evidence feeds the rubric
 
-The rubric is in the [group project brief](../Assessment/group-project.md). Its section "6. Evidence" says what markers read from your recorded process.
+## 6. Process evidence
 
-- **Process indicators are checks, not marks.** An indicator is a count from your record, such as meetings per week or `DECISION:` entries per member. No grade is computed from any indicator
-- **A member with no recorded contribution is asked about their role, not accused.** If your name appears in no transcripts, <!-- plain-language: everyday decision -->decision log, <!-- plain-language: everyday commit -->commits, or exports, staff invite you to a conversation, and you can present other evidence
-- **There is an alternative evidence route.** If a disability, caring responsibility, or access <!-- plain-language: everyday issue -->issue makes recorded live meetings difficult, talk to the module leader early. Written stand-ups, shared documents, and SpecStory sessions can carry the same weight (see the [interpretation document](../Assessment/interpretation.md))
+The [group project brief](../Assessment/group-project.md) explains what we look at from your recorded process. The [assessment interpretation document](../Assessment/interpretation.md) lists the process indicators.
+
+**There is an alternative evidence route:** If you cannot make and/or keep a recording, talk to me early. The [interpretation document](../Assessment/interpretation.md) explains the alternatives.
+
 
 ## 7. Weekly export and backup
 
-Every week, after your stand-up, **one member exports the room's outputs**. They save them to **the shared space your team agreed in Week 4** ([section 2](#2-team-setup-in-week-4)). Follow the export rota you logged in Week 4.
+Every week, after your stand-up, **the member on your export rota exports your team's record** ([section 2](#2-team-setup-in-week-4)).
 
-- Use the export, download, or sync option in your Stoa room. Save at minimum the meeting notes, the <!-- plain-language: everyday decision -->decisions log, and the transcript in whatever format Stoa offers
+- On Microsoft Teams, download the meeting transcript, or save the minute-taker's notes
+- In a Stoa room, use the room's export, download, or sync option. Save at least the meeting notes, the <!-- plain-language: everyday decision -->decisions log, and the transcript, in whatever format Stoa offers
 - Save them in one folder per session, named by date, such as `transcripts/2026-10-19-standup/`
-- If your shared space is a git repository, <!-- plain-language: everyday commit -->commit them. A transcript folder next to your `.specstory/history/` makes a tidy evidence pack
+- Put the folder in your team repository, next to your `.specstory/history/`. Then <!-- plain-language: everyday commit -->commit and push it
+
 
 ## 8. Etiquette and conflict
 
-- **Cameras and microphones are optional.** Typed contributions are transcribed and attributed exactly like spoken ones. Contributing visibly is not optional
-- **Disagreement is healthy. Log it.** When you disagree and then decide, the [`DECISION:` entry](./glossary.md#term-decision-entry) says "we considered X and Y; we chose Y because…"
-- **Attack the analysis, not the <!-- plain-language: everyday Analyst -->analyst.** "That merge double-counts engine minutes" is useful. "You always get the merges wrong" is not. The Four-D crit's first round (describe before you diagnose) works on teammates' code and prose too
-- **If someone stops showing up:** Ask them directly and kindly, and note the absence in the room (for example, "Sam absent, third week. Priya has messaged to check in."). After two weeks with no contact or contribution, **email the module leader**, with your transcripts as context
-- **If the team is stuck in a conflict it cannot resolve:** Email the module leader early, with specifics and the transcript of the disagreement
-
-## 9. Fallback plan if Stoa is unavailable
-
-Markers assess your **recorded process** (regular meetings, logged <!-- plain-language: everyday decision -->decisions, and visible contributions), not any single tool. Stoa is recommended, not required. If Stoa is unavailable (an outage, an account problem, or a change in the arrangement mid-term), or your team chooses another room:
-
-1. **Meet on Microsoft Teams** (your university account) at your usual time. Turn on transcription or recording if available. Otherwise appoint a minute-taker
-2. **Keep a `decisions.md`** in the group repository, with date, `DECISION:` line, reasoning, and owner. It is the same convention, typed by hand
-3. **Keep using SpecStory individually.** Your personal AI sessions are still recorded in `.specstory/history/`. Individual SpecStory transcripts plus a shared `decisions.md` and meeting notes are an assessable evidence trail
-4. **Tell the module leader**
+- **Cameras and microphones are strongly recommended,** but typed contributions count like spoken ones (just make sure your record keeps them!)
+- **Log disagreements.** When you disagree and then decide, the [`DECISION:` entry](./glossary.md#term-decision-entry) records it: "We considered X and Y; we chose Y because…"
+- **Criticise the analysis, not the <!-- plain-language: everyday Analyst -->analyst.** "That merge double-counts engine minutes" is useful. "You always get the merges wrong" is not. The Four-D crit's first round (describe before you diagnose) works on teammates' code and prose too
+- **If someone stops showing up:** Ask them directly and kindly, and note the absence in your record (for example, "Alice absent, third week. Bob has messaged to check in."). After two weeks with no contact or contribution, **email me**
+- **If the team is stuck in a conflict it cannot resolve:** Email me early, with the details and the transcript of the disagreement
 
 ---
 
-*Related guides: [Your workstation](./codespaces-start.md) · [AI guide: Working with your Associate](./ai-guide.md) · [Assessment interpretation](../Assessment/interpretation.md) · [Group project brief](../Assessment/group-project.md)*
+*Related guides: [Your workstation](./codespaces-start.md) · [AI guide](./ai-guide.md) · [Assessment interpretation](../Assessment/interpretation.md) · [Group project brief](../Assessment/group-project.md)*

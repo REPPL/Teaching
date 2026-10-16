@@ -1,6 +1,13 @@
 # AI guide: Working with your Associate
 
-Your AI tools (GitHub Copilot, [Stoa](./glossary.md#term-stoa)'s agent, Colab's Gemini in Week 1, or any other assistant you choose) are your **[Associate](./glossary.md#term-associate)**. You are the **[Analyst](./glossary.md#term-analyst)**. The whole module is built on that distinction.
+Your AI tools are your "[synthetic teammates](https://www.sciencedirect.com/science/article/pii/S0007681325000357)," e.g.,
+
+1. GitHub Copilot
+2. [Stoa](./glossary.md#term-stoa)'s agent
+3. Google Colab's Gemini *(Week 1)*
+4. or any other assistant you choose
+
+In this module, we refer to them as your **[Associate](./glossary.md#term-associate)**, with you being the **[Analyst](./glossary.md#term-analyst)**. The whole module is built on the distinction between *human* analyst and synthetic *associate*.
 
 
 ## 1. The charter
@@ -15,11 +22,11 @@ The module has one rule:
 
 > **The Associate writes the code; the Analyst carries the judgement and signs the work.**
 
-When you submit, your name is on the analysis. If a merge silently dropped half the rows, or a chart's axis flatters the data, "the AI wrote that bit" is not a defence. You are responsible for everything you submit, however it was produced.
+When you submit, your name is on the analysis. If a merge silently dropped half the rows, or a chart's axis leads to a wrong conclusion, "the AI wrote that bit" is not a defence. In this module, you are learning to take responsibility for everything you submit, however it was produced.
 
 What AI-open does **not** mean:
 
-- It does not mean the module asks less of you. Learning to direct an Associate well is a skill
+- It does not mean the module asks less of you. Learning to direct an Associate well is a skill (and requires you to understand the underlying concepts to direct them)
 - It does not mean anything goes elsewhere; this module has quite a few rules to be aware of
 - It does not mean Royal Holloway's academic integrity policy is set aside or can be ignored: You name your AI use in the [AI Use Record](./glossary.md#term-ai-use-record)
 - It does not mean you can skip understanding: See [section 8, Learning so it sticks](#8-learning-so-it-sticks)
@@ -134,27 +141,27 @@ Your Associate has never seen your data, so every good analytics prompt carries 
 
 Here are some useful patterns (adapt the words, but keep the structure):
 
-1. **The schema anchor**: Start any data task with the schema and a sample row.
+1. **The schema**: Start any data task with the schema (broadly speaking, the recorded structure) and a sample row.
    > "I have a DataFrame `sales` with columns: `date` (string, 'DD/MM/YYYY'), `store` (string), `units` (int), `revenue` (float, GBP). Sample row: `'03/11/2026', 'Egham', 42, 315.50`. First task: Convert `date` to datetime."
 
    Told the format is DD/MM/YYYY, the Associate writes `format="%d/%m/%Y"` instead of guessing and reading 03/11 as March
 
-2. **The business question first**: Lead with why, not just what.
+2. **The business question first**: Lead with *why*, not just *what*.
    > "Business question: The client thinks weekend trading isn't worth the staffing cost. Using `sales`, compare weekday vs weekend revenue per trading day. What would you compute, and what would you caution the client about?"
 
    Given the purpose, it can flag things you did not ask about, such as comparing per day rather than in total
 
-3. **The alternatives ask**: Never settle for one option on anything that matters.
+3. **Alternatives**: Never settle for one option on anything that matters.
    > "Give me three ways to handle the missing values in `revenue`, with the trade-offs of each for a monthly revenue report. Recommend one and justify it."
 
    You cannot judge when there is only one option
 
-4. **The assumptions flush**: Make the invisible visible.
+4. **The assumptions**: Make the invisible *visible*.
    > "Before writing any code: List every assumption you're making about my data and my goal. I'll confirm or correct each one."
 
    Typical answers: "I assume `customer_id` uniquely identifies a customer", "I assume revenue is net of refunds". Half will be wrong. Find out now
 
-5. **The constraint retrofit**: Adapt the output to a constraint the Associate was not told. This is the Silver-tier move
+5. **The constraint retrofit**: Adapt the output to a constraint the Associate was not told
    > "Good, but this report will be re-run monthly by a colleague who doesn't know Python. Restructure it as one function taking a file path, with clear error messages if the columns aren't what we expect."
 
 6. **The explain-back check**: Use it before accepting anything that matters.
@@ -162,14 +169,14 @@ Here are some useful patterns (adapt the words, but keep the structure):
 
    If the explanation does not match what you asked for, neither does the code
 
-Every prompt on this page, and every other prompt in the materials, is in the [prompt library](./prompts.md). Each entry has a line on what a good answer contains. Module terms are defined in the [glossary](./glossary.md). For deeper technique, read Anthropic's [prompt engineering guide](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview), which applies to most tools. Ethan Mollick's [One Useful Thing](https://www.oneusefulthing.org) is a running commentary on working with AI (registration is optional!).
+Each pattern has a template in the [prompt library](./prompts.md), with what a good answer contains. Module terms are defined in the [glossary](./glossary.md). For deeper technique, read Anthropic's [prompt engineering guide](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview), which applies to most tools. Ethan Mollick's [One Useful Thing](https://www.oneusefulthing.org) is a running commentary on working with AI (registration is optional!).
 
 
 ## 5. Verification
 
-Five recommended habits:
+Five recommended habits (of successful business analysts):
 
-1. **Never accept unrun code.** Code you have not run is a claim, not a result
+1. **Never accept unrun code.** Code you have not run is a *claim*, not a *result*
 2. **Check shapes and count your rows.** After any filter, merge, groupby, or dropna, check `df.shape`, or compare `len(before)` with `len(after)`. Rows lost or gained that you did not expect are the most common silent failure in data analysis
 3. **Recompute one number by hand.** Pick one value in any summary table and check it independently. Filter the raw rows for one region in one month, add them up, and compare. This is what lets you tick a quest's [Definition of Done](./glossary.md#term-definition-of-done) (the self-check list in every quest Briefing)
 4. **The three explanations trick.** Take any output you are about to rely on. Ask your Associate to explain it three ways: To a programmer, to a manager, and to a ten-year-old (or, alternatively, to a [golden retriever](https://youtu.be/LTDS6SHwA6w)). Invented answers rarely survive that, and should the versions disagree about what the code does, investigate
@@ -186,30 +193,27 @@ Suppose a transcript shows you giving the Associate the schema, rejecting its fi
 - **SpecStory transcripts** (Week 2 onwards, in your Codespace): Files in `.specstory/history/` inside your project, written automatically by the pre-installed SpecStory extension. Confirm files are appearing there ([Your workstation, Step 5](./codespaces-start.md#step-5-check-your-record-specstory)) and <!-- plain-language: everyday commit -->commit them with your work
 - **[QuestLog.md](./glossary.md#term-questlog)** (all weeks): Your personal learning journal, from the template issued in Week 1. Add a dated entry per quest with the [badge](./glossary.md#term-badge) you claimed and your Debrief answers
 
-SpecStory is a convenience not a requirement. Any consistent way of keeping the AI Use Record meets the same standard: SpecStory, a hand-kept log, or whatever suits your setup. (For group work from Week 4, your Stoa room transcript is the team's equivalent. See the [Stoa workflow guide](./stoa-workflow.md).)
+SpecStory is a **convenience** not a requirement. Any consistent way of keeping the AI Use Record meets the same standard: SpecStory, a hand-kept log, or whatever suits your setup. (For group work from Week 4, your team's meeting transcripts or notes are the team's equivalent. See the [Stoa workflow guide](./stoa-workflow.md).)
 
-While markers will look at your transcripts (see the [assessment interpretation](../Assessment/interpretation.md)), those indicators are supporting evidence only, and no mark is computed from them. (The interpretation arrives with Week 3.)
+Markers will look at your transcripts (see the [assessment interpretation](../Assessment/interpretation.md)).
 
 Remember: A transcript full of rejected AI output and corrections is a *good* transcript. <!-- plain-language: everyday abcd record -->The record to worry about is the empty one.
 
 
 ## 7. The AI Use Record
 
-Both submissions (the group project and the individual report) include an **AI Use Record**. It is a short declaration plus a summary of how AI was involved. It is half a page to a page long in total. It has four parts:
+Both submissions (the group project and the individual report) include an **AI Use Record**. The [assessment interpretation](../Assessment/interpretation.md) explains what it contains, with a worked example.
 
-1. **Tools used.** Name each and where you used it
-2. **What each was used for.** Be specific
-3. **Notable rejections and corrections.** Give two or three moments where you overruled the Associate, with your reason. This part shows the judgement being assessed most directly
-4. **One paragraph of reflection.** Say where the Associate helped, where it slowed or misled you, and what you would do differently
+Week 7 rehearses the AI Use Record's reflection: The [REFLECT prompt](./prompts.md#reflect-on-your-prompts) reads your own prompts back to you.
 
-Week 7 rehearses part 4: The [REFLECT prompt](./prompts.md#reflect-on-your-prompts) reads your own prompts back to you.
-
-Avoid two failure modes: The empty gesture ("I used ChatGPT for some things") and the exhaustive log (all 214 prompts, pasted). Be specific and <!-- plain-language: everyday brief -->brief. The transcripts hold the detail. The full specification is in the [assessment interpretation](../Assessment/interpretation.md).
+Avoid two failure modes: The empty gesture ("I used ChatGPT for some things") and the exhaustive log (all 214 prompts, pasted). Be specific and <!-- plain-language: everyday brief -->brief. The transcripts hold the detail.
 
 
 ## 8. Learning so it sticks
 
-Working this way carries one risk. If the Associate does all the thinking, you learn nothing while feeling productive. Watching fluent code appear feels like understanding until ... you face a blank cell alone. The quest stages were designed to guard against this (see [quest](./glossary.md#term-quest) in the glossary). Remember: The [individual report](../Assessment/individual-report.md) asks you to direct an Associate on your own analysis of [the record](./glossary.md#term-abcd-record), and that cannot be delegated to the Associate.
+Working this way carries one risk. If the Associate does all the thinking, you learn nothing while feeling productive. Watching fluent code appear feels like understanding until ... you face a blank cell alone.
+
+The [quest](./glossary.md#term-quest) stages were designed to guard against this. Remember: The [individual report](../Assessment/individual-report.md) asks you to direct an Associate on your own analysis of [the record](./glossary.md#term-abcd-record), and that cannot be delegated to the Associate.
 
 Three practices beyond the quests:
 

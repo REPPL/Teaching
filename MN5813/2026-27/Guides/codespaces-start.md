@@ -139,7 +139,7 @@ You opened the Codespace signed in to GitHub, so Copilot is usually ready at onc
 
 ## Step 5: Check your record (SpecStory)
 
-The module requires an **[AI Use Record](./glossary.md#term-ai-use-record)**, described in the [AI guide](./ai-guide.md), section "7. The AI Use Record". SpecStory saves the transcripts for it automatically. Confirm it is working.
+The module requires an **[AI Use Record](./glossary.md#term-ai-use-record)**, described in the [assessment interpretation](../Assessment/interpretation.md). SpecStory saves the transcripts for it automatically. Confirm it is working.
 
 1. With your project open, have a short, real exchange in Copilot Chat. Step 4 counts
 2. In the Explorer panel, find a folder named **`.specstory`** containing **`history/`**. Folders starting with a dot are hidden by convention, but VS Code shows them

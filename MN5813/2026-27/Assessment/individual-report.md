@@ -66,7 +66,7 @@ Two records matter in this report. The `abcd` record is your data. This section 
 
 Your **[SpecStory](../Guides/glossary.md#term-specstory) transcripts** are that record. Keep them across the whole project, from your <!-- plain-language: everyday first look -->first look at the tables to your final edits. To submit, commit and push your `.specstory/history/` folder alongside your notebook. Then upload the report PDF on the Moodle submission page. See the [assessment interpretation](./interpretation.md) and the instructions on the submission page.
 
-The record is evidence **in your favour** (always). The [assessment interpretation](./interpretation.md) explains what markers read in it and the process indicators they count. **No mark is computed from any indicator.** If a module tool does not suit you, the same page explains the other ways to show your record. Our rule: No student is disadvantaged by the tools they use.
+The record is evidence **in your favour** (always). The [assessment interpretation](./interpretation.md) explains what markers read in it and the process indicators they count. If a module tool does not suit you, the same page explains the other ways to show your record. Our rule: No student is disadvantaged by the tools they use.
 
 
 ## 6. The rubric

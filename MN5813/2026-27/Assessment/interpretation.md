@@ -10,9 +10,7 @@
 
 ### The AI Use Record
 
-Every submission, group and individual, includes an **AI Use Record** of half a page to a page. It opens with a declaration line, for example:
-
-> *"This submission was produced with AI assistance. <!-- plain-language: everyday abcd record -->The record below summarises the tools we used, what we used them for, and notable outputs we rejected or corrected. Our transcripts evidence this account."*
+An AI Use Record is half a page to a page long. It opens with a declaration line, as in the worked example below.
 
 **I encourage you to experiment:** Work towards your individual 'AI declaration', the one document you think through, write, and review without AI. It goes in the PDF you submit with your [individual report](./individual-report.md). Make it yours and yours alone. After endless conversations with your AI [Associate](../Guides/glossary.md#term-associate), you will begin to appreciate writing in your own words.
 
@@ -46,11 +44,10 @@ Your record is how you show the judgement the rubrics reward: What you checked, 
 | What | Where it lives | Who can see it |
 |------|----------------|----------------|
 | **[SpecStory](../Guides/glossary.md#term-specstory) transcripts** | `.specstory/history/` in your project folder, saved automatically and submitted with your work | Markers, at marking |
-| **Stoa room transcripts** (recommended) | Your team's Stoa room, or the equivalent record your team keeps, exported weekly and submitted with the project | Markers, at marking |
+| **Team meeting transcripts or notes** | Your team's meetings on Microsoft Teams or in a Stoa room, exported weekly and submitted with the project | Markers, at marking |
 | **Your submitted notebook and files** | Your submission | Markers, moderators, and external examiners |
 
-- **What markers see**: Only what you submit, read at marking. Markers do not watch Stoa rooms during term. They enter a team's room only when invited, or when a concern has been raised
-- **What markers cannot see**: Your screen, your conversations outside Stoa, your Copilot activity beyond what SpecStory records, and anything you leave out of your submission
+- **What markers cannot see**: Your screen, your unrecorded conversations, your Copilot activity beyond what SpecStory records, and anything you leave out of your submission
 - **How you submit**: The group project is your team repository's last push before <!-- gen:values.yml#assessments.group.deadline -->Thursday 3 December 2026, 12:00 (UK time)<!-- /gen -->. The [individual report brief](./individual-report.md) explains how to submit the report
 - **Retention**: Submitted records are kept under the University's retention schedule for assessed work
 - **Third-party tools**: [Stoa](https://withstoa.com/) stores your room on its servers, under its privacy policy. [SpecStory](https://docs.specstory.com) writes your Copilot history to files on your machine. Both have been reviewed against the University's data-protection requirements
@@ -77,7 +74,7 @@ Markers count the following in your submitted record. The counts show them where
 - **Contribution-turn spread** (turns across members in the team transcripts): No threshold. One member should not dominate while the others stay silent
 - **Session continuity** (the dates of the sessions in your submitted record): Sessions should spread across the working period, not cluster in the final days
 
-What the marker reads in the work outweighs any count. Five `DECISION:` entries that record a choice, a reason, and a rejected alternative count for more than a hundred that say "decided to proceed". If you cannot use a module tool, the alternative evidence route in section 2 applies.
+What the marker reads in the work outweighs any count. Five `DECISION:` entries that record a choice, a reason, and a rejected alternative count for more than a hundred that say "decided to proceed".
 
 ---
 

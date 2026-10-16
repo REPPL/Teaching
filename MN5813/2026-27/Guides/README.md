@@ -13,7 +13,7 @@
 | [Stoa workflow](./stoa-workflow.md) | Group work: Rooms, [stand-ups](./glossary.md#term-stand-up), [decision logging](./glossary.md#term-decision-entry), what is recorded |
 | The Runnymede Standard: Data visualisation design guide | Chart choice, decluttering, colour, honesty, accessibility, [TRACE](./glossary.md#term-trace), [design rationales](./glossary.md#term-design-rationale) |
 | [Glossary](./glossary.md) | What every module term means, and which notebook and section teaches each technique |
-| [Prompt library](./prompts.md) | Every prompt the materials ask you to try, on one page, with what a good answer contains |
+| [Prompt library](./prompts.md) | Prompts to try, with what a good answer contains |
 | [Briefing for the Associate](../AGENTS.md) | What your AI tool reads at the start of every session: The module's words, layout, and the rules it follows when helping you |
 
 ## Optional guides, for your own time
