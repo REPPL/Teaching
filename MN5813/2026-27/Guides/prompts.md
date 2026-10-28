@@ -4,16 +4,14 @@
 
 > ⚠️ **Draft:** This page is a draft. It will be confirmed at a later date.
 
-This page collects the prompts that appear across <!-- gen:values.yml#module.code -->MN5813<!-- /gen -->. It holds one template prompt for each of the four "moves" and the six prompting patterns. 
+Fill in anything in brackets (e.g., *your code*, *your figure*, and *your questions*). Then paste the whole prompt into your [Associate](./glossary.md#term-associate). Do not reword it, so that you learn its outcomes (which may differ). Adapt later. 
 
-It also holds the [Debrief](./glossary.md#term-debrief) prompts and the REFLECT prompt. Fill in anything in brackets (e.g., *your code*, *your figure*, and *your questions*). Then paste the whole prompt into your [Associate](./glossary.md#term-associate). Do not reword it, so that you learn its outcomes (which may differ). Adapt later. 
-
-Where a note in *italics* follows the prompt, judge the reply against it. The note says what a good answer contains. The *moves* and the *habits* of checking are in the [AI guide](./ai-guide.md). The glossary explains the [Debrief](./glossary.md#term-debrief) stage.
+Where a note in *italics* follows the prompt, judge the reply against it. The *moves* and the *habits* of checking are in the [AI guide](./ai-guide.md).
 
 
 ## The four moves
 
-[Section 3 of the AI guide](./ai-guide.md) describes them. This page gives one template prompt for each.
+[Section 3 of the AI guide](./ai-guide.md) describes them.
 
 ### GENERATE-JUDGE
 
@@ -59,7 +57,7 @@ The six patterns are in [section 4 of the AI guide](./ai-guide.md). Adapt the wo
 
 ### The schema anchor
 
-Start any data task with the schema (the column names and their types) and a sample row.
+Start any data task with the schema and a sample row.
 
 ```text
 I have a DataFrame `sales` with columns: `date` (string, 'DD/MM/YYYY'), `store` (string), `units` (int), `revenue` (float, GBP). Sample row: `'03/11/2026', 'Egham', 42, 315.50`. First task: convert `date` to datetime.
@@ -107,7 +105,7 @@ Walk me through this line by line. For each step, tell me what could go wrong wi
 
 ## The Debrief prompts
 
-Every [quest](./glossary.md#term-quest)'s Stage 5, the Debrief, asks the same three [TEACH-BACK](./glossary.md#term-teach-back) questions. Answer them in the quest, then copy your answers into your `QuestLog.md` as a dated entry with the [badge](./glossary.md#term-badge) you are claiming.
+Every [quest](./glossary.md#term-quest)'s Stage 5, the [Debrief](./glossary.md#term-debrief), asks the same three [TEACH-BACK](./glossary.md#term-teach-back) questions. Answer them in the quest, then copy your answers into your `QuestLog.md` as a dated entry with the [badge](./glossary.md#term-badge) you are claiming.
 
 **1. Client explanation**
 
@@ -127,17 +125,17 @@ Where was your Associate wrong, misleading, or unhelpful this week? Paste the ex
 Ask your Associate to set you three questions on this week's material. Paste the quiz and answer it without AI help.
 ```
 
-Each quest's Quiz me also suggests a prompt naming that week's topics. Its shape is always the same. It asks for three short questions (easy, medium, hard) on the week's topics, and tells the Associate not to show answers until you have tried.
+Each quest's Quiz me also suggests a prompt naming that week's topics.
 
 
 ## Reflect on your prompts
 
 In Week 7, run this once on your own record. Nothing from it is marked.
 
-**REFLECT: Read your own prompting**: Open one transcript from `.specstory/history/`, or your [Prompt Diary](./glossary.md#term-prompt-diary), then paste this with the file open.
+**REFLECT: Read your own prompting**: Open your [Prompt Diary](./glossary.md#term-prompt-diary), then paste this with the file open.
 
 ```text
-Read only the file I have open. It is my own record of prompts to an AI assistant: A transcript or my Prompt Diary.
+Read only the file I have open. It is my own record of prompts to an AI assistant: My Prompt Diary.
 If the file is empty, or is not a record of my prompts, say so and stop.
 Answer in exactly three parts, quoting my exact words.
 1. Three patterns: Name three patterns in how I prompt. Quote one of my prompts for each.

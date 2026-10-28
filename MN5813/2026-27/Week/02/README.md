@@ -7,7 +7,7 @@
 
 ## Overview
 
-This week you build your workstation, a GitHub Codespace, and keep it for the rest of the module. The [Introduction](./Introduction.ipynb), section "Your environment this week", says how your environment changes. You also extend the Python from Week 1 into the full beginner toolkit. You meet the module's four AI moves and practise the first two. The week ends with **[Quest](../../Guides/glossary.md#term-quest) 02: The Coffee Cart Ledger**. You get a full week of till records from Beans of Egham, the coffee cart from Quest 01. The founder of Beans of Egham needs numbers she can check against her till roll. You must judge your [Associate](../../Guides/glossary.md#term-associate)'s drafts before they ship.
+This week you build your workstation, a GitHub Codespace, and keep it for the rest of the module. You also extend the Python from Week 1 into the full beginner toolkit. You meet the module's four AI moves and practise the first two. The week ends with **[Quest](../../Guides/glossary.md#term-quest) 02: The Coffee Cart Ledger**. You get a full week of till records from Beans of Egham, the coffee cart from Quest 01. You must judge your [Associate](../../Guides/glossary.md#term-associate)'s drafts before they ship.
 
 
 ## This week's learning objectives
@@ -24,7 +24,7 @@ By the end of Week 2 you can:
 
 ## Before class
 
-- [ ] Read the [Introduction](./Introduction.ipynb): The week's concepts, the four AI moves, and how your environment changes. Read this page with it (about 20 min). You do not need your workstation yet
+- [ ] Read the [Introduction](./Introduction.ipynb): The week's concepts, the four AI moves, and how your environment changes. Read this page with it (about 20 min)
 
 
 ## In class
@@ -35,7 +35,7 @@ By the end of Week 2 you can:
 
 ### Lecture
 
-**<!-- gen:values.yml#session.lecture-label -->Lecture (45 min within the 60-minute slot)<!-- /gen -->:** You install nothing and run nothing in this slot.
+**<!-- gen:values.yml#session.lecture-label -->Lecture (45 min within the 60-minute slot)<!-- /gen -->**
 
 - The four moves, live (25 min): You see GENERATE-JUDGE and PREDICT-RUN on real prompts, and how the moves map to quest stages
 - Demonstration highlights (20 min): You see dictionaries, the counting pattern, and writing a file then reading it back, worked live with an Associate
@@ -46,9 +46,9 @@ By the end of Week 2 you can:
 
 - Build your Codespace (15 min): Create it from your own repository, following [Your workstation](../../Guides/codespaces-start.md). Sort out anything still unfinished from Week 1 as you go
 - [Exercises.ipynb](./Exercises.ipynb) (25 min): Work through it once your Codespace is built
-- Sign and record your work (15 min): Confirm [SpecStory](../../Guides/glossary.md#term-specstory) is writing to `.specstory/history/`. Set your git identity to your candidate number, and make your first <!-- plain-language: everyday commit -->commit and push
+- Sign and record your work (15 min): Start your [Prompt Diary](../../Guides/glossary.md#term-prompt-diary) in `PromptDiary.md`. Set your git identity to your candidate number, and make your first <!-- plain-language: everyday commit -->commit and push
 - Quest 02 with your Associate (40 min): Do Briefing and [First look](../../Guides/glossary.md#term-first-look) in the workshop, and start Build before you leave
-- Wrap-up and stop your workstation (10 min): [AI Use Record](../../Guides/glossary.md#term-ai-use-record) and [QuestLog](../../Guides/glossary.md#term-questlog) habits, and what "verified" means before you ship a number. Last, stop your Codespace so it does not use your free Codespaces hours while you are away
+- Wrap-up and stop your workstation (10 min): [AI Use Record](../../Guides/glossary.md#term-ai-use-record) and [QuestLog](../../Guides/glossary.md#term-questlog) habits, and what "verified" means before you ship a number. Last, stop your Codespace
 
 
 ## At home (about 3 hours, before Week 3)
@@ -80,5 +80,5 @@ By the end of Week 2 you can:
 
 ## Essential guides
 
-- [AI guide: Working with your Associate](../../Guides/ai-guide.md): The four moves in full, and prompting for analytics. Section 4 is the part you need for Quest 02
+- [AI guide: Working with your Associate](../../Guides/ai-guide.md): The four moves in full, and prompting for analytics
 - [Your workstation](../../Guides/codespaces-start.md): Your Codespace, GitHub Copilot, and your AI Use Record

@@ -9,7 +9,7 @@
 | Guide | What it covers |
 |-------|----------------|
 | [AI guide: Working with your Associate](./ai-guide.md) | The AI-open charter, the four canonical moves, prompting for analytics, evidence and attribution |
-| [Your workstation](./codespaces-start.md) | Your Week 2 workstation and the module's default environment: GitHub Codespaces, GitHub Copilot, and your automatic record |
+| [Your workstation](./codespaces-start.md) | Your Week 2 workstation and the module's default environment: GitHub Codespaces, GitHub Copilot, and your [Prompt Diary](./glossary.md#term-prompt-diary) |
 | [Stoa workflow](./stoa-workflow.md) | Group work: Rooms, [stand-ups](./glossary.md#term-stand-up), [decision logging](./glossary.md#term-decision-entry), what is recorded |
 | The Runnymede Standard: Data visualisation design guide | Chart choice, decluttering, colour, honesty, accessibility, [TRACE](./glossary.md#term-trace), [design rationales](./glossary.md#term-design-rationale) |
 | [Glossary](./glossary.md) | What every module term means, and which notebook and section teaches each technique |
@@ -18,7 +18,7 @@
 
 ## Optional guides, for your own time
 
-None of these is needed for a session, a [quest](./glossary.md#term-quest), or an assessment. Read them if you are curious.
+None of these is needed for a session, a [quest](./glossary.md#term-quest), or an assessment.
 
 | Guide | What it covers |
 |-------|----------------|

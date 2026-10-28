@@ -1,8 +1,8 @@
 // The pre-built workstation recipe the Your workstation guide promises.
 // The publisher places this file at the student repository's root. Every
 // student's own repository, made from that one with Use this template, then
-// opens the same Codespace: Python, the module's packages, Copilot, and the
-// SpecStory session recorder, with nothing to install by hand.
+// opens the same Codespace: Python, the module's packages, and Copilot, with
+// nothing to install by hand.
 // New materials reach the student's repository on GitHub through the "Get
 // new materials" workflow (.github/workflows/get-materials.yml). The
 // postStartCommand brings them into the Codespace each time it starts. It
@@ -31,8 +31,7 @@
         "ms-python.python",
         "ms-toolsai.jupyter",
         "GitHub.copilot",
-        "GitHub.copilot-chat",
-        "SpecStory.specstory-vscode"
+        "GitHub.copilot-chat"
       ]
     }
   }

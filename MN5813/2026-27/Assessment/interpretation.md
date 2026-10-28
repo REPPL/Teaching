@@ -1,6 +1,6 @@
 # Assessment interpretation
 
-*How markers read the <!-- gen:values.yml#module.code -->MN5813<!-- /gen --> rubric in an AI-open module in <!-- gen:values.yml#module.year -->2026-27<!-- /gen -->. This page explains what both assessments share.*
+*How markers read the <!-- gen:values.yml#module.code -->MN5813<!-- /gen --> rubric in an AI-open module in <!-- gen:values.yml#module.year -->2026-27<!-- /gen -->.*
 
 ---
 
@@ -12,20 +12,20 @@
 
 An AI Use Record is half a page to a page long. It opens with a declaration line, as in the worked example below.
 
-**I encourage you to experiment:** Work towards your individual 'AI declaration', the one document you think through, write, and review without AI. It goes in the PDF you submit with your [individual report](./individual-report.md). Make it yours and yours alone. After endless conversations with your AI [Associate](../Guides/glossary.md#term-associate), you will begin to appreciate writing in your own words.
+**I encourage you to experiment:** Work towards your individual 'AI declaration', the one document you think through, write, and review without AI. It goes in the PDF you submit with your [individual report](./individual-report.md).
 
 Change the declaration line so it fits your submission. These parts follow the declaration:
 
 1. **Tools used**: Each tool and where you used it (for example "Copilot in VS Code; the [Stoa](../Guides/glossary.md#term-stoa) agent for team sessions")
 2. **What each was used for**: Specific, not general
-3. **Notable rejections and corrections**: Two or three moments where you overruled the AI, with your reasons for doing so
+3. **Notable rejections and corrections**: Two or three moments where you overruled the AI, with your reasons
 4. **Reflection**: One short paragraph on where the AI helped, where it misled or slowed you, and what you would do differently
 
 For the individual report, write "I" rather than "we". A worked example:
 
 > **AI Use Record: Team 7, Engagement FRS-2026**
 >
-> *"This submission was produced with AI assistance. <!-- plain-language: everyday abcd record -->The record below summarises the tools we used, what we used them for, and notable outputs we rejected or corrected. Our transcripts evidence this account."*
+> *"This submission was produced with AI assistance. <!-- plain-language: everyday abcd record -->The record below summarises the tools we used, what we used them for, and notable outputs we rejected or corrected. See our [Prompt Diaries](../Guides/glossary.md#term-prompt-diary) for further details."*
 >
 > **Tools used.** GitHub Copilot in VS Code (individual coding, Weeks 4-9); the Stoa agent (team sessions and figure critique).
 >
@@ -39,21 +39,19 @@ For the individual report, write "I" rather than "we". A worked example:
 
 ## 2. Things that matter
 
-Your record is how you show the judgement the rubrics reward: What you checked, what you decided, and what the AI contributed.
-
 | What | Where it lives | Who can see it |
 |------|----------------|----------------|
-| **[SpecStory](../Guides/glossary.md#term-specstory) transcripts** | `.specstory/history/` in your project folder, saved automatically and submitted with your work | Markers, at marking |
+| **Your [Prompt Diary](../Guides/glossary.md#term-prompt-diary)** | `PromptDiary.md` in your repository, kept by you after each AI session and submitted with your work | Markers, at marking |
 | **Team meeting transcripts or notes** | Your team's meetings on Microsoft Teams or in a Stoa room, exported weekly and submitted with the project | Markers, at marking |
 | **Your submitted notebook and files** | Your submission | Markers, moderators, and external examiners |
 
-- **What markers cannot see**: Your screen, your unrecorded conversations, your Copilot activity beyond what SpecStory records, and anything you leave out of your submission
+- **What markers cannot see**: Your screen, your unrecorded conversations, and anything you leave out of your submission
 - **How you submit**: The group project is your team repository's last push before <!-- gen:values.yml#assessments.group.deadline -->Thursday 3 December 2026, 12:00 (UK time)<!-- /gen -->. The [individual report brief](./individual-report.md) explains how to submit the report
 - **Retention**: Submitted records are kept under the University's retention schedule for assessed work
-- **Third-party tools**: [Stoa](https://withstoa.com/) stores your room on its servers, under its privacy policy. [SpecStory](https://docs.specstory.com) writes your Copilot history to files on your machine. Both have been reviewed against the University's data-protection requirements
+- **Third-party tools**: [Stoa](https://withstoa.com/) stores your room on its servers, under its privacy policy. It has been reviewed against the University's data-protection requirements
 - **Concerns**: Speak to me (contact details are on Moodle), or use the School's anonymous feedback channels
 - **One firm rule**: Never paste other people's personal data into any AI tool. If your dataset identifies a living person, anonymise it before analysis
-- **Alternative evidence route**: SpecStory and Stoa are optional tools. Any consistent record of your process is acceptable, such as a hand-kept log. If a module tool does not suit you, contact me early. We then agree another way to show your process
+- **Alternative evidence route**: Stoa is optional. If a module tool or the Prompt Diary does not suit you, contact me early. We then agree another way to show your process
 
 ---
 
@@ -67,7 +65,7 @@ Every reference must exist and support the claim you cite it for. AI tools inven
 
 ## 4. Process indicators
 
-Markers count the following in your submitted record. The counts show them where to read. **Important:** No mark is computed from any of them, but they can point markers to useful explanations.
+Markers count the following in your submitted record. **Important:** No mark is computed from any of them, but they can point markers to useful explanations.
 
 - **Team sessions per week** (from Week 4): At least one, the weekly [stand-up](../Guides/glossary.md#term-stand-up)
 - **[`DECISION:` entries](../Guides/glossary.md#term-decision-entry) per member**: No quota, but a visible contribution from everyone

@@ -23,15 +23,15 @@ By the end of Week 5 you can:
 5. Summarise several statistics at once with named aggregation, and recognise when `agg()` dictionaries or `transform()` fit better
 6. Specify a reshape to your Associate as a shape description, state the aggregation explicitly, and verify one cell of the result by hand
 
-You use `pivot_table()` and named aggregation in the quest. You practise `melt()`, `stack()`/`unstack()`, window functions, and `transform()` in the Demonstration. You use them again on the [London Fire Brigade data](../../Assessment/lfb-data.md) in Week 7.
+You use `pivot_table()` and named aggregation in the quest. You practise `melt()`, `stack()`/`unstack()`, window functions, and `transform()` in the Demonstration.
 
 
 ## Before class
 
-- [ ] Read the [Week 4 Debrief](../04/Debrief.ipynb) first, especially the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery). This week builds on its merging and grouping
-- [ ] Read the [Introduction](./Introduction.ipynb): The week's key concepts, from tidy data to complex `groupby()`
+- [ ] Read the [Week 4 Debrief](../04/Debrief.ipynb) first, especially the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery)
+- [ ] Read the [Introduction](./Introduction.ipynb)
 - [ ] Then work through the [Demonstration](./Demonstration.ipynb) (about 75 min for this and the Introduction)
-- [ ] Open your Codespace. Check that [SpecStory](../../Guides/glossary.md#term-specstory) saves your Copilot chats in `.specstory/history/`
+- [ ] Open your Codespace. Check that your [Prompt Diary](../../Guides/glossary.md#term-prompt-diary) in `PromptDiary.md` is up to date
 
 
 ## In class
@@ -56,8 +56,8 @@ You use `pivot_table()` and named aggregation in the quest. You practise `melt()
 
 - [ ] Finish [Quest 05](./Quest.ipynb) to at least Bronze (about 30 min). Silver is the expected standard by the end of term
 - [ ] Hold this week's team [stand-up](../../Guides/glossary.md#term-stand-up) on Microsoft Teams or in your [Stoa](../../Guides/glossary.md#term-stoa) room ([Stoa workflow guide](../../Guides/stoa-workflow.md))
-- [ ] Write your [QuestLog](../../Guides/glossary.md#term-questlog) entry in `QuestLog.md`. Check that the SpecStory transcript of your quest session is in `.specstory/history/`. It is your record of the quest, and your [AI Use Record](../../Guides/glossary.md#term-ai-use-record) draws on it later
-- [ ] If VS Code, GitHub Copilot, or SpecStory does not work in your Codespace, use the [Your workstation guide](../../Guides/codespaces-start.md) to fix it
+- [ ] Write your [QuestLog](../../Guides/glossary.md#term-questlog) entry in `QuestLog.md`. Add the exchanges from your quest session to your Prompt Diary
+- [ ] If VS Code or GitHub Copilot does not work in your Codespace, use the [Your workstation guide](../../Guides/codespaces-start.md) to fix it
 - [ ] Week 6 opens data visualisation design. Before its workshop, read the DataViz design guide, sections 1–2, 5, and 7. Also read the watch list of typical AI chart failures in section 9
 - [ ] Read the [record primer](../../Assessment/abcd-record.md) and the [briefs page](../../Assessment/individual-briefs.md). You choose and declare your [brief](../../Guides/glossary.md#term-brief) in Week 6, under the rules in the [individual report brief](../../Assessment/individual-report.md)
 
@@ -77,4 +77,4 @@ You use `pivot_table()` and named aggregation in the quest. You practise `melt()
 ## Essential guides
 
 - DataViz design guide: The reading for the Week 6 workshop
-- [Your workstation](../../Guides/codespaces-start.md): Your Codespace and how to troubleshoot VS Code, Copilot, and SpecStory
+- [Your workstation](../../Guides/codespaces-start.md): Your Codespace and how to troubleshoot VS Code and Copilot

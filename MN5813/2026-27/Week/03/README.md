@@ -37,7 +37,7 @@ This is a transition week. There is no [Quest](../../Guides/glossary.md#term-que
 **<!-- gen:values.yml#session.workshop-label -->Workshop (105 min within the 120-minute slot)<!-- /gen -->**
 
 - Your first AI Use Record entry (15 min):
-  - Open a recent [SpecStory](../../Guides/glossary.md#term-specstory) transcript from `.specstory/history/`. You should find it in your Codespace
+  - Open your [Prompt Diary](../../Guides/glossary.md#term-prompt-diary), `PromptDiary.md`, in your Codespace
   - Pick one exchange where you overruled your [Associate](../../Guides/glossary.md#term-associate)
   - Write it up as a "Notable rejections and corrections" entry in the [AI Use Record format](../../Assessment/interpretation.md), ready for your [QuestLog](../../Guides/glossary.md#term-questlog)
 - Shortlist your [briefs](../../Guides/glossary.md#term-brief) (80 min):
@@ -65,8 +65,6 @@ Working on your own machine instead of a Codespace is optional. The guide on [Wo
 |------|------------|
 | [Introduction.ipynb](./Introduction.ipynb) | The briefing: Both assessments and the key changes |
 | [Assessment/Template.ipynb](../../Assessment/Template.ipynb) | The template for your individual report: Its sections follow the marking rubric, with guidance under each one |
-
-**Start here:** Read the [Introduction](./Introduction.ipynb) before the session if you can.
 
 
 ## Essential guides

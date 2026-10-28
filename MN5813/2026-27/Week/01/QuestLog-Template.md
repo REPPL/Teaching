@@ -14,12 +14,10 @@ This log is three things:
 
 - Copy this file and rename it `QuestLog.md`
 - Keep it at the top level of your repository, which you create in Week 2
-- Add each entry within a day of finishing the quest. A short, honest entry beats a polished one written late
+- Add each entry within a day of finishing the quest
 - Delete the "Why this file exists" and "How to use it" sections once the file is yours. Keep the example entry at the bottom until you have written two entries of your own
 
 ## Badge table
-
-Quests are numbered by teaching week. Weeks 3, 7, 9, and 10 have no quest, so those numbers are missing from the table. Quest 02b belongs to the optional Week 2b.
 
 | Quest | Badge claimed (🥉/🥈/🥇) | Date |
 |-------|------------------------|------|
@@ -32,7 +30,7 @@ Quests are numbered by teaching week. Weeks 3, 7, 9, and 10 have no quest, so th
 | Quest 06 | | |
 | Quest 08 | | |
 
-Workstation Ready is the Week 2 badge. Claim the ⭐ when you have ticked all ten checklist items in the Your workstation guide (`Guides/codespaces-start.md`). You do items 1 and 2 in Week 1. You tick items 3 to 10 with the class in the Week 2 workshop.
+Workstation Ready is the Week 2 badge. Claim the ⭐ when you have ticked all ten checklist items in the Your workstation guide (`Guides/codespaces-start.md`).
 
 ---
 
@@ -55,7 +53,7 @@ Copy this block for each quest:
 
 ## EXAMPLE (Quest 01: Tutorial Island)
 
-*This example comes from the module team and shows the expected length and honesty. It contains **Quest 01 answers**. Do the quest and write your own entry before you read it.*
+*This example shows the expected length and honesty. It contains **Quest 01 answers**. Do the quest and write your own entry before you read it.*
 
 - **Date:** 1 October
 - **Badge claimed:** 🥈

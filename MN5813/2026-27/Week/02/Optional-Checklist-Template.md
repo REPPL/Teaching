@@ -1,13 +1,13 @@
 # Optional material checklist
 
-Use this checklist to tell staff which optional material you have done.
+Use this checklist to tell me which optional material you have done.
 
 1. Copy this file and rename the copy `Optional-Checklist.md`
 2. Keep it at the top level of your repository, beside `QuestLog.md`
 3. Tick each line you have done by changing `[ ]` to `[x]`
 4. Then <!-- plain-language: everyday commit -->commit it by the end of Week 2 (<!-- gen:values.yml#optional-checklist.due -->Wednesday 14 October<!-- /gen -->)
 
-Every item here is optional, for your own time. Nothing is marked down for an unticked line. Leave the comment at the end of each line as it is, because it tells staff which item the line is.
+Nothing is marked down for an unticked line. Leave the comment at the end of each line as it is.
 
 - [ ] The Working locally guide <!-- optional-item: working_locally -->
 - [ ] Your workstation, the sections after Step 7 <!-- optional-item: codespaces_extras -->

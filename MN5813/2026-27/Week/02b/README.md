@@ -7,9 +7,9 @@
 
 ## Overview
 
-This material is for your own time, at your own pace. It teaches three named strategies for reading code you didn't write, alongside the Python patterns AI-generated code uses most. It ends with **[Quest](../../Guides/glossary.md#term-quest) 02b: The Subscription Churn Memo**. Your client is StreamShore, a streaming startup whose board wants churn numbers it can trust.
+This material teaches three named strategies for reading code you didn't write, alongside the Python patterns AI-generated code uses most. It ends with **[Quest](../../Guides/glossary.md#term-quest) 02b: The Subscription Churn Memo**. Your client is StreamShore, a streaming startup whose board wants churn numbers it can trust.
 
-Nothing later in the module depends on it. Later weeks explain each construct where they use it.
+Nothing later in the module depends on it.
 
 
 ## This week's learning objectives
@@ -26,7 +26,7 @@ By the end of Week 2b you can:
 
 ## In class
 
-Week 2b has no class, because it is optional and self-paced.
+Week 2b has no class.
 
 
 ## At home (about 4 hours, in your own time)
@@ -44,6 +44,6 @@ Week 2b has no class, because it is optional and self-paced.
 |------|------------|
 | [Introduction.ipynb](./Introduction.ipynb) | Start here: The three code-reading strategies and a preview of the week's vocabulary |
 | [Demonstration.ipynb](./Demonstration.ipynb) | Comprehensions, `lambda` with `sorted`, error handling, and a first class, each as an [Associate](../../Guides/glossary.md#term-associate) draft you read and direct. An optional 🧗 Stretch section closes the notebook |
-| [Quest.ipynb](./Quest.ipynb) | **[Quest 02b](../../Guides/glossary.md#term-quest): The Subscription Churn Memo** (about 90 min). It covers churn by plan, a customer-lifetime number with two honest definitions, and a board-pack draft with a silent bug |
-| [Debrief.ipynb](./Debrief.ipynb) | Worked answers and the case for each of the two lifetime fixes. It also holds the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery): Bare `except`, a mutable default argument, and the comprehension that drops records. Read it after you attempt the quest |
+| [Quest.ipynb](./Quest.ipynb) | **[Quest 02b](../../Guides/glossary.md#term-quest): The Subscription Churn Memo** (about 90 min) |
+| [Debrief.ipynb](./Debrief.ipynb) | Worked answers and the case for each of the two lifetime fixes. It also holds the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery). Read it after you attempt the quest |
 

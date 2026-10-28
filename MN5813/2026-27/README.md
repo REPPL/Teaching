@@ -11,9 +11,9 @@ All you need is a modern browser. Each week's lessons are a collection of notebo
 
 1. **On the module website.** Every notebook appears there with its outputs, and the site works on a phone and with a screen reader. The link is on <!-- gen:values.yml#links.moodle_course|link:the Moodle page -->[the Moodle page](https://moodle.royalholloway.ac.uk/course/view.php?id=32615)<!-- /gen -->
 2. **On GitHub.** <!-- gen:values.yml#links.student_repository|link:The teaching repository -->[The teaching repository](https://github.com/REPPL/Teaching)<!-- /gen --> shows each notebook as a page, without its outputs
-3. **By running it.** In Week 1 you open each notebook in [Google Colab](https://colab.research.google.com/) from the *Open in Colab* button at its top. From the Week 2 workshop you run them in your own [GitHub Codespace](https://github.com/features/codespaces). The [Your workstation guide](./Guides/codespaces-start.md) takes you through it. From then on, the *Open in GitHub Codespaces* button at the top of each notebook on GitHub opens your list of Codespaces
+3. **By running it.** In Week 1 you open each notebook in [Google Colab](https://colab.research.google.com/) from the *Open in Colab* button at its top. From the Week 2 workshop you run them in your own [GitHub Codespace](https://github.com/features/codespaces). The [Your workstation guide](./Guides/codespaces-start.md) takes you through it
 
-You also have the option to work locally, that is, on your own machine or on one of the PCs in the Lab. The [Working locally](./Guides/working-locally.md) guide shows you how, and you can read it in your own time. Your Codespace already has the module's Python libraries installed. For local work only, install from [requirements.lock](./requirements.lock). It is the fully pinned environment built from the library list in [requirements.txt](./requirements.txt).
+You also have the option to work locally, that is, on your own machine or on one of the PCs in the Lab. The [Working locally](./Guides/working-locally.md) guide shows you how.
 
 
 ## How this module works
@@ -21,8 +21,8 @@ You also have the option to work locally, that is, on your own machine or on one
 This module is completely [AI-open](./Guides/ai-guide.md), which means that:
 
 - **AI is expected.** You may use AI tools for all parts of this module, including assessments. There is no penalty for using it, but there's an obvious penalty for using it *wrong*: You won't learn much. What you need to do is to show *how* you used it. Start by reading the [AI guide](./Guides/ai-guide.md) first
-- **Zero-install start.** Week 1 runs entirely in [Google Colab](https://colab.research.google.com/) where notebooks open in a browser with Python already running. From the second week onwards, you will work in [GitHub Codespaces](https://github.com/features/codespaces). See the [Your workstation guide](./Guides/codespaces-start.md)
-- **Quests, not exercises.** Most teaching weeks end with an **Analyst Quest**: A client scenario with [Bronze](./Guides/glossary.md#term-bronze), [Silver](./Guides/glossary.md#term-silver), and [Gold](./Guides/glossary.md#term-gold) tiers, completed with your *Associate*. Every [quest](./Guides/glossary.md#term-quest) leaves a record: Your notebook, your AI transcripts, and your [QuestLog](./Guides/glossary.md#term-questlog). The [glossary](./Guides/glossary.md#term-quest) explains the stages and tiers
+- **Zero-install start.** Week 1 runs entirely in [Google Colab](https://colab.research.google.com/). From the second week onwards, you will work in [GitHub Codespaces](https://github.com/features/codespaces). See the [Your workstation guide](./Guides/codespaces-start.md)
+- **Quests, not exercises.** Most teaching weeks end with an **Analyst Quest**: A client scenario with [Bronze](./Guides/glossary.md#term-bronze), [Silver](./Guides/glossary.md#term-silver), and [Gold](./Guides/glossary.md#term-gold) tiers, completed with your *Associate*. Every [quest](./Guides/glossary.md#term-quest) leaves a record: Your notebook, your [Prompt Diary](./Guides/glossary.md#term-prompt-diary), and your [QuestLog](./Guides/glossary.md#term-questlog). The [glossary](./Guides/glossary.md#term-quest) explains the stages and tiers
 - **Data visualisation design is the human craft.** This is where you will experience the limits of your AI Associate: You decide *which* chart to make, and whether they do it right and in a way that's clear and accessible. Block 3 is built around design *judgement*, using the TRACE checklist and structured critique
 - **Group work runs through Microsoft Teams.** Your team meets there, with your university account. You have the option to meet with your team in a live [Stoa](./Guides/glossary.md#term-stoa) room with a built-in AI agent instead. Your team's record is your evidence of process: Regular meetings, logged decisions, and contributions from everyone. See the [Stoa workflow](./Guides/stoa-workflow.md)
 - **Assessments run on real data that no tutorial covers.** The group project analyses the *London Fire Brigade*'s incident and mobilisation records for a fictional operations director. The individual report analyses the [abcd project record](./Guides/glossary.md#term-abcd-record), the documented history of a small open-source tool. See the [group project brief](./Assessment/group-project.md) and the [individual report brief](./Assessment/individual-report.md)
@@ -39,7 +39,7 @@ This module is completely [AI-open](./Guides/ai-guide.md), which means that:
 | Week 04 | In person | Introduction to pandas | DataFrames, Series, file I/O, filtering, merging, aggregation; introduction to team meetings on Microsoft Teams or in an (optional) Stoa room | [Week 04](./Week/04/README.md) | <!-- gen:publish.yml#status.week04 -->Released<!-- /gen --> |
 | Week 05 | In person | Advanced pandas | Reshaping (melt, pivot, stack/unstack), window functions, complex aggregations | [Week 05](./Week/05/README.md) | <!-- gen:publish.yml#status.week05 -->Released<!-- /gen --> |
 | Week 06 | In person | Data Visualisations I | Visual encoding and chart choice: Perception, chart choice, and the [TRACE](./Guides/glossary.md#term-trace) checklist (using matplotlib and seaborn) | Week 06 | <!-- gen:publish.yml#status.week06 -->Not yet<!-- /gen --> |
-| Week 07 | No classes | Independent practice week | Fire-brigade [Sprint Zero](./Guides/glossary.md#term-sprint-zero), self-paced, on Microsoft Teams or in your team's Stoa room as an easy way of recording AI transcripts | Week 07 | <!-- gen:publish.yml#status.week07 -->Not yet<!-- /gen --> |
+| Week 07 | No classes | Independent practice week | Fire-brigade [Sprint Zero](./Guides/glossary.md#term-sprint-zero), self-paced, on Microsoft Teams or in your team's Stoa room | Week 07 | <!-- gen:publish.yml#status.week07 -->Not yet<!-- /gen --> |
 | Week 08 | In person | Data Visualisations II | Storytelling, decluttering, and accessibility, incl. annotation, colour, axes, etc. | Week 08 | <!-- gen:publish.yml#status.week08 -->Not yet<!-- /gen --> |
 | Week 09 | In person | Data Visualisations III | Design and critical reflection: The [Gallery](./Guides/glossary.md#term-gallery) and structured peer critique of group-project figures using the Four-D protocol | Week 09 | <!-- gen:publish.yml#status.week09 -->Not yet<!-- /gen --> |
 | Week 10 | In person | Group presentations | A 10-minute presentation per group, then 5 minutes of questions (formative). **Attendance is compulsory** | Week 10 | <!-- gen:publish.yml#status.week10 -->Not yet<!-- /gen --> |
@@ -51,9 +51,9 @@ This module is completely [AI-open](./Guides/ai-guide.md), which means that:
 <!-- gen:values.yml#blocks -->
 The term has three teaching blocks:
 
-1. **Block 1** (Weeks 1–3) is Python foundations with an AI pair. **Week 1** is taught in Google Colab, with nothing to install. It covers your accounts, the AI-open charter, a Python warm-up, and Quest 01. In **Week 2** you work Quest 02 in GitHub Codespaces. Week 2 confirms the ⭐ **[Workstation Ready](./Guides/glossary.md#term-workstation-ready)** milestone: Codespaces, GitHub Copilot, and your automatic record, built with the class in that week's workshop. The optional **Week 2b** is self-paced, for your own time, and ends with Quest 02b. Week 3 briefs you on both assessments. The group project is formative and uses the fire-brigade data. The individual report is your module mark and uses the abcd project record, on a brief you choose in Week 6
+1. **Block 1** (Weeks 1–3) is Python foundations with an AI pair. **Week 1** is taught in Google Colab, with nothing to install. It covers your accounts, the AI-open charter, a Python warm-up, and Quest 01. In **Week 2** you work Quest 02 in GitHub Codespaces. Week 2 confirms the ⭐ **[Workstation Ready](./Guides/glossary.md#term-workstation-ready)** milestone: Codespaces, GitHub Copilot, and your [Prompt Diary](./Guides/glossary.md#term-prompt-diary), set up with the class in that week's workshop. The optional **Week 2b** is self-paced, for your own time, and ends with Quest 02b. Week 3 briefs you on both assessments. The group project is formative and uses the fire-brigade data. The individual report is your module mark and uses the abcd project record, on a brief you choose in Week 6
 
-2. **Block 2** (Weeks 4 and 5) is pandas, the core tool for analysing data in DataFrames. You work Quests 04–05, recorded with [SpecStory](./Guides/glossary.md#term-specstory). Team meetings start in Week 4, on Microsoft Teams or in a Stoa room, for weekly stand-ups, logged decisions, and a recorded process
+2. **Block 2** (Weeks 4 and 5) is pandas, the core tool for analysing data in DataFrames. You work Quests 04–05, recorded in your [Prompt Diary](./Guides/glossary.md#term-prompt-diary). Team meetings start in Week 4, on Microsoft Teams or in a Stoa room, for weekly stand-ups, logged decisions, and a recorded process
 
 3. **Block 3** (Weeks 6, 8, and 9) is dedicated to data visualisation design or the human craft of design judgement. You apply TRACE to every figure and write the rationale. **Week 7** falls inside Block 3. It is the independent practice week, with no classes. Your team runs its fire-brigade [Sprint Zero](./Guides/glossary.md#term-sprint-zero) at its own pace, which moves the group project forward. **Week 10** is the group presentation: Each team presents for 10 minutes, then takes 5 minutes of questions (formative)
 
@@ -67,7 +67,7 @@ Each teaching week's folder contains:
 
 - **Introduction.ipynb**: The week's key concepts and how the week fits the bigger picture. Start here
 - **Demonstration.ipynb**: Worked examples with detailed explanations. Each example shows your Associate's first draft next to the human-directed revision
-- **Exercises.ipynb**: Practice for the workshop (not all weeks have an exercise book). Week 2's Exercises are your first practice in your Codespace
+- **Exercises.ipynb**: Practice for the workshop (not all weeks have an exercise book)
 - **Quest.ipynb**: The week's *Analyst Quest*, about 90 minutes of work. It is a client scenario with five stages (Briefing, [First look](./Guides/glossary.md#term-first-look), Build, [Red Flags](./Guides/glossary.md#term-red-flags), and [Debrief](./Guides/glossary.md#term-debrief)). Complete it with your Associate and keep <!-- plain-language: everyday abcd record -->the record
 - **Debrief.ipynb**: Worked answers, alternative approaches, and the *[AI failure gallery](./Guides/glossary.md#term-ai-failure-gallery)*: The mistakes AI tools plausibly make on this week's material, and how to catch them
 - **assets/**: A folder with supporting files, which some notebooks create when you run them
@@ -79,7 +79,7 @@ Each teaching week's folder contains:
 2. Work through `Demonstration.ipynb`: Run everything, and ask your Associate to explain anything unclear three different ways
 3. In a week that has `Exercises.ipynb`, work through it in the workshop
 4. Complete `Quest.ipynb`. Aim for at least Bronze. Silver is the expected standard by the end of term
-5. Update your `QuestLog.md` and make sure your session transcript is saved
+5. Update your `QuestLog.md` and add the session to your Prompt Diary
 6. Only then read `Debrief.ipynb`, including the AI failure gallery. From Week 4, each week's Debrief arrives with the following week
 
 
@@ -88,7 +88,7 @@ Each teaching week's folder contains:
 | Guide | For | What it covers |
 |-------|-----|----------------|
 | [AI guide: Working with your Associate](./Guides/ai-guide.md) | Students | The AI-open charter, the four canonical moves, prompting for analytics, evidence and attribution |
-| [Your workstation](./Guides/codespaces-start.md) | Students | Your Week 2 workstation and the module's default environment: GitHub Codespaces, GitHub Copilot, and your automatic record |
+| [Your workstation](./Guides/codespaces-start.md) | Students | Your Week 2 workstation and the module's default environment: GitHub Codespaces, GitHub Copilot, and your Prompt Diary |
 | [Working locally (optional)](./Guides/working-locally.md) | Students | The same toolchain on your own machine, if you prefer it to your Codespace |
 | [Stoa workflow](./Guides/stoa-workflow.md) | Students | Group work: Rooms, stand-ups, [decision logging](./Guides/glossary.md#term-decision-entry), what is recorded |
 | The Runnymede Standard: Data visualisation design guide | Students | Chart choice, decluttering, colour, honesty, accessibility, TRACE, design rationales |

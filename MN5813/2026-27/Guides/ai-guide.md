@@ -16,13 +16,13 @@ This module is **AI-open**. That means:
 
 - **You may use AI for everything.** Every [quest](./glossary.md#term-quest), every notebook, and assessments
 - **What is assessed is your judgement and your record.** That means the questions you ask, the outputs you accept or reject and why, the designs you can defend, and the evidence you keep
-- **Undocumented work is the risk.** A transcript that shows you directing, questioning, and correcting your Associate is strong evidence of your ability. A submission with no record gives markers nothing to assess
+- **Undocumented work is the risk.** A record that shows you directing, questioning, and correcting your Associate is strong evidence of your ability
 
 The module has one rule:
 
 > **The Associate writes the code; the Analyst carries the judgement and signs the work.**
 
-When you submit, your name is on the analysis. If a merge silently dropped half the rows, or a chart's axis leads to a wrong conclusion, "the AI wrote that bit" is not a defence. In this module, you are learning to take responsibility for everything you submit, however it was produced.
+When you submit, your name is on the analysis. If a merge silently dropped half the rows, or a chart's axis leads to a wrong conclusion, "the AI wrote that bit" is not a defence.
 
 What AI-open does **not** mean:
 
@@ -31,18 +31,18 @@ What AI-open does **not** mean:
 - It does not mean Royal Holloway's academic integrity policy is set aside or can be ignored: You name your AI use in the [AI Use Record](./glossary.md#term-ai-use-record)
 - It does not mean you can skip understanding: See [section 8, Learning so it sticks](#8-learning-so-it-sticks)
 
-> ⚠️ **Do this now.** Apply for the [GitHub Student Developer Pack](https://education.github.com/pack) in the Week 1 workshop. It gives verified students the free Copilot Student plan. Verification can take several days. The steps are in [Your workstation, Step 1](./codespaces-start.md#step-1-github-account-and-student-developer-pack). You are done when GitHub emails you that your student status is approved and Copilot shows as active in your account settings.
+> ⚠️ **Do this now.** Apply for the [GitHub Student Developer Pack](https://education.github.com/pack) in the Week 1 workshop. The steps are in [Your workstation, Step 1](./codespaces-start.md#step-1-github-account-and-student-developer-pack).
 
 
 ### If you cannot get Copilot, or run out of chat
 
-Copilot Free needs no verification and covers everything this module asks of you. Its code completions (the suggestions it offers as you type) are sufficient under normal circumstances, but Chat can be the scarce part (roughly fifty messages a month). Keep those for the questions that matter, and use a second tool for long exploratory conversation. Any AI tool you can chat with about code works (e.g., [duck.ai](https://duck.ai/)).
+Copilot Free needs no verification and covers everything this module asks of you. Its code completions are sufficient under normal circumstances, but Chat can be the scarce part (roughly fifty messages a month). Keep those for the questions that matter, and use a second tool for long exploratory conversation. Any AI tool you can chat with about code works (e.g., [duck.ai](https://duck.ai/)).
 
-Your university account gives you one for free: **Microsoft Copilot** which is separate from GitHub Copilot (despite the name!). Go to [copilot.microsoft.com](https://copilot.microsoft.com/) and sign in with your university email and password. Choose **Work**, then check for the green shield at the top right (that shield indicates the university's data protection covers what you type). Royal Holloway recommends this tool to students (see [AI tools for students](https://intranet.royalholloway.ac.uk/students/study/generative-ai/ai-tools.aspx)). However, [SpecStory](./glossary.md#term-specstory) and other tools cannot record transcripts in Microsoft Copilot, which makes that part a little tricky. Keep a [Prompt Diary](./glossary.md#term-prompt-diary) for it (see below).
+Your university account gives you one for free: **Microsoft Copilot** which is separate from GitHub Copilot (despite the name!). Go to [copilot.microsoft.com](https://copilot.microsoft.com/) and sign in with your university email and password. Choose **Work**, then check for the green shield at the top right (that shield indicates the university's data protection covers what you type). Royal Holloway recommends this tool to students (see [AI tools for students](https://intranet.royalholloway.ac.uk/students/study/generative-ai/ai-tools.aspx)).
 
-Although you do not need a desktop tool (everything in this module runs in the Codespace, in your browser), you may wish to use a tool you are already familiar with. Again, if SpecStory or similar tools cannot record transcripts from your preferred tool, keep a Prompt Diary instead: Paste the exchanges that mattered into a dated markdown file in your repository. It is less complete than an automatic transcript, but markers will still read it against the same criteria.
+Although you do not need a desktop tool, you may wish to use a tool you are already familiar with.
 
-Whatever you use, keep <!-- plain-language: everyday abcd record -->the record and declare the tool in your AI Use Record. The quests ask for prompting and judging, never for a named product.
+Whatever you use, keep <!-- plain-language: everyday abcd record -->the record and declare the tool in your AI Use Record.
 
 
 ## 2. Meet your Associate
@@ -54,7 +54,7 @@ You will find your Associate to be very capable in some directions, reliably wro
 
 - **Drafting.** A first version of almost any code in seconds
 - **Explaining.** Any line of code, error message, or concept, at any level, as many times as you like
-- **Refactoring.** "Make this shorter", "add error handling", "rename these variables so my teammate can follow it". Reshaping working code is a strength
+- **Refactoring.** "Make this shorter", "add error handling", "rename these variables so my teammate can follow it"
 - **Exploring.** "What are three ways to approach this?" It generates alternatives faster than any human brainstorm
 
 Top tip: If you (think you) have a great idea, tell your associate that a colleague had this idea and that you hate it. Ask it to help you prepare for an argument with your colleague. This gives your associate permission to criticise your work ... and they will!
@@ -74,9 +74,7 @@ Here are two examples of the kind you meet in every [Debrief](./glossary.md#term
 
 Although your Associate is fast and tireless, it does need a manager. Seriously, it does. And that manager is you.
 
-The module repository carries a [briefing for the Associate](../AGENTS.md). This briefing gives the tool you use the module's context, file layout, the fact that the client memos are fiction, etc.
-
-It also gives four rules for the tool:
+The module repository carries a [briefing for the Associate](../AGENTS.md). It gives four rules for the tool:
 
 - It does not state a cell's output before you write your prediction
 - It explains before it fixes
@@ -88,7 +86,7 @@ However, Stoa's agent, Colab's Gemini, and Microsoft Copilot do not read reposit
 
 ## 3. What you can do with your Associate
 
-Everything you do in this module with AI is one of four things, each belonging to a quest stage (see [quest](./glossary.md#term-quest) in the glossary).
+Everything you do in this module with AI is one of four things, each belonging to a quest stage.
 
 
 ### GENERATE-JUDGE: The Associate drafts; you accept or reject, with reasons
@@ -113,7 +111,7 @@ Although predicting first can feel slower, it is clearly the highest-value habit
 
 ### BUG-HUNT: The Associate is the suspect; you are the auditor
 
-This is a [Red Flag](./glossary.md#term-red-flags) where AI-generated code fails in typical ways, such as, e.g., wrong merge keys, silent type changes, off-by-one date filters, averages of averages, truncated axes, etc. The code runs, but the answer is wrong.
+This is a [Red Flag](./glossary.md#term-red-flags) where AI-generated code fails in typical ways, such as wrong merge keys, silent type changes, off-by-one date filters, averages of averages, truncated axes, etc. The code runs, but the answer is wrong.
 
 > Your Associate merged `orders` with `customers` and the client's revenue total looks high. You check: `len(orders)` is 8,412 before the merge and 9,067 after it. Rows were *created*: A merge on a duplicated key counts each customer with two addresses on file twice. The code ran without complaint. The row count caught it.
 
@@ -141,7 +139,7 @@ Your Associate has never seen your data, so every good analytics prompt carries 
 
 Here are some useful patterns (adapt the words, but keep the structure):
 
-1. **The schema**: Start any data task with the schema (broadly speaking, the recorded structure) and a sample row.
+1. **The schema**: Start any data task with the schema and a sample row.
    > "I have a DataFrame `sales` with columns: `date` (string, 'DD/MM/YYYY'), `store` (string), `units` (int), `revenue` (float, GBP). Sample row: `'03/11/2026', 'Egham', 42, 315.50`. First task: Convert `date` to datetime."
 
    Told the format is DD/MM/YYYY, the Associate writes `format="%d/%m/%Y"` instead of guessing and reading 03/11 as March
@@ -169,7 +167,7 @@ Here are some useful patterns (adapt the words, but keep the structure):
 
    If the explanation does not match what you asked for, neither does the code
 
-Each pattern has a template in the [prompt library](./prompts.md), with what a good answer contains. Module terms are defined in the [glossary](./glossary.md). For deeper technique, read Anthropic's [prompt engineering guide](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview), which applies to most tools. Ethan Mollick's [One Useful Thing](https://www.oneusefulthing.org) is a running commentary on working with AI (registration is optional!).
+Each pattern has a template in the [prompt library](./prompts.md), with what a good answer contains. For deeper technique, read Anthropic's [prompt engineering guide](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview), which applies to most tools. Ethan Mollick's [One Useful Thing](https://www.oneusefulthing.org) is a running commentary on working with AI (registration is optional!).
 
 
 ## 5. Verification
@@ -178,7 +176,7 @@ Five recommended habits (of successful business analysts):
 
 1. **Never accept unrun code.** Code you have not run is a *claim*, not a *result*
 2. **Check shapes and count your rows.** After any filter, merge, groupby, or dropna, check `df.shape`, or compare `len(before)` with `len(after)`. Rows lost or gained that you did not expect are the most common silent failure in data analysis
-3. **Recompute one number by hand.** Pick one value in any summary table and check it independently. Filter the raw rows for one region in one month, add them up, and compare. This is what lets you tick a quest's [Definition of Done](./glossary.md#term-definition-of-done) (the self-check list in every quest Briefing)
+3. **Recompute one number by hand.** Pick one value in any summary table and check it independently. Filter the raw rows for one region in one month, add them up, and compare. This is what lets you tick a quest's [Definition of Done](./glossary.md#term-definition-of-done)
 4. **The three explanations trick.** Take any output you are about to rely on. Ask your Associate to explain it three ways: To a programmer, to a manager, and to a ten-year-old (or, alternatively, to a [golden retriever](https://youtu.be/LTDS6SHwA6w)). Invented answers rarely survive that, and should the versions disagree about what the code does, investigate
 5. **Eyeball the extremes.** Look at `df.describe()`, the min and max, and the top five and bottom five rows of anything sorted. A negative age, a £2 million coffee order, or a date in 1970 is where a broken pipeline shows itself
 
@@ -187,17 +185,16 @@ Every Debrief notebook ends with an **AI failure gallery**: Realistic ways AI ge
 
 ## 6. Your record is your evidence
 
-Suppose a transcript shows you giving the Associate the schema, rejecting its first draft for double-counting, and directing the fix. That transcript is dated evidence of your judgement. What you keep throughout is the **AI Use Record**: An account of what you asked, what you accepted or rejected, and why. It does not depend on which tool you use. Three records feed it:
+Suppose an entry in your [Prompt Diary](./glossary.md#term-prompt-diary) shows you giving the Associate the schema, rejecting its first draft for double-counting, and directing the fix. That entry is dated evidence of your judgement. What you keep throughout is the **AI Use Record**: An account of what you asked, what you accepted or rejected, and why. These records feed it:
 
-- **Prompt Diary** (Week 1 only, in Colab): A Prompt Diary cell at the end of Quest 01. Paste your *best* exchange (the prompt that worked, and why) and your *worst* (where the Associate misled you, and how you caught it)
-- **SpecStory transcripts** (Week 2 onwards, in your Codespace): Files in `.specstory/history/` inside your project, written automatically by the pre-installed SpecStory extension. Confirm files are appearing there ([Your workstation, Step 5](./codespaces-start.md#step-5-check-your-record-specstory)) and <!-- plain-language: everyday commit -->commit them with your work
+- **Prompt Diary** (all weeks): In Week 1, it is a Prompt Diary cell at the end of Quest 01. Paste your *best* exchange (the prompt that worked, and why) and your *worst* (where the Associate misled you, and how you caught it). From Week 2, it is `PromptDiary.md`, at the top level of your repository. After each AI session, add a dated entry. Paste the exchanges that mattered, with one line of your own commentary on each. You start it in [Your workstation, Step 5](./codespaces-start.md#step-5-start-your-prompt-diary). <!-- plain-language: everyday commit -->Commit it with your work
 - **[QuestLog.md](./glossary.md#term-questlog)** (all weeks): Your personal learning journal, from the template issued in Week 1. Add a dated entry per quest with the [badge](./glossary.md#term-badge) you claimed and your Debrief answers
 
-SpecStory is a **convenience** not a requirement. Any consistent way of keeping the AI Use Record meets the same standard: SpecStory, a hand-kept log, or whatever suits your setup. (For group work from Week 4, your team's meeting transcripts or notes are the team's equivalent. See the [Stoa workflow guide](./stoa-workflow.md).)
+For group work from Week 4, your team's meeting transcripts or notes are the team's equivalent. See the [Stoa workflow guide](./stoa-workflow.md).
 
-Markers will look at your transcripts (see the [assessment interpretation](../Assessment/interpretation.md)).
+Markers read your Prompt Diary (see the [assessment interpretation](../Assessment/interpretation.md)).
 
-Remember: A transcript full of rejected AI output and corrections is a *good* transcript. <!-- plain-language: everyday abcd record -->The record to worry about is the empty one.
+Remember: A Prompt Diary full of rejected AI output and corrections is a *good* diary. <!-- plain-language: everyday abcd record -->The record to worry about is the empty one.
 
 
 ## 7. The AI Use Record
@@ -206,7 +203,7 @@ Both submissions (the group project and the individual report) include an **AI U
 
 Week 7 rehearses the AI Use Record's reflection: The [REFLECT prompt](./prompts.md#reflect-on-your-prompts) reads your own prompts back to you.
 
-Avoid two failure modes: The empty gesture ("I used ChatGPT for some things") and the exhaustive log (all 214 prompts, pasted). Be specific and <!-- plain-language: everyday brief -->brief. The transcripts hold the detail.
+Avoid two failure modes: The empty gesture ("I used ChatGPT for some things") and the exhaustive log (all 214 prompts, pasted). Be specific and <!-- plain-language: everyday brief -->brief. Your Prompt Diary contains the detail.
 
 
 ## 8. Learning so it sticks

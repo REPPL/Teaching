@@ -17,10 +17,11 @@ Portfolio assembly, where a module asks for one:
 
 Notes:
 - The zip name is deterministic: submission-wkNN-<id>-<UTC>.zip.
-- Your record is NEVER bundled: `.specstory/`, transcript folders, `retro.md`
-  and `standup.md` are all excluded. They stay with you. If your module wants
-  any of them, it asks for them separately and tells you how. This tool will
-  not put them in a zip on your behalf.
+- Your Prompt Diary IS bundled. The rest of your record is NEVER bundled:
+  `.specstory/`, transcript folders, `retro.md` and `standup.md` are all
+  excluded. They stay with you. If your module wants any of them, it asks for
+  them separately and tells you how. This tool will not put them in a zip on
+  your behalf.
 - Record content that was actually there (`.specstory/`, `transcripts/`,
   `retro.md`, `standup.md`) is named when the zip is written, so leaving it
   out is a decision you make rather than a surprise later. The tools
