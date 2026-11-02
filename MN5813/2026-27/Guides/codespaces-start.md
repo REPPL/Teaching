@@ -13,7 +13,7 @@ The time budget is about 30 to 40 minutes, plus a wait of up to a few days for G
 
 ## ⭐ The checklist
 
-Copy this into your `QuestLog.md` and tick items off as you go. When all ten are ticked, claim the **[Workstation Ready](./glossary.md#term-workstation-ready) ⭐** [badge](./glossary.md#term-badge).
+Copy this into your `QuestLog.md` and tick items off as you go. When every item is ticked, claim the **[Workstation Ready](./glossary.md#term-workstation-ready) ⭐** [badge](./glossary.md#term-badge).
 
 - [ ] 1. GitHub account created (with your university email added)
 - [ ] 2. GitHub Student Developer Pack application **submitted** (Copilot Free covers you while you wait)
@@ -164,7 +164,7 @@ Your Codespace saves your files as you go. To send your work back to GitHub, you
    git push
    ```
 
-If it worked, the <!-- plain-language: everyday commit -->commit line reports something like `12 files changed` and `push` ends without an error. Refresh your repository page on github.com and your <!-- plain-language: everyday commit -->commit is there. The individual report also needs a PDF uploaded to Moodle, and that upload is what counts for the submission date. The [assessment briefs](../Assessment/README.md) have the details.
+If it worked, the <!-- plain-language: everyday commit -->commit line reports something like `12 files changed` and `push` ends without an error. Refresh your repository page on github.com and your <!-- plain-language: everyday commit -->commit is there. The individual report also needs a PDF uploaded to Moodle. The [individual report brief](../Assessment/individual-report.md) explains how you submit it.
 
 > 💡 Prefer buttons to typing? VS Code's **Source Control** panel (the branch icon in the left bar) does the same thing. Stage the changes, type a message, click **<!-- plain-language: everyday commit -->Commit**, then **Sync/Push**.
 

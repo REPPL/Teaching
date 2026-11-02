@@ -30,7 +30,7 @@ One script fetches the data:
 python3 Tools/fetch_lfb.py
 ```
 
-Everyone runs it once, in the Week 4 workshop. Run it in your Codespace, from the folder that contains `Tools/`. It downloads the two current extracts (about 150 MB together). It writes the files below into `work/data/lfb/`, a folder git ignores:
+Run it once, in your Codespace, from the folder that contains `Tools/`. It downloads the two current extracts (about 150 MB together). It writes the files below into `work/data/lfb/`, a folder git ignores:
 
 | File | What it contains |
 |------|---------------|
@@ -81,7 +81,7 @@ Your notebook reads the tables from there, so *Restart & Run All* works for the 
 - `DateAndTimeMobilised`, `DateAndTimeMobile`, `DateAndTimeArrived`, `TurnoutTimeSeconds`, `TravelTimeSeconds`, `AttendanceTimeSeconds`, `DateAndTimeLeft`, `DateAndTimeReturned`
 - `DeployedFromStation_Code`, `DeployedFromStation_Name`, `DeployedFromLocation`, `PumpOrder`, `PlusCode_Code`, `PlusCode_Description`, `DelayCodeId`, `DelayCode_Description`
 
-The publisher's column descriptions are in the metadata spreadsheets linked from each source page. `PerformanceReporting` is 1 for the first engine to arrive at an incident, the engine the Brigade uses to measure its response-time target. `Notional Cost (£)` is engine minutes multiplied by a fixed hourly rate, so it measures effort, not money spent.
+The publisher's column descriptions are in the metadata spreadsheets linked from each source page. `PerformanceReporting` is 1 for the first engine to arrive at an incident, the engine the Brigade uses to measure its response-time target of six minutes. `Notional Cost (£)` is engine minutes multiplied by a fixed hourly rate, so it measures effort, not money spent.
 
 
 ## The challenges

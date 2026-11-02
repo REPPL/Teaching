@@ -21,6 +21,8 @@ Change the declaration line so it fits your submission. These parts follow the d
 3. **Notable rejections and corrections**: Two or three moments where you overruled the AI, with your reasons
 4. **Reflection**: One short paragraph on where the AI helped, where it misled or slowed you, and what you would do differently
 
+Markers check that each rejection is specific: What was wrong, how you caught it, and what changed. They check that your AI Use Record claims nothing your [Prompt Diary](../Guides/glossary.md#term-prompt-diary) cannot back. A heavy-use record that reports no AI mistakes reads as if nobody was checking. If your use was light, or you used no AI, say so and list the checks you ran yourself.
+
 For the individual report, write "I" rather than "we". A worked example:
 
 > **AI Use Record: Team 7, Engagement FRS-2026**
@@ -76,4 +78,4 @@ What the marker reads in the work outweighs any count. Five `DECISION:` entries 
 
 ---
 
-*Questions? Ask in the Week 3 briefing, in any workshop, or by email. See also the [module overview](../README.md), the [AI guide](../Guides/ai-guide.md), the [Stoa workflow](../Guides/stoa-workflow.md), and the Data Visualisations design guide.*
+*Questions? Ask in the Week 3 briefing, in any workshop, or by email. See also the [module overview](../README.md), the [AI guide](../Guides/ai-guide.md), the [Stoa workflow](../Guides/stoa-workflow.md), and the Data Visualisations [design guide](../Guides/dataviz-design-guide.md).*

@@ -21,7 +21,7 @@ Your group project works the same way: You record what you're doing, including t
 
 ## 1. Rooms
 
-Your team meets on **Microsoft Teams**, with your university account. A [Stoa](https://withstoa.com/) room is the alternative, and using one is optional, although it remains the more convenient option for the team. Markers are interested in your **recorded process** (regular meetings, logged <!-- plain-language: everyday decision -->decisions, and visible contributions), not any single tool.
+Your team meets on **Microsoft Teams**, with your university account. A [Stoa](https://withstoa.com/) room is the alternative, and using one is optional, although it remains the more convenient option for the team. Markers read your **recorded process** (regular meetings, logged <!-- plain-language: everyday decision -->decisions, and visible contributions), whichever room you use.
 
 In either room, your team keeps the same record:
 
@@ -67,7 +67,7 @@ You form your own team before Week 4. The [group project brief](../Assessment/gr
 
 **Then, in either room:**
 
-1. **Hold your first [stand-up](./glossary.md#term-stand-up) in the workshop.** This first one is **15 minutes**: Each member says what they have done, what they will do next, and what is blocking them. Then log your first `DECISION:`, normally your meeting day and time for the coming weeks
+1. **Hold your first [stand-up](./glossary.md#term-stand-up) in the workshop.** This first one is **15 minutes**, with the agenda in [section 3](#3-the-weekly-stand-up). Then log your first `DECISION:`, normally your meeting day and time for the coming weeks
 2. **Complete the rest of the setup as a team:**
    - Agree on your team repository, where your shared evidence lives. Log it as a `DECISION:`
    - Agree who exports the transcript or notes each week (rotate it). Log the rota as a `DECISION:`
@@ -109,7 +109,7 @@ When the team settles something, say or type it with the `DECISION:` prefix ([se
 
 ### Next steps
 
-Every action has one owner and a date. "We should all look at the visualisations" is a wish. "Dayo drafts the response-time figure by Tuesday, Priya reviews it against [TRACE](./glossary.md#term-trace) by Thursday" is a plan. You meet TRACE in Week 6, in the DataViz design guide. Until then, "a teammate reviews it" does the same job.
+Every action has one owner and a date. "We should all look at the visualisations" is a wish. "Dayo drafts the response-time figure by Tuesday, Priya reviews it against [TRACE](./glossary.md#term-trace) by Thursday" is a plan. You meet TRACE in Week 6, in the [DataViz design guide](./dataviz-design-guide.md). Until then, "a teammate reviews it" does the same job.
 
 > "Next stand-up Monday 4pm. Dayo: Response-time figure by Tuesday. Priya: TRACE review Thursday. Marta: Chart fixes Friday. Ben: Draft the data-cleaning section of the report, first pass Sunday."
 
@@ -150,7 +150,7 @@ Log reversals too. For example:
 
 ### A second prefix from Week 9: `CRIT`
 
-From Week 9's [Gallery](./glossary.md#term-gallery), one member of your team is the scribe. The scribe types every [Four-D crit](./glossary.md#term-four-d-crit) your team receives into your team's record (your meeting notes or your Stoa room), as a [`CRIT` entry](./glossary.md#term-crit-entry). Each figure gets one entry per crit round. The template is in Week 9's Introduction notebook, section "The scorecard". Crit outcomes then become ordinary `DECISION:` entries: Which change you accepted, why, owner, and deadline.
+From Week 9's [Gallery](./glossary.md#term-gallery), one member of your team is the scribe. The scribe types every [Four-D crit](./glossary.md#term-four-d-crit) your team receives into your team's record (your meeting notes or your Stoa room), as a [`CRIT` entry](./glossary.md#term-crit-entry). Each figure gets one entry for each crit it receives. The template is in Week 9's Introduction notebook, section "The scorecard". Crit outcomes then become ordinary `DECISION:` entries: Which change you accepted, why, owner, and deadline.
 
 
 ## 5. The Stoa room's Associate
@@ -162,7 +162,7 @@ In a Stoa room, the **Associate** can see what your team says and types there. U
 - **"List the open questions."** At the end of a messy session, ask the Associate what was raised but not resolved
 - **"Challenge our approach."** Before you <!-- plain-language: everyday commit -->commit to a plan, ask the Associate to argue against it
 
-⚠️ **The Associate is a participant, not a member.** Your team *decides*. Every <!-- plain-language: everyday decision -->decision in your log must be yours, for reasons you can defend. "The Associate said so" is not a reason.
+⚠️ **Your team *decides*.** The Associate takes part in the discussion. Every <!-- plain-language: everyday decision -->decision in your log must be yours, for reasons you can defend. "The Associate said so" is not a reason.
 
 
 ## 6. Process evidence

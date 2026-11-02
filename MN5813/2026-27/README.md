@@ -23,7 +23,7 @@ This module is completely [AI-open](./Guides/ai-guide.md), which means that:
 - **AI is expected.** You may use AI tools for all parts of this module, including assessments. There is no penalty for using it, but there's an obvious penalty for using it *wrong*: You won't learn much. What you need to do is to show *how* you used it. Start by reading the [AI guide](./Guides/ai-guide.md) first
 - **Zero-install start.** Week 1 runs entirely in [Google Colab](https://colab.research.google.com/). From the second week onwards, you will work in [GitHub Codespaces](https://github.com/features/codespaces). See the [Your workstation guide](./Guides/codespaces-start.md)
 - **Quests, not exercises.** Most teaching weeks end with an **Analyst Quest**: A client scenario with [Bronze](./Guides/glossary.md#term-bronze), [Silver](./Guides/glossary.md#term-silver), and [Gold](./Guides/glossary.md#term-gold) tiers, completed with your *Associate*. Every [quest](./Guides/glossary.md#term-quest) leaves a record: Your notebook, your [Prompt Diary](./Guides/glossary.md#term-prompt-diary), and your [QuestLog](./Guides/glossary.md#term-questlog). The [glossary](./Guides/glossary.md#term-quest) explains the stages and tiers
-- **Data visualisation design is the human craft.** This is where you will experience the limits of your AI Associate: You decide *which* chart to make, and whether they do it right and in a way that's clear and accessible. Block 3 is built around design *judgement*, using the TRACE checklist and structured critique
+- **Data visualisation design is the human craft.** This is where you will experience the limits of your AI Associate: You decide *which* chart to make, and whether they do it right and in a way that's clear and accessible. Block 3 is built around design *judgement*, using the [TRACE checklist](./Guides/dataviz-design-guide.md) and structured critique
 - **Group work runs through Microsoft Teams.** Your team meets there, with your university account. You have the option to meet with your team in a live [Stoa](./Guides/glossary.md#term-stoa) room with a built-in AI agent instead. Your team's record is your evidence of process: Regular meetings, logged decisions, and contributions from everyone. See the [Stoa workflow](./Guides/stoa-workflow.md)
 - **Assessments run on real data that no tutorial covers.** The group project analyses the *London Fire Brigade*'s incident and mobilisation records for a fictional operations director. The individual report analyses the [abcd project record](./Guides/glossary.md#term-abcd-record), the documented history of a small open-source tool. See the [group project brief](./Assessment/group-project.md) and the [individual report brief](./Assessment/individual-report.md)
 
@@ -38,7 +38,7 @@ This module is completely [AI-open](./Guides/ai-guide.md), which means that:
 | Week 03 | In person | Assessment briefing | Both assessments explained, the assessment interpretation document, plus help with any remaining setup problems | [Week 03](./Week/03/README.md) | <!-- gen:publish.yml#status.week03 -->Released<!-- /gen --> |
 | Week 04 | In person | Introduction to pandas | DataFrames, Series, file I/O, filtering, merging, aggregation; introduction to team meetings on Microsoft Teams or in an (optional) Stoa room | [Week 04](./Week/04/README.md) | <!-- gen:publish.yml#status.week04 -->Released<!-- /gen --> |
 | Week 05 | In person | Advanced pandas | Reshaping (melt, pivot, stack/unstack), window functions, complex aggregations | [Week 05](./Week/05/README.md) | <!-- gen:publish.yml#status.week05 -->Released<!-- /gen --> |
-| Week 06 | In person | Data Visualisations I | Visual encoding and chart choice: Perception, chart choice, and the [TRACE](./Guides/glossary.md#term-trace) checklist (using matplotlib and seaborn) | Week 06 | <!-- gen:publish.yml#status.week06 -->Not yet<!-- /gen --> |
+| Week 06 | In person | Data Visualisations I | Visual encoding and chart choice: Perception, chart choice, and the [TRACE](./Guides/glossary.md#term-trace) checklist (using matplotlib and seaborn) | [Week 06](./Week/06/README.md) | <!-- gen:publish.yml#status.week06 -->Released<!-- /gen --> |
 | Week 07 | No classes | Independent practice week | Fire-brigade [Sprint Zero](./Guides/glossary.md#term-sprint-zero), self-paced, on Microsoft Teams or in your team's Stoa room | Week 07 | <!-- gen:publish.yml#status.week07 -->Not yet<!-- /gen --> |
 | Week 08 | In person | Data Visualisations II | Storytelling, decluttering, and accessibility, incl. annotation, colour, axes, etc. | Week 08 | <!-- gen:publish.yml#status.week08 -->Not yet<!-- /gen --> |
 | Week 09 | In person | Data Visualisations III | Design and critical reflection: The [Gallery](./Guides/glossary.md#term-gallery) and structured peer critique of group-project figures using the Four-D protocol | Week 09 | <!-- gen:publish.yml#status.week09 -->Not yet<!-- /gen --> |
@@ -68,8 +68,8 @@ Each teaching week's folder contains:
 - **Introduction.ipynb**: The week's key concepts and how the week fits the bigger picture. Start here
 - **Demonstration.ipynb**: Worked examples with detailed explanations. Each example shows your Associate's first draft next to the human-directed revision
 - **Exercises.ipynb**: Practice for the workshop (not all weeks have an exercise book)
-- **Quest.ipynb**: The week's *Analyst Quest*, about 90 minutes of work. It is a client scenario with five stages (Briefing, [First look](./Guides/glossary.md#term-first-look), Build, [Red Flags](./Guides/glossary.md#term-red-flags), and [Debrief](./Guides/glossary.md#term-debrief)). Complete it with your Associate and keep <!-- plain-language: everyday abcd record -->the record
-- **Debrief.ipynb**: Worked answers, alternative approaches, and the *[AI failure gallery](./Guides/glossary.md#term-ai-failure-gallery)*: The mistakes AI tools plausibly make on this week's material, and how to catch them
+- **Quest.ipynb**: The week's *Analyst Quest*, about 90 minutes of work, ending with its [Debrief](./Guides/glossary.md#term-debrief). Complete it with your Associate and keep <!-- plain-language: everyday abcd record -->the record
+- **Debrief.ipynb**: Worked answers, alternative approaches, and the *[AI failure gallery](./Guides/glossary.md#term-ai-failure-gallery)*
 - **assets/**: A folder with supporting files, which some notebooks create when you run them
 
 
@@ -85,16 +85,7 @@ Each teaching week's folder contains:
 
 ## Guides
 
-| Guide | For | What it covers |
-|-------|-----|----------------|
-| [AI guide: Working with your Associate](./Guides/ai-guide.md) | Students | The AI-open charter, the four canonical moves, prompting for analytics, evidence and attribution |
-| [Your workstation](./Guides/codespaces-start.md) | Students | Your Week 2 workstation and the module's default environment: GitHub Codespaces, GitHub Copilot, and your Prompt Diary |
-| [Working locally (optional)](./Guides/working-locally.md) | Students | The same toolchain on your own machine, if you prefer it to your Codespace |
-| [Stoa workflow](./Guides/stoa-workflow.md) | Students | Group work: Rooms, stand-ups, [decision logging](./Guides/glossary.md#term-decision-entry), what is recorded |
-| The Runnymede Standard: Data visualisation design guide | Students | Chart choice, decluttering, colour, honesty, accessibility, TRACE, design rationales |
-| [Glossary](./Guides/glossary.md) | Students | What every module term means, and which notebook and section teaches each technique |
-| [Prompt library](./Guides/prompts.md) | Students | Prompts to try, with what a good answer contains |
-| [Briefing for the Associate](./AGENTS.md) | Students' AI tools | What your AI tool reads at the start of every session: The module's words, layout, and the rules it follows when helping you |
+The [guides index](./Guides/README.md) lists every guide, what it covers, and who it is for.
 
 
 ## Assessment
@@ -102,5 +93,5 @@ Each teaching week's folder contains:
 There are two assessments. The group project is formative: Your team gets feedback and nothing from it counts towards your mark. The individual analytics report is your module mark.
 
 - **Group project (formative)**: A team analysis of the *London Fire Brigade* incident and mobilisation records for a fictional operations director. See the [group project brief](./Assessment/group-project.md) and the [data note](./Assessment/lfb-data.md) for details
-- **Individual report (the module mark)**: Your own analysis of the `abcd` [project record](https://abcdev.app/record/) on a brief you choose in Week 6. The client is the module leader and findings critical of it are expected. See the [individual report brief](./Assessment/individual-report.md), the [primer](./Assessment/abcd-record.md), and the [seven stakeholder briefs](./Assessment/individual-briefs.md) for details
+- **Individual report (the module mark)**: Your own analysis of the `abcd` [project record](https://abcdev.app/record/) on a brief you choose in Week 6. The client is me. Findings critical of the project are expected. See the [individual report brief](./Assessment/individual-report.md), the [primer](./Assessment/abcd-record.md), and the [stakeholder briefs](./Assessment/individual-briefs.md) for details
 - **[Assessment interpretation](./Assessment/interpretation.md)**: The AI-open statement, the AI Use Record, the things that matter in your record, and the rubric both assessments use. It arrives with Week 3. Read it before the Week 3 briefing

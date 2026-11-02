@@ -34,6 +34,7 @@ These are examples of **poor** choices:
 - **The wrong population.** Your number is computed over rows your sentence is not about. The median time-to-resolve over every resolved [issue](../Guides/glossary.md#term-issue) is near zero (the primer's first challenge). It tells you nothing about how long a noticed problem waits
 - **No question in it.** If you cannot state, in one sentence, a <!-- plain-language: everyday decision -->decision someone might take differently after reading your report, sharpen again
 - **The fire-brigade data.** You have already worked on it in the group project. The individual report is on the record
+- **Someone else's slice.** You share a brief, and your angle wanders into the other student's slice. The marker has then already seen your headline chart
 
 If you are unsure, bring your angle to any workshop in Weeks 6, 8, and 9. You can also bring it to **Polishing your brief** at the January revision session, although this may be a little late.
 
@@ -191,7 +192,7 @@ This is what markers read as evidence in <!-- gen:values.yml#module.year -->2026
 - **Week 7**: Independent practice week. Reread the brief you declared in Week 6 with the [primer](./abcd-record.md) beside it
 - **Week 8**: Check that your Prompt Diary is up to date and your AI Use Record is in draft
 - **January revision session**: **Polishing your brief** (does your angle answer the stakeholder's question from the table your brief sets?). There is also **feedback on your design rationale** and an individual report Q&A. Bring a key figure and its rationale for structured feedback. I also walk through the AI Use Record
-- **After term**: **Submission: <!-- gen:values.yml#assessments.individual.deadline -->Thursday 21 January 2027, 12:00 (UK time)<!-- /gen -->, through <!-- gen:values.yml#links.moodle_course|link:Moodle -->[Moodle](https://moodle.royalholloway.ac.uk/course/view.php?id=32615)<!-- /gen -->** (repository pushed and report PDF uploaded via Moodle)
+- **After term**: **Submission: <!-- gen:values.yml#assessments.individual.deadline -->Thursday 21 January 2027, 12:00 (UK time)<!-- /gen -->, through <!-- gen:values.yml#links.moodle_course|link:Moodle -->[Moodle](https://moodle.royalholloway.ac.uk/course/view.php?id=32615)<!-- /gen -->** (repository pushed and report PDF uploaded via Moodle). The Moodle upload is what counts for the submission date
 
 Start early. The report is due after term, but the support runs during term.
 

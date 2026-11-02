@@ -116,7 +116,7 @@ Aim for full attendance. What matters is the pattern: The weekly stand-ups in se
 
 ### We fixed the data but forgot to log decisions.
 
-The <!-- plain-language: everyday decision -->decision trail is the primary evidence for Data management, one of the two most important marking criteria. Start logging straight away. `DECISION:` entries added at the time are better than a reconstruction, but a retrospective is far better than trying to pretend it didn't happen.
+The <!-- plain-language: everyday decision -->decision trail is the primary evidence for Data management, one of the two most important marking criteria. Start logging straight away. `DECISION:` entries added at the time are better than a reconstruction, but a retrospective is far better than trying to pretend it didn't happen. Date the retrospective entry, and say when you made the choice ("We made this choice in Week 7 and did not log it"). Never backdate an entry.
 
 ### Our questions turned out to be boring. Can we change direction mid-project?
 

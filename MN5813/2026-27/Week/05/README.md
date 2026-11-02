@@ -58,7 +58,7 @@ You use `pivot_table()` and named aggregation in the quest. You practise `melt()
 - [ ] Hold this week's team [stand-up](../../Guides/glossary.md#term-stand-up) on Microsoft Teams or in your [Stoa](../../Guides/glossary.md#term-stoa) room ([Stoa workflow guide](../../Guides/stoa-workflow.md))
 - [ ] Write your [QuestLog](../../Guides/glossary.md#term-questlog) entry in `QuestLog.md`. Add the exchanges from your quest session to your Prompt Diary
 - [ ] If VS Code or GitHub Copilot does not work in your Codespace, use the [Your workstation guide](../../Guides/codespaces-start.md) to fix it
-- [ ] Week 6 opens data visualisation design. Before its workshop, read the DataViz design guide, sections 1–2, 5, and 7. Also read the watch list of typical AI chart failures in section 9
+- [ ] Week 6 opens data visualisation design. Before its workshop, read the [DataViz design guide](../../Guides/dataviz-design-guide.md), sections 1–2, 5, and 7. Also read the watch list of typical AI chart failures in section 9
 - [ ] Read the [record primer](../../Assessment/abcd-record.md) and the [briefs page](../../Assessment/individual-briefs.md). You choose and declare your [brief](../../Guides/glossary.md#term-brief) in Week 6, under the rules in the [individual report brief](../../Assessment/individual-report.md)
 
 
@@ -69,12 +69,12 @@ You use `pivot_table()` and named aggregation in the quest. You practise `melt()
 | [Introduction.ipynb](./Introduction.ipynb) | The week's key concepts: Tidy data, the reshaping verbs, `MultiIndex`, window functions, and complex `groupby()` |
 | [Demonstration.ipynb](./Demonstration.ipynb) | Worked examples on Hartwell Garden Centres' data, including `pivot_table`'s silent default, with [AI Lens](../../Guides/glossary.md#term-ai-lens) prompts |
 | [Quest.ipynb](./Quest.ipynb) | **Quest 05: The Pivot Pitch** (about 90 min). Build the one table that answers the Marlow & Finch director's question for the board |
-| Debrief.ipynb | Worked answers, and the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery) of NaN-as-zero, chained assignment, and vanishing groups (released with Week 6) |
+| [Debrief.ipynb](./Debrief.ipynb) | Worked answers, and the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery) of NaN-as-zero, chained assignment, and vanishing groups (released with Week 6) |
 
 **Start here:** Work through the [Introduction](./Introduction.ipynb), then the [Demonstration](./Demonstration.ipynb), before the lecture.
 
 
 ## Essential guides
 
-- DataViz design guide: The reading for the Week 6 workshop
+- [DataViz design guide](../../Guides/dataviz-design-guide.md): The reading for the Week 6 workshop
 - [Your workstation](../../Guides/codespaces-start.md): Your Codespace and how to troubleshoot VS Code and Copilot

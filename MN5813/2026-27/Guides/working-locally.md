@@ -8,7 +8,7 @@
 > **To:** You (Junior [Analyst](./glossary.md#term-analyst))
 > **Re:** If you would rather work from your own desk
 >
-> The firm's workstation is the Codespace. A local copy is a convenience on top of it, not a replacement.
+> The firm's workstation is the Codespace. A local copy is a convenience on top of it.
 
 
 ## Why you might want this
@@ -33,7 +33,7 @@ Install the following:
 
 4. **GitHub Copilot and Copilot Chat.** Open VS Code's Extensions view (`Ctrl/Cmd+Shift+X`), search for each name, and install the one published by GitHub. Sign in with the same GitHub account you use for your Codespace
 5. **Python and Jupyter extensions.** In the same Extensions view, install **Python** and **Jupyter**, both published by Microsoft
-6. **[SpecStory](./glossary.md#term-specstory)** *(optional)*. Search the Extensions view for "SpecStory" and install it if you want your AI sessions recorded automatically. The module requires your **[AI Use Record](./glossary.md#term-ai-use-record)** (see the [AI guide](./ai-guide.md)). SpecStory is one way to keep it, not the only way
+6. **[SpecStory](./glossary.md#term-specstory)** *(optional)*. Search the Extensions view for "SpecStory" and install it if you want your AI sessions recorded automatically. Your [Prompt Diary](./glossary.md#term-prompt-diary) is still your record of AI use, as the [AI guide](./ai-guide.md) explains
 
 
 ## Get your project onto your machine

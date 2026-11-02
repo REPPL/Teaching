@@ -11,7 +11,7 @@
 | [AI guide: Working with your Associate](./ai-guide.md) | The AI-open charter, the four canonical moves, prompting for analytics, evidence and attribution |
 | [Your workstation](./codespaces-start.md) | Your Week 2 workstation and the module's default environment: GitHub Codespaces, GitHub Copilot, and your [Prompt Diary](./glossary.md#term-prompt-diary) |
 | [Stoa workflow](./stoa-workflow.md) | Group work: Rooms, [stand-ups](./glossary.md#term-stand-up), [decision logging](./glossary.md#term-decision-entry), what is recorded |
-| The Runnymede Standard: Data visualisation design guide | Chart choice, decluttering, colour, honesty, accessibility, [TRACE](./glossary.md#term-trace), [design rationales](./glossary.md#term-design-rationale) |
+| [The Runnymede Standard: Data visualisation design guide](./dataviz-design-guide.md) | Chart choice, decluttering, colour, honesty, accessibility, [TRACE](./glossary.md#term-trace), [design rationales](./glossary.md#term-design-rationale) |
 | [Glossary](./glossary.md) | What every module term means, and which notebook and section teaches each technique |
 | [Prompt library](./prompts.md) | Prompts to try, with what a good answer contains |
 | [Briefing for the Associate](../AGENTS.md) | What your AI tool reads at the start of every session: The module's words, layout, and the rules it follows when helping you |
