@@ -7,7 +7,7 @@
 
 ## Overview
 
-This week we start on data visualisation *design*. A chart shows numbers as, e.g., a position, a length, an angle, an area, a colour, etc. (these are sometimes called 'visual encodings' or 'visual variables'). However, the challenge is that people read some of these variables more accurately than others. That ranking should guide your choice of chart. For that, you must understand your reader's task (e.g., a comparison or a trend), and then pick an appropriate chart family. **[TRACE](../../Guides/glossary.md#term-trace)** is the checklist every figure at [Runnymede Analytics](../../Guides/glossary.md#term-runnymede-analytics) must pass.
+This week we start on data visualisation *design*. A chart shows numbers as a position, a length, an angle, an area, a colour, etc. (these are sometimes called 'visual encodings' or 'visual variables'). However, the challenge is that people read some of these variables more accurately than others. That ranking should guide your choice of chart. For that, you must understand your reader's task (e.g., a comparison or a trend), and then pick an appropriate chart family. **[TRACE](../../Guides/glossary.md#term-trace)** is the checklist every figure at [Runnymede Analytics](../../Guides/glossary.md#term-runnymede-analytics) must pass.
 
 In **[Quest 06](../../Guides/glossary.md#term-quest): The Chart Doctor**, you diagnose the faults in a colleague's investor deck. Then you direct your Associate to rebuild the charts.
 
@@ -20,9 +20,9 @@ By the end of Week 6 you can:
 
 1. Rank the visual encodings from the most accurately read to the least, and explain how that ranking guides your chart choice
 2. Match a business question to its analytical task, and choose a chart family you can defend
-3. Build and revise the core chart types (bar, line, scatter, histogram, and box plot) in `matplotlib` and `seaborn` by directing your Associate
+3. Build and revise the core chart types (bar, line, scatter, histogram, and box plot) in matplotlib and seaborn by directing your Associate
 4. Run the TRACE checklist over any figure, and give a one-line verdict that names the failing letter and the fix
-5. Diagnose the classic misleading charts, such as truncated bars, dual axes, crowded pies *(yes, we do not like them!)*, rainbow palettes, 3D effects *(we REALLY do not like them!)*, and line charts with too many lines
+5. Diagnose the classic misleading charts, such as truncated bars, dual axes, crowded pies *(yes, we do not like them!)*, rainbow palettes, 3D effects *(we REALLY do not like them!)*, and line charts with too many lines. Rebuild them so readers can read the data accurately
 
 
 ## Before class
@@ -55,7 +55,7 @@ I demonstrate how people read charts and how we encode them (20 min). Then I cov
 - [ ] Finish [Quest 06](./Quest.ipynb) to at least Bronze (about 30 min). Silver is the expected standard by the end of term
 - [ ] Hold this week's team [stand-up](../../Guides/glossary.md#term-stand-up) on Microsoft Teams or in your [Stoa](../../Guides/glossary.md#term-stoa) (optional) room ([Stoa workflow guide](../../Guides/stoa-workflow.md))
 - [ ] Write your QuestLog entry in `QuestLog.md`. Add the quest session's exchanges to your [Prompt Diary](../../Guides/glossary.md#term-prompt-diary)
-- [ ] Week 7 has no classes. Your team runs its [Sprint Zero](../../Guides/glossary.md#term-sprint-zero) at its own pace. The Week 7 README lists what to do before it
+- [ ] Week 7 has no classes. Your team runs its [Sprint Zero](../../Guides/glossary.md#term-sprint-zero) at its own pace. The [Week 7 README](../07/README.md) lists what to do before it
 
 
 ## Contents
@@ -65,7 +65,7 @@ I demonstrate how people read charts and how we encode them (20 min). Then I cov
 | [Introduction.ipynb](./Introduction.ipynb) | The week's key concepts: The encoding ladder with a live demonstration, the analytical tasks, and TRACE |
 | [Demonstration.ipynb](./Demonstration.ipynb) | Pairs of charts in matplotlib and seaborn: The Associate's first draft, then your revision with the prompt that fixed it. [AI Lens](../../Guides/glossary.md#term-ai-lens) callouts give prompts to try |
 | [Quest.ipynb](./Quest.ipynb) | **Quest 06: The Chart Doctor** (about 90 min). Diagnose the faulty charts in a colleague's investor deck, then rebuild them by directing your Associate |
-| Debrief.ipynb | Worked diagnoses, every rebuild, a model memo, and the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery) of your Associate's chart defaults (released with Week 7) |
+| [Debrief.ipynb](./Debrief.ipynb) | Worked diagnoses, every rebuild, a model memo, and the [AI failure gallery](../../Guides/glossary.md#term-ai-failure-gallery) of your Associate's chart defaults (released with Week 7) |
 
 **Start here:** Read the [Introduction](./Introduction.ipynb) before the lecture.
 

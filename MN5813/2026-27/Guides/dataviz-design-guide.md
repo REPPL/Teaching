@@ -58,12 +58,12 @@ Almost every business question is one of the following analytical tasks. Each ta
 
 In the following, I've summarised my teaching materials on data visualisation for this module. An important concept is that of **visual encodings**, that is, how data is represented in a chart. Looking at which encodings work best for people has a long history in data visualisation design. For example, Cleveland and McGill (1984) showed that *position* (i.e., where a value is positioned in a chart) is most important, followed by length, direction, and angle. Heer and Bostock (2010) repeated the experiments with far more people and found pretty much the same. The [Week 6 Introduction](../Week/06/Introduction.ipynb) tests the ranking on you.
 
-Some authors, such as Tamara Munzner (2014), count *motion* as a visual encoding, too. She describes interaction (hovering, filtering, and zooming) as a way to show more detail, which is now possible on a screen (vs. on static paper). So, a printed report or a PDF is static and its figures cannot use motion. But a screen can. The Week 8 Demonstration shows an interactive chart made with hvPlot (while we won't spend much time on it, it's useful to know).
+Some authors, such as Tamara Munzner (2014), count *motion* as a visual encoding, too. She describes interaction (hovering, filtering, and zooming) as a way to show more detail, which is now possible on a screen (vs. on static paper). So, a printed report or a PDF is static and its figures cannot use motion. But a screen can. The [Week 8 Demonstration](../Week/08/Demonstration.ipynb) shows an interactive chart made with hvPlot (while we won't spend much time on it, it's useful to know).
 
 Keep these habits:
 
 - **One figure, one task.** A chart that tries to show too much shows ... nothing. Split it
-- **Tables for exact values.** If the reader needs exact values, or will look up a specific number at a time, use a table
+- **Tables for exact values.** If the reader needs exact values, or will look up one number at a time, use a table
 - **More chart forms.** For an unusual task, use the [FT Visual Vocabulary](https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary), the *Financial Times* poster that maps each analytical task to its chart forms
 
 ---
@@ -83,7 +83,7 @@ Work through the **declutter sequence**, in this order, on every draft:
 5. **Rounding and axis density.** "£2.4m" beats "£2,412,384.17". Use fewer, rounder numbers along the axis. Avoid vertical axis text turned 90° where you can
 6. **Emphasis last.** Once the clutter is gone, give the one series or bar that carries the story a single strong colour. Turn the rest grey
 
-Give each step to your Associate as a short instruction ("remove the top and right spines"), then check the result. The Week 8 Demonstration applies the sequence to one chart, one step at a time.
+Give each step to your Associate as a short instruction ("remove the top and right spines"), then check the result. The [Week 8 Demonstration](../Week/08/Demonstration.ipynb) applies the sequence to one chart, one step at a time.
 
 ---
 
@@ -120,7 +120,7 @@ Annotation puts your words on the figure, next to the data they explain. Most bu
 
 Annotate the finding, not every small movement in the data. If a figure needs more than three annotations, it makes too many points.
 
-In the title and the annotations, claim only what the figure shows. Kong, Liu, and Karahalios (2018) showed people the same chart under differently slanted titles. The title changed what readers took from the chart. Readers also remembered the title's message more than the data's. A doubtful reader holding only your figure should be able to check every claim on it. The Week 8 Introduction puts annotations like these on one chart.
+In the title and the annotations, claim only what the figure shows. Kong, Liu, and Karahalios (2018) showed people the same chart under differently slanted titles. The title changed what readers took from the chart. Readers also remembered the title's message more than the data's. A doubtful reader holding only your figure should be able to check every claim on it. The [Week 8 Introduction](../Week/08/Introduction.ipynb) puts annotations like these on one chart.
 
 ### Axis labels and units
 
@@ -261,7 +261,7 @@ To have your Associate critique a figure against TRACE, use the [AI Lens](./glos
 
 In my experience, these appear often in Associate drafts. Catching them is [Red Flags](./glossary.md#term-red-flags) practice. Several appear in the Week 6 and Week 8 [AI failure galleries](./glossary.md#term-ai-failure-gallery):
 
-- **Rainbow palettes by default**: Many colours, not colour-blind-safe, and implying an order that does not exist. Ask for `Okabe-Ito` or a `ColorBrewer` palette by name <!-- docs-lint: allow: ColorBrewer is a product name, "colorblind safe" its filter label, and the Okabe-Ito URL is a URL -->
+- **Rainbow palettes by default**: Many colours, not colour-blind-safe, and implying an order that does not exist. Ask for Okabe-Ito or a ColorBrewer palette by name <!-- docs-lint: allow: ColorBrewer is a product name, "colorblind safe" its filter label, and the Okabe-Ito URL is a URL -->
 - **3D anything**: Offered as "more visually engaging". It distorts the values. Refuse it
 - **Over-legended figures**: A legend box for two series, on top of the data. Ask for direct labels instead
 - **Dual y-axes by default**: Mention two variables over time, and your Associate often reaches for twin axes. Ask for stacked panels or indexing instead (section 5)
