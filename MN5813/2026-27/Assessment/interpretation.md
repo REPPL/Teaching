@@ -12,7 +12,7 @@
 
 An AI Use Record is half a page to a page long. It opens with a declaration line, as in the worked example below.
 
-**I encourage you to experiment:** Work towards your individual 'AI declaration', the one document you think through, write, and review without AI. It goes in the PDF you submit with your [individual report](./individual-report.md).
+**Your personal AI declaration is required:** It is the one document you think through, write, and review without AI. It goes in the PDF you submit with your [individual report](./individual-report.md).
 
 Change the declaration line so it fits your submission. These parts follow the declaration:
 

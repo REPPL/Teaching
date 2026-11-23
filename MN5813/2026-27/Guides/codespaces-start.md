@@ -2,8 +2,6 @@
 
 *Your first task at [Runnymede Analytics](./glossary.md#term-runnymede-analytics): Open your workstation. Everything the firm uses is already installed.*
 
-> ⚠️ **Draft:** This page is a draft. It will be confirmed at a later date.
-
 You build the workstation with the class in the Week 2 workshop. Follow the steps in order and tick the checklist as you go. If something goes wrong, say so in the workshop or post on <!-- gen:values.yml#links.qa_forum|link:the Moodle forum -->[the Moodle forum](https://moodle.royalholloway.ac.uk/mod/hsuforum/view.php?id=1470467)<!-- /gen -->.
 
 A GitHub Codespace is a complete workstation that runs in your browser. It includes the VS Code editor, Python, and GitHub Copilot (your AI [Associate](./glossary.md#term-associate)). You install nothing on your own computer.

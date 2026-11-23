@@ -63,7 +63,7 @@ You form your own team before Week 4. The [group project brief](../Assessment/gr
 1. **Create your account.** Sign up at [withstoa.com](https://withstoa.com/) with the **"throwaway" Google account** you made in Week 1. Do not use your real name, but an alias instead (e.g. "Alex Anders")
 2. **Create the room.** One team member creates the room, from the Stoa home screen after signing in (TBC: I may do that for you)
 3. **Name the room** after your team's letter, such as **<!-- gen:values.yml#module.code -->MN5813<!-- /gen -->-Team-A**
-4. **Everyone joins.** The room creator invites the rest of the team with the room's invite or share option. Every member joins with their own account, under their own name. Check in the workshop that every name appears correctly. A member who takes part through someone else's screen does not appear in the transcript
+4. **Everyone joins.** The room creator invites the rest of the team with the room's invite or share option. Every member joins with their own account, under their alias. Check in the workshop that every alias appears correctly. A member who takes part through someone else's screen does not appear in the transcript
 
 **Then, in either room:**
 
@@ -76,7 +76,7 @@ You form your own team before Week 4. The [group project brief](../Assessment/gr
 Finish setup **before you leave the Week 4 workshop, or as a team by the end of the same day**. Setup is complete when you can tick every item below:
 
 - [ ] Room set up: A recorded Microsoft Teams meeting, or a Stoa room named after your team's letter
-- [ ] Every member visible in the room under their own name
+- [ ] Every member visible in the room under their alias
 - [ ] Meeting day and time agreed
 - [ ] Team repository agreed and logged as a `DECISION:`
 - [ ] Export rota agreed and logged as a `DECISION:`
@@ -150,7 +150,7 @@ Log reversals too. For example:
 
 ### A second prefix from Week 9: `CRIT`
 
-From Week 9's [Gallery](./glossary.md#term-gallery), one member of your team is the scribe. The scribe types every [Four-D crit](./glossary.md#term-four-d-crit) your team receives into your team's record (your meeting notes or your Stoa room), as a [`CRIT` entry](./glossary.md#term-crit-entry). Each figure gets one entry for each crit it receives. The template is in Week 9's Introduction notebook, section "The scorecard". Crit outcomes then become ordinary `DECISION:` entries: Which change you accepted, why, owner, and deadline.
+In Week 9's [Gallery](./glossary.md#term-gallery), visiting critics write each [Four-D crit](./glossary.md#term-four-d-crit) your team receives on a paper feedback sheet. After the crits, one team member types each sheet into your team's record (your meeting notes or your Stoa room) as a [`CRIT` entry](./glossary.md#term-crit-entry). Each figure gets one entry for each feedback sheet it receives. [Week 9's Introduction notebook](../Week/09/Introduction.ipynb), section "The feedback sheet", explains the sheet. Crit outcomes then become ordinary `DECISION:` entries: Which change you accepted, why, owner, and deadline.
 
 
 ## 5. The Stoa room's Associate

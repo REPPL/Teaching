@@ -188,7 +188,7 @@ Write the rationale while you design, not after. If part 3 is hard, you have not
 
 TRACE is one way of drawing together work from Tufte (2001), Cleveland and McGill (1984), Munzner (2014), Knaflic (2015), Wilke (2019), and Cairo (2019). It also draws on [WCAG 2.2](https://www.w3.org/TR/WCAG22/).
 
-Apply TRACE to **every key figure**, in both assessments before submission. In Week 9's [Gallery](./glossary.md#term-gallery), it is also used as a scorecard.
+Apply TRACE to **every key figure**, in both assessments before submission. In Week 9's [Gallery](./glossary.md#term-gallery), critics also use it to structure their feedback.
 
 **Ask yourself:**
 
@@ -230,14 +230,14 @@ The rounds run in this order:
 
 1. **Describe.** Critics say only what they literally see: "A line chart. Six lines. The y-axis has no units. The red line ends above the others." **No judgements yet**
 2. **Decode.** Each critic states the figure's message in one sentence, without help. If three critics decode three different messages, the figure is ambiguous, whatever the author intended
-3. **Diagnose.** Critics score the figure against TRACE, one line per letter (pass, fix, or fail), and articulate the **single biggest problem**
-4. **Redesign.** Each critic proposes **exactly one change**: The one they believe has the highest impact
+3. **Diagnose.** For each TRACE letter, critics say what they like ("I like…") and what they wish were different ("I wish…"). Then they name the **single biggest problem**
+4. **Redesign.** Each critic proposes **exactly one change**: The one they believe has the highest impact. They ask it as a "What if…?" question
 
 Ground rules:
 
 - **Authors are silent until the author response.** No explaining, no defending, no "what I meant was". Authors respond only after step 4 (Redesign)
 - **Critique the chart, never the person.** "The axis is unlabelled", not "you forgot the axis"
-- **Every crit is written down.** Your team's scribe/note taker records each one as a [`CRIT` entry](./glossary.md#term-crit-entry). The [Stoa workflow guide](./stoa-workflow.md) explains where the entry goes
+- **Every crit is written down.** Critics write each crit on a paper feedback sheet. One member of the presenting group then types it up as a [`CRIT` entry](./glossary.md#term-crit-entry). The [Stoa workflow guide](./stoa-workflow.md) explains where the entry goes
 
 ---
 

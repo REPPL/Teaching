@@ -2,8 +2,6 @@
 
 *Optional, for your own time.*
 
-> ⚠️ **Draft:** This page is a draft. It will be confirmed at a later date.
-
 > **From:** A. Partner, [Runnymede Analytics](./glossary.md#term-runnymede-analytics)
 > **To:** You (Junior [Analyst](./glossary.md#term-analyst))
 > **Re:** If you would rather work from your own desk

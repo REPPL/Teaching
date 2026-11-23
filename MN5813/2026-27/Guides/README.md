@@ -2,8 +2,6 @@
 
 *Index of the <!-- gen:values.yml#module.code -->MN5813<!-- /gen --> <!-- gen:values.yml#module.year -->2026-27<!-- /gen --> guides: What each one is for, and who it is written for.*
 
-> ⚠️ **Draft:** This page is a draft. It will be confirmed at a later date.
-
 ## Student-facing guides
 
 | Guide | What it covers |

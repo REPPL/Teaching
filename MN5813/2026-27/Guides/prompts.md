@@ -2,8 +2,6 @@
 
 *Every prompt the module's materials ask you to try (and adapt!).*
 
-> ⚠️ **Draft:** This page is a draft. It will be confirmed at a later date.
-
 Fill in anything in brackets (e.g., *your code*, *your figure*, and *your questions*). Then paste the whole prompt into your [Associate](./glossary.md#term-associate). Do not reword it, so that you learn its outcomes (which may differ). Adapt later. 
 
 Where a note in *italics* follows the prompt, judge the reply against it. The *moves* and the *habits* of checking are in the [AI guide](./ai-guide.md).
