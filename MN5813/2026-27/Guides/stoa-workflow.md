@@ -61,7 +61,7 @@ You form your own team before Week 4. The [group project brief](../Assessment/gr
 **In a Stoa room:**
 
 1. **Create your account.** Sign up at [withstoa.com](https://withstoa.com/) with the **"throwaway" Google account** you made in Week 1. Do not use your real name, but an alias instead (e.g. "Alex Anders")
-2. **Create the room.** One team member creates the room, from the Stoa home screen after signing in (TBC: I may do that for you)
+2. **Create the room.** One team member creates the room, from the Stoa home screen after signing in
 3. **Name the room** after your team's letter, such as **<!-- gen:values.yml#module.code -->MN5813<!-- /gen -->-Team-A**
 4. **Everyone joins.** The room creator invites the rest of the team with the room's invite or share option. Every member joins with their own account, under their alias. Check in the workshop that every alias appears correctly. A member who takes part through someone else's screen does not appear in the transcript
 
